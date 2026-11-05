@@ -1,4 +1,4 @@
-# Modul 14 — Otomasi lanjutan
+# Modul 14: Otomasi lanjutan
 
 > Saya memakai permintaan sintetis untuk latihan otomasi. Rumus Excel di dokumen memakai titik koma pada regional Indonesia; regional Inggris memakai koma. Kode VBA dan Office Scripts disediakan sebagai berkas terpisah; keduanya belum dieksekusi pada host Excel, dan flow Power Automate belum dibuat atau diaktifkan.
 

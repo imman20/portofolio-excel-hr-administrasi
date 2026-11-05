@@ -1,4 +1,4 @@
-# Modul 11 — Data Model dan Power Pivot
+# Modul 11: Data Model dan Power Pivot
 
 > Saya memakai fakta pesanan, dimensi produk, dan kalender sintetis untuk latihan. Rumus dokumen memakai titik koma pada regional Indonesia; regional Inggris memakai koma. Data Model, relasi, serta measure DAX belum tertanam dalam file dan belum dieksekusi pada mesin DAX.
 

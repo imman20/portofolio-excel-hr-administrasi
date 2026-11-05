@@ -1,4 +1,4 @@
-# Modul 03 — Formula dasar
+# Modul 03: Formula dasar
 
 > Saya memakai data sintetis sebagai materi latihan, bukan pengalaman kerja. Contoh dokumen memakai titik koma untuk Excel regional Indonesia; regional Inggris memakai koma. File menyimpan nama fungsi Inggris dan koma sesuai format XLSX.
 

@@ -1,4 +1,4 @@
-# Modul 07 — Tanggal dan laporan berkala
+# Modul 07: Tanggal dan laporan berkala
 
 > Saya memakai transaksi dan kalender libur sintetis untuk latihan. Rumus dokumen memakai titik koma untuk Excel regional Indonesia; regional Inggris memakai koma. Kalender ini bukan daftar libur resmi atau aturan kerja perusahaan.
 

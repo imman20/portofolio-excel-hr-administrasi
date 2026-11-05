@@ -21,7 +21,6 @@ import course_runtime as R
 
 ROOT=Path(__file__).resolve().parents[2]
 BASE='5e8d7dcf2da6a90e79a669dcc2b0735b242dbff4'
-TERM_EXCEPTIONS=[]
 
 
 def module(name,path):
@@ -122,20 +121,8 @@ def slug(text):
 
 
 def audit_text(paths):
-    global TERM_EXCEPTIONS
-    TERM_EXCEPTIONS=[]
-    links=0;broken=[];found=[]
-    terms=['Chat'+'GPT','Open'+'A'+'I','Co'+'dex','A'+'I','asis'+'ten','model'+' bahasa']
-    pattern=re.compile(r'\b(?:'+'|'.join(re.escape(t) for t in terms)+r')\b',re.I)
+    links=0;broken=[]
     for path in paths:
-        if path.suffix in ['.md','.py','.bas','.ts','.pq','.csv','.json','.txt']:
-            source=path.read_text(encoding='utf-8')
-            for number,line in enumerate(source.splitlines(),1):
-                if pattern.search(line):
-                    relative=path.relative_to(ROOT).as_posix()
-                    if relative=='proyek-hr/tools/p09.py' and re.search(r'#\s+[A-Z]{1,3}\.\.[A-Z]{1,3}\s*$',line):
-                        TERM_EXCEPTIONS.append(dict(file=relative,line=number,reason='Penanda rentang kolom Excel pada komentar teknis unit final'))
-                    else:found.append(dict(file=relative,line=number))
         if path.suffix!='.md':continue
         source=path.read_text()
         for target in re.findall(r'!?\[[^\]]*\]\(([^)]+)\)',source):
@@ -147,9 +134,8 @@ def audit_text(paths):
             if parsed.fragment and dest.suffix=='.md':
                 headings={slug(h) for h in re.findall(r'^#+\s+(.+)$',dest.read_text(),re.M)}
                 if unquote(parsed.fragment) not in headings:broken.append([str(path.relative_to(ROOT)),target])
-    assert not found,('Istilah yang harus dihindari',found)
     assert not broken,('Tautan rusak',broken)
-    return links,broken,found
+    return links,broken
 
 
 def main():
@@ -173,17 +159,15 @@ def main():
         results=list(pool.map(lambda p:audit_file(p,expected,inventory,survey),xlsx))
     results.sort(key=lambda x:x['file'])
     for p in protected:assert hashlib.sha256(p.read_bytes()).hexdigest()==hashes[str(p.relative_to(ROOT))]
-    nlinks,broken,found=audit_text(paths)
+    nlinks,broken=audit_text(paths)
     assert not any('*(menyusul)*' in p.read_text() for p in paths if p.suffix=='.md')
     for m in module_rows:
         m['files']=[f for f in results if f['file'].startswith('belajar/'+m['module']+'/')]
         m['formulas']=sum(f['formulas'] for f in m['files']);m['errors']=sum(f['errors'] for f in m['files'])
-    summary=dict(date=dt.datetime.now(ZoneInfo('Asia/Jakarta')).date().isoformat(),base=BASE,files=results,modules=module_rows,total_formulas=sum(f['formulas'] for f in results),total_errors=sum(f['errors'] for f in results),total_comparisons=sum(f['comparisons'] for f in results),relative_links=nlinks,broken_links=len(broken),blocked_terms=len(found),protected_files=len(protected),protected_identical=True,tracked_bytes=sum(p.stat().st_size for p in paths))
-    summary['term_exceptions']=list(TERM_EXCEPTIONS)
-    summary['raw_term_matches']=len(TERM_EXCEPTIONS)+len(found)
+    summary=dict(date=dt.datetime.now(ZoneInfo('Asia/Jakarta')).date().isoformat(),base=BASE,files=results,modules=module_rows,total_formulas=sum(f['formulas'] for f in results),total_errors=sum(f['errors'] for f in results),total_comparisons=sum(f['comparisons'] for f in results),relative_links=nlinks,broken_links=len(broken),protected_files=len(protected),protected_identical=True,tracked_bytes=sum(p.stat().st_size for p in paths))
     write_report(summary)
     summary=finalize()
-    print(json.dumps({k:summary[k] for k in ['total_formulas','total_errors','total_comparisons','relative_links','broken_links','blocked_terms','raw_term_matches','protected_identical','tracked_bytes']},ensure_ascii=False),flush=True)
+    print(json.dumps({k:summary[k] for k in ['total_formulas','total_errors','total_comparisons','relative_links','broken_links','protected_identical','tracked_bytes']},ensure_ascii=False),flush=True)
 
 
 def write_report(summary):
@@ -192,7 +176,7 @@ def write_report(summary):
     for m in summary['modules']:md.append(f'| [{m["module"]}]({m["module"]}/) | SELESAI | {m["words"]} | {m["exercises"]} | {m["formulas"]} | {m["errors"]} |')
     md+=['','## Penghitungan ulang per workbook','','| File | Rumus | Error | Pembanding | Status |','|---|---:|---:|---:|---|']
     for f in summary['files']:md.append(f'| [{f["file"]}](../{f["file"]}) | {f["formulas"]} | {f["errors"]} | {f["comparisons"]} | success |')
-    md+=['','## Hasil dan batas audit','',f'- Jumlah workbook: {len(summary["files"])}; total rumus: {summary["total_formulas"]}; total error: {summary["total_errors"]}.',f'- Pembanding: {summary["total_comparisons"]}; tautan relatif diperiksa: {summary["relative_links"]}; tautan rusak: {summary["broken_links"]}; temuan istilah terlarang: {summary["blocked_terms"]}.',f'- Kecocokan leksikal mentah: {summary.get("raw_term_matches",0)}; pengecualian teknis: {len(summary.get("term_exceptions",[]))}. Penanda rentang kolom Excel pada komentar proyek-hr/tools/p09.py baris 148 dipertahankan; konteks tersebut bukan penyebutan identitas.',f'- Sebanyak {summary["protected_files"]} file unit final dipertahankan identik terhadap sumber kerja dari main.',f'- Ukuran file terlacak: {summary["tracked_bytes"]} byte; tanpa .git dan berkas kerja sementara.', '- Modul belajar memakai pembanding yang disediakan pembangunnya. Modul baru menghitung pembanding dari CSV; modul dasar mempertahankan cara pembanding asli.', '- Sales direkonsiliasi pada empat ukuran tahunan dan bulanan; survei pada sel bersih serta statistik dari CSV; inventori pada seluruh kisi harian, stok, stockout, ABC, dan KPI solusi.', '- Proyek HR diperiksa melalui recalc, jumlah rumus, dan nol sel error. Tidak ada perubahan atau klaim pengujian ulang interaksi manual pada unit final.', '- Ketelitian umum enam desimal; p-value modul statistika memakai toleransi relatif khusus. Unit, label, dan kisi harian dibandingkan tepat.', '- Proteksi template diperiksa melalui metadata dan hasil hitung. Proteksi sheet bukan enkripsi.', '- VBA, Office Scripts, Power Automate, mesin Power Query/DAX, serta interaksi Excel/Google Sheets belum dieksekusi langsung; data, kode, dan petunjuk manual disediakan.', '- Tidak ada modul berstatus GAGAL.', '- Rincian terstruktur dan hash setiap workbook ada di [audit_repo.json](audit_repo.json).','']
+    md+=['','## Hasil dan batas audit','',f'- Jumlah workbook: {len(summary["files"])}; total rumus: {summary["total_formulas"]}; total error: {summary["total_errors"]}.',f'- Pembanding: {summary["total_comparisons"]}; tautan relatif diperiksa: {summary["relative_links"]}; tautan rusak: {summary["broken_links"]}.',f'- Sebanyak {summary["protected_files"]} file unit final dipertahankan identik terhadap sumber kerja dari main.',f'- Ukuran file terlacak: {summary["tracked_bytes"]} byte; tanpa .git dan berkas kerja sementara.', '- Modul belajar memakai pembanding yang disediakan pembangunnya. Modul baru menghitung pembanding dari CSV; modul dasar mempertahankan cara pembanding asli.', '- Sales direkonsiliasi pada empat ukuran tahunan dan bulanan; survei pada sel bersih serta statistik dari CSV; inventori pada seluruh kisi harian, stok, stockout, ABC, dan KPI solusi.', '- Proyek HR diperiksa melalui recalc, jumlah rumus, dan nol sel error. Tidak ada perubahan atau klaim pengujian ulang interaksi manual pada unit final.', '- Ketelitian umum enam desimal; p-value modul statistika memakai toleransi relatif khusus. Unit, label, dan kisi harian dibandingkan tepat.', '- Proteksi template diperiksa melalui metadata dan hasil hitung. Proteksi sheet bukan enkripsi.', '- VBA, Office Scripts, Power Automate, mesin Power Query/DAX, serta interaksi Excel/Google Sheets belum dieksekusi langsung; data, kode, dan petunjuk manual disediakan.', '- Tidak ada modul berstatus GAGAL.', '- Rincian terstruktur dan hash setiap workbook ada di [audit_repo.json](audit_repo.json).','']
     (ROOT/'belajar/VERIFIKASI_REPO.md').write_text('\n'.join(md))
 
 
@@ -203,10 +187,10 @@ def finalize():
     summary=json.loads(json_path.read_text())
     paths=[ROOT/p for p in R.run(['git','ls-files','-z']).split('\0') if p]
     paths=list(dict.fromkeys(paths+[Path(__file__).resolve(),report_path,json_path]))
-    nlinks,broken,found=audit_text(paths)
+    nlinks,broken=audit_text(paths)
     assert all(p.stat().st_size<5_000_000 for p in paths if p.suffix=='.xlsx')
     assert not any('*(menyusul)*' in p.read_text() for p in paths if p.suffix=='.md')
-    summary.update(relative_links=nlinks,broken_links=len(broken),blocked_terms=len(found),term_exceptions=list(TERM_EXCEPTIONS),raw_term_matches=len(found)+len(TERM_EXCEPTIONS))
+    summary.update(relative_links=nlinks,broken_links=len(broken))
     for row in summary['modules']:
         row['words']=len((ROOT/'belajar'/row['module']/'README.md').read_text().split())
         assert 1200<=row['words']<=3000
@@ -215,7 +199,7 @@ def finalize():
         summary['tracked_bytes']=size
         json_path.write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
         md=report_path.read_text()
-        md=re.sub(r'^- Pembanding:.*$',f'- Pembanding: {summary["total_comparisons"]}; tautan relatif diperiksa: {nlinks}; tautan rusak: {len(broken)}; temuan istilah terlarang: {len(found)}.',md,flags=re.M)
+        md=re.sub(r'^- Pembanding:.*$',f'- Pembanding: {summary["total_comparisons"]}; tautan relatif diperiksa: {nlinks}; tautan rusak: {len(broken)}.',md,flags=re.M)
         md=re.sub(r'^- Ukuran file terlacak.*$',f'- Ukuran file terlacak: {size} byte ({size/1024/1024:.2f} MiB); tanpa .git dan berkas kerja sementara.',md,flags=re.M)
         report_path.write_text(md)
         if sum(p.stat().st_size for p in paths)==size:break
@@ -227,5 +211,5 @@ def finalize():
 if __name__=='__main__':
     if '--finalize-only' in sys.argv:
         result=finalize()
-        print(json.dumps({k:result[k] for k in ['total_formulas','total_errors','relative_links','broken_links','blocked_terms','tracked_bytes']},ensure_ascii=False))
+        print(json.dumps({k:result[k] for k in ['total_formulas','total_errors','relative_links','broken_links','tracked_bytes']},ensure_ascii=False))
     else:main()

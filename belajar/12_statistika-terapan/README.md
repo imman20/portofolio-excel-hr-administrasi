@@ -1,4 +1,4 @@
-# Modul 12 — Statistika terapan
+# Modul 12: Statistika terapan
 
 > Saya memakai data skor dan deret unit sintetis untuk latihan, bukan hasil penelitian atau eksperimen nyata. Formula dokumen memakai titik koma untuk Excel regional Indonesia; regional Inggris memakai koma. Angka inferensial merupakan ilustrasi bersyarat pada asumsi, bukan bukti dampak nyata.
 

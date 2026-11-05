@@ -1,4 +1,4 @@
-# Modul 13 — What-if dan optimasi
+# Modul 13: What-if dan optimasi
 
 > Saya memakai kasus produksi dan laba sintetis untuk latihan. Formula dokumen memakai titik koma pada Excel regional Indonesia; regional Inggris memakai koma. Goal Seek, Data Table analisis, Scenario Manager, dan Solver belum tertanam atau dijalankan melalui antarmuka Excel.
 

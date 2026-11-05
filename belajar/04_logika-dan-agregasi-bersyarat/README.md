@@ -1,4 +1,4 @@
-# Modul 04 — Logika dan agregasi bersyarat
+# Modul 04: Logika dan agregasi bersyarat
 
 > Saya memakai simulasi tiket layanan untuk latihan, bukan catatan pelanggan nyata. Rumus dokumen memakai titik koma pada Excel regional Indonesia; regional Inggris memakai koma. Semua hasil contoh dapat ditelusuri ke CSV dan workbook.
 

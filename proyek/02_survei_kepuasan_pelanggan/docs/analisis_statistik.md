@@ -45,7 +45,7 @@ Saya memakai 248 kasus lengkap seluruh empat dimensi dan kepuasan keseluruhan. S
 
 | Prediktor | Koefisien | Galat baku | r dengan kepuasan |
 |---|---:|---:|---:|
-| Intersep | 0,570548 | 0,188367 | — |
+| Intersep | 0,570548 | 0,188367 | - |
 | Produk | 0,257719 | 0,048758 | 0,576619 |
 | Layanan | 0,270052 | 0,044360 | 0,602314 |
 | Harga | 0,195873 | 0,046612 | 0,573209 |

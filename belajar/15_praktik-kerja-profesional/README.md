@@ -1,4 +1,4 @@
-# Modul 15 — Praktik kerja profesional
+# Modul 15: Praktik kerja profesional
 
 > Saya memakai tagihan dan pembayaran sintetis sebagai latihan serah terima, bukan pengalaman kerja. Rumus dokumen memakai titik koma pada Excel regional Indonesia; regional Inggris memakai koma. Nama vendor adalah label simulasi dan tidak menunjuk perusahaan nyata.
 

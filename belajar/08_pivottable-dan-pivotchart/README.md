@@ -1,4 +1,4 @@
-# Modul 08 — PivotTable dan PivotChart
+# Modul 08: PivotTable dan PivotChart
 
 > Saya memakai data distribusi sintetis sebagai latihan. Rumus dokumen memakai titik koma untuk Excel regional Indonesia; regional Inggris memakai koma. Workbook menyediakan sumber dan hasil pembanding, sedangkan objek PivotTable, PivotChart, Slicer, serta Timeline harus saya buat manual.
 

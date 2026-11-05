@@ -79,8 +79,7 @@ Seluruh workbook dihitung ulang pada folder sementara. File sumber, proyek final
 ## Hasil dan batas audit
 
 - Jumlah workbook: 47; total rumus: 327539; total error: 0.
-- Pembanding: 101558; tautan relatif diperiksa: 430; tautan rusak: 0; temuan istilah terlarang: 0.
-- Kecocokan leksikal mentah: 1; pengecualian teknis: 1. Penanda rentang kolom Excel pada komentar proyek-hr/tools/p09.py baris 148 dipertahankan; konteks tersebut bukan penyebutan identitas.
+- Pembanding: 101558; tautan relatif diperiksa: 430; tautan rusak: 0.
 - Sebanyak 173 file unit final dipertahankan identik terhadap sumber kerja dari main.
 - Ukuran file terlacak: 20079870 byte (19.15 MiB); tanpa .git dan berkas kerja sementara.
 - Modul belajar memakai pembanding yang disediakan pembangunnya. Modul baru menghitung pembanding dari CSV; modul dasar mempertahankan cara pembanding asli.

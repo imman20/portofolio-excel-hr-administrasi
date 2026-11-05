@@ -1422,15 +1422,6 @@
   "total_comparisons": 101558,
   "relative_links": 430,
   "broken_links": 0,
-  "blocked_terms": 0,
-  "raw_term_matches": 1,
-  "term_exceptions": [
-    {
-      "file": "proyek-hr/tools/p09.py",
-      "line": 148,
-      "reason": "Penanda rentang kolom Excel pada komentar teknis unit final"
-    }
-  ],
   "protected_files": 173,
   "protected_identical": true,
   "tracked_bytes": 20079870

@@ -1,4 +1,4 @@
-# Modul 02 — Struktur data yang benar
+# Modul 02: Struktur data yang benar
 
 > Materi latihan dengan data sintetis yang saya bangkitkan melalui skrip, bukan data perusahaan atau pengalaman kerja. Rumus dalam dokumen memakai titik koma untuk Excel regional Indonesia; regional Inggris memakai koma. Saya mempertahankan nama fungsi Inggris dalam file.
 

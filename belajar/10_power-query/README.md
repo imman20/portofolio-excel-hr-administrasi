@@ -1,4 +1,4 @@
-# Modul 10 — Power Query
+# Modul 10: Power Query
 
 > Saya memakai ekspor pesanan sintetis sebagai latihan transformasi. Rumus Excel pada dokumen memakai titik koma untuk regional Indonesia; regional Inggris memakai koma. Skrip M mengikuti sintaks bahasanya sendiri. Query belum tertanam dalam workbook dan belum dijalankan pada mesin Power Query.
 

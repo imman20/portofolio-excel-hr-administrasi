@@ -1,4 +1,4 @@
-# Modul 05 — Lookup dan penggabungan referensi
+# Modul 05: Lookup dan penggabungan referensi
 
 > Dataset produk dan pesanan adalah data sintetis untuk latihan. Saya memakai titik koma pada formula dokumen untuk Excel regional Indonesia; regional Inggris memakai koma. Saya tidak menyatakan data ini berasal dari pelanggan atau perusahaan nyata.
 

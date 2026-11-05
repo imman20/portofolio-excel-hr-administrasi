@@ -12,6 +12,7 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 ## Daftar Isi
 
 - [Untuk siapa repositori ini](#untuk-siapa-repositori-ini)
+- [Ringkasan isi](#ringkasan-isi)
 - [Tiga bagian repositori](#tiga-bagian-repositori)
 - [Cara mulai belajar dari nol](#cara-mulai-belajar-dari-nol)
 - [Cara recruiter menilai portofolio ini](#cara-recruiter-menilai-portofolio-ini)
@@ -31,33 +32,20 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 - **Pembelajar lain** yang ingin mulai dari nol dengan dataset, latihan, dan kunci jawaban yang saling konsisten.
 - **Recruiter dan hiring manager** yang ingin melihat bukti kemampuan Excel yang bisa dibuka, ditelusuri rumusnya, dan diperiksa hasilnya, bukan sekadar daftar skill di CV.
 
-## Status pengerjaan
+## Ringkasan isi
 
-| Bagian | Status |
+![Dashboard proyek Sales & Profitability](proyek/01_sales_profitability/assets/report.png)
+
+| Isi | Jumlah |
 |---|---|
-| Jalur belajar: README, roadmap 10 minggu, pemetaan karier | Selesai |
-| Modul belajar 01 Dasar Excel | Selesai: README, dataset, workbook latihan dan solusi, kunci jawaban, verifikasi |
-| Modul belajar 02 sampai 15 | Selesai: 14 modul, dataset, latihan dan solusi, dokumentasi, preview, serta verifikasi |
-| Modul belajar 02 | Selesai: [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) |
-| Modul belajar 03 | Selesai: [Formula dasar](belajar/03_formula-dasar/) |
-| Modul belajar 04 | Selesai: [Logika dan agregasi bersyarat](belajar/04_logika-dan-agregasi-bersyarat/) |
-| Modul belajar 05 | Selesai: [Lookup dan penggabungan referensi](belajar/05_lookup-dan-penggabungan-referensi/) |
-| Modul belajar 06 | Selesai: [Cleaning dan validasi](belajar/06_cleaning-dan-validasi/) |
-| Modul belajar 07 | Selesai: [Tanggal dan laporan berkala](belajar/07_tanggal-dan-laporan-berkala/) |
-| Modul belajar 08 | Selesai: [PivotTable dan PivotChart](belajar/08_pivottable-dan-pivotchart/) |
-| Modul belajar 09 | Selesai: [Visualisasi dan dashboard](belajar/09_visualisasi-dan-dashboard/) |
-| Modul belajar 10 | Selesai: [Power Query](belajar/10_power-query/) |
-| Modul belajar 11 | Selesai: [Data Model dan Power Pivot](belajar/11_data-model-dan-power-pivot/) |
-| Modul belajar 12 | Selesai: [Statistika terapan](belajar/12_statistika-terapan/) |
-| Modul belajar 13 | Selesai: [What-if dan optimasi](belajar/13_what-if-dan-optimasi/) |
-| Modul belajar 14 | Selesai: [Otomasi lanjutan](belajar/14_otomasi-lanjutan/) |
-| Modul belajar 15 | Selesai: [Praktik kerja profesional](belajar/15_praktik-kerja-profesional/) |
-| Proyek HR dan administrasi 01 sampai 10 | Selesai: 10 workbook, tutorial, latihan, preview, verifikasi |
-| Proyek portofolio analisis 01 Sales & Profitability | Selesai: data, latihan dan solusi, dokumentasi, preview, verifikasi |
-| Proyek portofolio analisis 02 Survei Kepuasan Pelanggan | Selesai: audit data, latihan dan solusi, statistik, dokumentasi, preview, verifikasi |
-| Proyek portofolio analisis 03 Inventory & Operations | Selesai: data, stok harian, latihan dan solusi, dokumentasi, preview, verifikasi |
+| Modul belajar (pemula sampai profesional) | 15 |
+| Proyek portofolio analisis | 3 |
+| Proyek HR dan administrasi | 10 |
+| Workbook Excel | 47 |
+| Rumus hidup di seluruh workbook | 327.539 |
+| Sel error setelah recalculation | 0 |
 
-Semua unit pada tabel status sudah tersedia. Materi belajar dan proyek tetap merupakan latihan serta simulasi dengan batas pengujian yang dijelaskan pada setiap unit.
+Gambar di atas adalah render nyata sheet `Report` dari workbook solusi proyek Sales & Profitability.
 
 ## Tiga bagian repositori
 
@@ -88,7 +76,7 @@ Lihat tabel lengkap di [`belajar/README.md`](belajar/README.md) dan pemetaan ke 
 
 | No | Modul | Inti |
 |---|---|---|
-| 01 | Dasar Excel | Workbook, sel, range, format, Sort, Filter, Freeze Panes, nilai vs tampilan |
+| 01 | [Dasar Excel](belajar/01_dasar-excel/) | Workbook, sel, range, format, Sort, Filter, Freeze Panes, nilai vs tampilan |
 | 02 | [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) | Tidy data, Excel Table, structured references, ID dengan nol di depan |
 | 03 | [Formula dasar](belajar/03_formula-dasar/) | Referensi relatif/absolut, SUM, AVERAGE, COUNT, ROUND |
 | 04 | [Logika dan agregasi bersyarat](belajar/04_logika-dan-agregasi-bersyarat/) | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS |
@@ -106,11 +94,11 @@ Lihat tabel lengkap di [`belajar/README.md`](belajar/README.md) dan pemetaan ke 
 
 ## Proyek portofolio
 
-| Proyek | Pertanyaan utama | Folder |
+| Proyek | Pertanyaan utama | Hasil utama (data simulasi) |
 |---|---|---|
-| Sales & Profitability Analysis | Bagaimana tren penjualan bersih dan laba kotor 2024, pencapaian target per wilayah, dan kontribusi produk serta pelanggan? | [Sales & Profitability](proyek/01_sales_profitability/) |
-| Customer Satisfaction Survey | Bagaimana distribusi kepuasan per dimensi dan kanal, seberapa reliabel kuesionernya, dan apa yang boleh serta tidak boleh disimpulkan? | [Survei Kepuasan Pelanggan](proyek/02_survei_kepuasan_pelanggan/) |
-| Inventory & Operations | SKU mana yang berisiko habis atau overstock, dan berapa usulan pemesanan berdasarkan asumsi yang ditulis? | [Inventory & Operations](proyek/03_inventory_operations/) |
+| [Sales & Profitability](proyek/01_sales_profitability/) | Bagaimana tren penjualan bersih dan laba kotor 2024, pencapaian target per wilayah, dan kontribusi produk serta pelanggan? | Penjualan bersih Rp12,25 miliar, margin kotor 22,4 %, 20 % pelanggan teratas menyumbang 71,6 % penjualan |
+| [Survei Kepuasan Pelanggan](proyek/02_survei_kepuasan_pelanggan/) | Bagaimana distribusi kepuasan per dimensi dan kanal, seberapa reliabel kuesionernya, dan apa yang boleh serta tidak boleh disimpulkan? | 414 responden bersih, NPS +3,0, alpha 0,80 sampai 0,85, kepuasan kanal Toko lebih tinggi dari Online (uji Welch p = 0,0007) |
+| [Inventory & Operations](proyek/03_inventory_operations/) | SKU mana yang berisiko habis atau overstock, dan berapa usulan pemesanan berdasarkan asumsi yang ditulis? | 8 SKU berisiko habis, 25 SKU overstock, rata-rata turnover 9,8 kali per tahun |
 
 ## Proyek HR dan administrasi
 
@@ -146,7 +134,7 @@ portofolio-excel-hr-administrasi/
 │   ├── 01_database-karyawan/ ... 10_perencanaan-tenaga-kerja-dan-otomasi/
 │   ├── docs/             # glosarium rumus, standar data HR
 │   └── tools/            # skrip pembangun, generator data, log verifikasi
-├── proyek/               # proyek analisis: Sales, survei, dan inventori selesai
+├── proyek/               # 3 proyek portofolio analisis (data simulasi)
 ├── LICENSE, CHANGELOG.md, CONTRIBUTING.md, .gitignore
 ```
 

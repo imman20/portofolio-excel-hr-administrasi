@@ -1,4 +1,4 @@
-# Modul 09 — Visualisasi dan dashboard
+# Modul 09: Visualisasi dan dashboard
 
 > Saya membangun dashboard dari data sintetis untuk latihan komunikasi analisis. Rumus dokumen memakai titik koma untuk Excel regional Indonesia; regional Inggris memakai koma. Angka bukan hasil bisnis atau pencapaian kerja nyata.
 

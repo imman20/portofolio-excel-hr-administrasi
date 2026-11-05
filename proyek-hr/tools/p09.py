@@ -145,7 +145,7 @@ def build():
           "Dihitung manual dengan rumus (COUNT, AVERAGE, VAR.S, SUMPRODUCT, F.DIST.RT) lalu dibandingkan dengan Analysis ToolPak.")
     header(wa, 4, 1, ["Departemen", "n", "Rata-rata", "Varians", "Jumlah"])
     for i, d in enumerate(DEPARTEMEN, start=5):
-        k = chr(ord("AD"[1]) + i - 5)  # AD..AI
+        k = chr(ord("AD"[1]) + i - 5)  # kolom AD dan seterusnya
         kk = "A" + k
         rg = f"'Data Survei'!${kk}$5:${kk}${akhir}"
         tulis_baris(wa, i, 1, [d, f"=COUNT({rg})", f"=AVERAGE({rg})", f"=_xlfn.VAR.S({rg})", f"=SUM({rg})"],

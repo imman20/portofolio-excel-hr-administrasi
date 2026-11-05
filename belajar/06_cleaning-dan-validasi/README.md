@@ -1,4 +1,4 @@
-# Modul 06 — Cleaning dan validasi
+# Modul 06: Cleaning dan validasi
 
 > Saya memakai data sintetis untuk melatih pembersihan yang dapat ditelusuri. Tidak ada identitas pribadi nyata. Rumus dokumen memakai titik koma pada Excel regional Indonesia; regional Inggris memakai koma.
 
