@@ -1,0 +1,326 @@
+{
+  "module": "11_data-model-dan-power-pivot",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_11.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Produk",
+        "Kalender",
+        "Hasil_Model_Diharapkan"
+      ],
+      "formulas": 2112,
+      "errors": 0,
+      "size_kb": 45.8,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_11.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Produk",
+        "Kalender",
+        "Hasil_Model_Diharapkan"
+      ],
+      "formulas": 2121,
+      "errors": 0,
+      "size_kb": 45.9,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Ringkasan 4",
+      "location": "solusi_11.xlsx:Latihan!C4",
+      "expected": "47820000.0",
+      "actual": "47820000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "solusi_11.xlsx:Latihan!C5",
+      "expected": "120.0",
+      "actual": "120",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "solusi_11.xlsx:Latihan!C6",
+      "expected": "240.0",
+      "actual": "240",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "solusi_11.xlsx:Latihan!C7",
+      "expected": "398500.0",
+      "actual": "398500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "solusi_11.xlsx:Latihan!C8",
+      "expected": "16895000.0",
+      "actual": "16895000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "solusi_11.xlsx:Latihan!C9",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "solusi_11.xlsx:Latihan!C10",
+      "expected": "366.0",
+      "actual": "366",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 11",
+      "location": "solusi_11.xlsx:Latihan!C11",
+      "expected": "203.0",
+      "actual": "203",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 12",
+      "location": "solusi_11.xlsx:Latihan!C12",
+      "expected": "83.0",
+      "actual": "83",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 1",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B5",
+      "expected": "3807000",
+      "actual": "3807000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 1",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C5",
+      "expected": "8",
+      "actual": "8",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 2",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B6",
+      "expected": "3641000",
+      "actual": "3641000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 2",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C6",
+      "expected": "12",
+      "actual": "12",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 3",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B7",
+      "expected": "6397000",
+      "actual": "6397000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 3",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C7",
+      "expected": "16",
+      "actual": "16",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 4",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B8",
+      "expected": "2103000",
+      "actual": "2103000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 4",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C8",
+      "expected": "4",
+      "actual": "4",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 5",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B9",
+      "expected": "4805000",
+      "actual": "4805000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 5",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C9",
+      "expected": "11",
+      "actual": "11",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 6",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B10",
+      "expected": "5074000",
+      "actual": "5074000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 6",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C10",
+      "expected": "14",
+      "actual": "14",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 7",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B11",
+      "expected": "4057000",
+      "actual": "4057000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 7",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C11",
+      "expected": "12",
+      "actual": "12",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 8",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B12",
+      "expected": "3654000",
+      "actual": "3654000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 8",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C12",
+      "expected": "8",
+      "actual": "8",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 9",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B13",
+      "expected": "3535000",
+      "actual": "3535000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 9",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C13",
+      "expected": "10",
+      "actual": "10",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 10",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B14",
+      "expected": "3804000",
+      "actual": "3804000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 10",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C14",
+      "expected": "11",
+      "actual": "11",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 11",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B15",
+      "expected": "4316000",
+      "actual": "4316000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 11",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C15",
+      "expected": "8",
+      "actual": "8",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan bulan 12",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!B16",
+      "expected": "2627000",
+      "actual": "2627000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pesanan bulan 12",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C16",
+      "expected": "6",
+      "actual": "6",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Distinct ATK",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C22",
+      "expected": "73",
+      "actual": "73",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Distinct Kemasan",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C23",
+      "expected": "63",
+      "actual": "63",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Distinct Peralatan",
+      "location": "solusi_11.xlsx:Hasil_Model_Diharapkan!C24",
+      "expected": "67",
+      "actual": "67",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

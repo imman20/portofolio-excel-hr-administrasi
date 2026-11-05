@@ -35,7 +35,7 @@ Konvensi warna sel di semua workbook: font biru = input/data mentah, font hitam 
 | 08 | [PivotTable dan PivotChart](08_pivottable-dan-pivotchart/) | Rows/Columns/Values/Filters, Show Values As, Group tanggal, Slicer, Timeline, Refresh | 5 jam | 02, 04 |
 | 09 | [Visualisasi dan dashboard](09_visualisasi-dan-dashboard/) | pemilihan KPI, chart line/bar/scatter/histogram, target, dashboard satu layar, anti-pola | 6 jam | 07, 08 |
 | 10 | [Power Query](10_power-query/) | Get Data, cleaning, Append, Merge (join), Unpivot, impor folder, parameter, Refresh, skrip M | 6 jam | 02, 06 |
-| 11 | Data Model dan Power Pivot *(menyusul)* | fakta/dimensi, relasi, kalender, calculated column vs measure, DAX dasar | 6 jam | 08, 10 |
+| 11 | [Data Model dan Power Pivot](11_data-model-dan-power-pivot/) | fakta/dimensi, relasi, kalender, calculated column vs measure, DAX dasar | 6 jam | 08, 10 |
 | 12 | Statistika terapan *(menyusul)* | deskriptif, distribusi, CI, korelasi, regresi LINEST, uji t, peramalan, ukuran efek, keterbatasan | 8 jam | 03, 09 |
 | 13 | What-if dan optimasi *(menyusul)* | Goal Seek, Data Table 1 dan 2 variabel, Scenario Manager, Solver (program linear) | 5 jam | 03, 04 |
 | 14 | Otomasi lanjutan *(menyusul)* | VBA (.bas), Office Scripts (.ts), Power Automate, keamanan makro; materi lanjutan | 5 jam | 05, 09 (opsional) |
