@@ -153,8 +153,13 @@ def verify(root):
         actual=values[file][c['sheet']][c['cell']].value;expected=c['expected']
         if isinstance(expected,(int,float)):
             assert isinstance(actual,(int,float)),(c['label'],actual)
-            diff=round(float(actual)-float(expected),6)
-            assert diff==0,(c['label'],expected,actual,diff)
+            rawdiff=float(actual)-float(expected)
+            if 'rtol' in c:
+                assert abs(rawdiff)<=c.get('atol',0)+c['rtol']*abs(float(expected)),(c['label'],expected,actual,rawdiff)
+                diff=0
+            else:
+                diff=round(rawdiff,6)
+                assert diff==0,(c['label'],expected,actual,diff)
         elif isinstance(expected,(dt.date,dt.datetime)):
             assert actual.strftime('%Y-%m-%d')==expected.strftime('%Y-%m-%d');diff=0
         else:assert actual==expected,(c['label'],expected,actual);diff=0
