@@ -39,7 +39,8 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 | Modul belajar 01 Dasar Excel | Selesai: README, dataset, workbook latihan dan solusi, kunci jawaban, verifikasi |
 | Modul belajar 02 sampai 15 | Menyusul. Cakupan tiap modul sudah tercantum di peta belajar di bawah |
 | Proyek HR dan administrasi 01 sampai 10 | Selesai: 10 workbook, tutorial, latihan, preview, verifikasi |
-| Proyek portofolio analisis 01 sampai 03 | Menyusul |
+| Proyek portofolio analisis 01 Sales & Profitability | Selesai: data, latihan dan solusi, dokumentasi, preview, verifikasi |
+| Proyek portofolio analisis 02 dan 03 | Menyusul |
 
 Bagian bertanda "menyusul" belum ada di repositori dan akan ditambahkan dengan standar yang sama. Saya sengaja tidak memasang file kosong atau setengah jadi.
 
@@ -48,7 +49,7 @@ Bagian bertanda "menyusul" belum ada di repositori dan akan ditambahkan dengan s
 | Bagian | Folder | Sifat | Isi |
 |---|---|---|---|
 | Jalur belajar | [`belajar/`](belajar/) | Materi latihan | 15 modul berurutan dari dasar Excel sampai praktik kerja profesional, roadmap 10 minggu, pemetaan kemampuan ke bidang kerja |
-| Proyek portofolio analisis | `proyek/` *(menyusul)* | Proyek simulasi | Sales & Profitability, Survei Kepuasan Pelanggan, Inventory & Operations |
+| Proyek portofolio analisis | [`proyek/`](proyek/) | Proyek simulasi | Sales & Profitability, Survei Kepuasan Pelanggan, Inventory & Operations |
 | Proyek HR dan administrasi | [`proyek-hr/`](proyek-hr/) | Proyek simulasi bertingkat | 10 proyek dari database karyawan sampai workforce planning dan makro VBA, masing-masing dengan tutorial |
 
 ## Cara mulai belajar dari nol
@@ -92,7 +93,7 @@ Lihat tabel lengkap di [`belajar/README.md`](belajar/README.md) dan pemetaan ke 
 
 | Proyek | Pertanyaan utama | Folder |
 |---|---|---|
-| Sales & Profitability Analysis | Bagaimana tren penjualan bersih dan laba kotor 2024, pencapaian target per wilayah, dan kontribusi produk serta pelanggan? | `proyek/01_sales_profitability` *(menyusul)* |
+| Sales & Profitability Analysis | Bagaimana tren penjualan bersih dan laba kotor 2024, pencapaian target per wilayah, dan kontribusi produk serta pelanggan? | [Sales & Profitability](proyek/01_sales_profitability/) |
 | Customer Satisfaction Survey | Bagaimana distribusi kepuasan per dimensi dan kanal, seberapa reliabel kuesionernya, dan apa yang boleh serta tidak boleh disimpulkan? | `proyek/02_survei_kepuasan_pelanggan` *(menyusul)* |
 | Inventory & Operations | SKU mana yang berisiko habis atau overstock, dan berapa usulan pemesanan berdasarkan asumsi yang ditulis? | `proyek/03_inventory_operations` *(menyusul)* |
 
@@ -128,7 +129,7 @@ portofolio-excel-hr-administrasi/
 │   ├── 01_database-karyawan/ ... 10_perencanaan-tenaga-kerja-dan-otomasi/
 │   ├── docs/             # glosarium rumus, standar data HR
 │   └── tools/            # skrip pembangun, generator data, log verifikasi
-├── proyek/               # 3 proyek portofolio analisis (menyusul)
+├── proyek/               # proyek analisis: Sales selesai; survei dan inventori menyusul
 ├── LICENSE, CHANGELOG.md, CONTRIBUTING.md, .gitignore
 ```
 

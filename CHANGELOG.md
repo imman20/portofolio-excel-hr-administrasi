@@ -2,6 +2,16 @@
 
 Semua perubahan penting pada repositori ini dicatat di sini. Format mengikuti Keep a Changelog dan versi mengikuti Semantic Versioning.
 
+## [1.1.0] - 2026-11-05
+
+### Ditambahkan
+- Proyek simulasi `proyek/01_sales_profitability/`: generator berseed tetap, CSV, workbook latihan dan solusi dengan rumus hidup, dashboard, serta Checks.
+- Dokumentasi KPI, cleaning, temuan, latihan, pemeriksaan kualitas, panduan wawancara, PivotTable manual, dan skrip Power Query.
+- Recalculation LibreOffice, rekonsiliasi pandas tahunan dan bulanan, pemeriksaan setiap transaksi, serta preview asli dari PDF/PNG.
+
+### Diperbarui
+- Tabel status dan tautan proyek Sales pada README utama serta hubungan proyek di README belajar.
+
 ## [1.0.0] - 2025-11-05
 
 ### Ditambahkan

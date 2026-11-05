@@ -1,0 +1,124 @@
+{
+  "tanggal": "2026-11-05",
+  "transaksi": 6000,
+  "retur": 120,
+  "total": {
+    "omzet_bruto": 14074330000.0,
+    "penjualan_bersih": 12253701095.0,
+    "hpp": 9512929400.0,
+    "laba_kotor": 2740771695.0
+  },
+  "margin": 0.22366888777125016,
+  "pencapaian": 1.0039902576812783,
+  "region": [
+    {
+      "region": "Jabodetabek",
+      "penjualan_bersih": 4758516825.0,
+      "target": 4454000000,
+      "pencapaian": 1.0683692916479568
+    },
+    {
+      "region": "Jawa Barat",
+      "penjualan_bersih": 1763168180.0,
+      "target": 1733000000,
+      "pencapaian": 1.0174080669359493
+    },
+    {
+      "region": "Jawa Tengah & DIY",
+      "penjualan_bersih": 1298545720.0,
+      "target": 1378000000,
+      "pencapaian": 0.9423408708272859
+    },
+    {
+      "region": "Jawa Timur",
+      "penjualan_bersih": 1511206095.0,
+      "target": 1497000000,
+      "pencapaian": 1.0094897094188378
+    },
+    {
+      "region": "Sumatera",
+      "penjualan_bersih": 1871749140.0,
+      "target": 2022000000,
+      "pencapaian": 0.9256919584569733
+    },
+    {
+      "region": "Kalimantan",
+      "penjualan_bersih": 1050515135.0,
+      "target": 1121000000,
+      "pencapaian": 0.9371232247992863
+    }
+  ],
+  "kategori": [
+    {
+      "kategori": "Alat Tulis Kantor",
+      "penjualan_bersih": 1281540780.0,
+      "margin": 0.2776427294026492
+    },
+    {
+      "kategori": "Kertas & Cetak",
+      "penjualan_bersih": 2801169230.0,
+      "margin": 0.06730165674424461
+    },
+    {
+      "kategori": "Elektronik Kantor",
+      "penjualan_bersih": 3406565790.0,
+      "margin": 0.16160509555284414
+    },
+    {
+      "kategori": "Furnitur Kantor",
+      "penjualan_bersih": 3150905750.0,
+      "margin": 0.32652777697333535
+    },
+    {
+      "kategori": "Perlengkapan Kebersihan",
+      "penjualan_bersih": 1613519545.0,
+      "margin": 0.3824318378492279
+    }
+  ],
+  "pelanggan_teratas": 24,
+  "kontribusi_20pct": 0.7156127228024245,
+  "files": [
+    {
+      "file": "latihan_sales_profitability.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Raw_Data",
+        "Retur",
+        "Master",
+        "Calculation",
+        "Report",
+        "Checks"
+      ],
+      "formulas": 133,
+      "errors": 0,
+      "size_kb": 502.8,
+      "recalc": "success (LibreOffice headless)"
+    },
+    {
+      "file": "solusi_sales_profitability.xlsx",
+      "sheets": [
+        "Readme",
+        "Raw_Data",
+        "Retur",
+        "Master",
+        "Calculation",
+        "Report",
+        "Checks"
+      ],
+      "formulas": 92656,
+      "errors": 0,
+      "size_kb": 1405.0,
+      "recalc": "success (LibreOffice headless)"
+    }
+  ],
+  "rekonsiliasi": 213,
+  "hash_csv": {
+    "master_pelanggan.csv": "c2dccb545286c87543999cf2be68476bc823bfa6d7591791a7776bd06930269c",
+    "master_produk.csv": "98691dee0714ee026743a3f4cd6ca5af2a83dd610d5c96dbf6595d501a2b7a63",
+    "master_sales.csv": "94e3458132583d8bfadc4b88637d7b6cf4c177646aa08acbbae8fe2aa4560f79",
+    "master_wilayah.csv": "6d2c5fd613c25b22995e21b93847203f34468d69adc6834ece7848c9a2d53b50",
+    "retur.csv": "51dffb24a17b31183b7c52e9d3138630d8b87c36663d3b9d5445f21139dd4b51",
+    "target.csv": "f53bf59c8ddccc27908370cc0176c6edc9695d14c936189dedf8ecbea7771029",
+    "transaksi.csv": "a3ace303d728586d0b8bb4a17cb574061b9f3115613b937f1cb4a93266879189"
+  }
+}
