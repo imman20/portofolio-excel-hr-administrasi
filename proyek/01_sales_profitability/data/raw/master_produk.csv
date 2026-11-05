@@ -1,0 +1,41 @@
+product_id,nama_produk,kategori,sub_kategori,harga_list,hpp_satuan
+P001,Pulpen Gel Hitam (box 12),Alat Tulis Kantor,Alat Tulis,36000,22200
+P002,Pensil 2B (box 12),Alat Tulis Kantor,Alat Tulis,24000,15400
+P003,Spidol Whiteboard (set 4),Alat Tulis Kantor,Alat Tulis,32000,20300
+P004,Stapler Sedang,Alat Tulis Kantor,Alat Jilid,45000,28900
+P005,Isi Staples No.10 (box 20),Alat Tulis Kantor,Alat Jilid,38000,23500
+P006,Penghapus Karet (box 20),Alat Tulis Kantor,Alat Tulis,30000,18500
+P007,Penggaris Besi 30 cm,Alat Tulis Kantor,Alat Ukur,12000,7600
+P008,Map Plastik Snelhecter (pak 12),Alat Tulis Kantor,Arsip,42000,26900
+P009,Kertas HVS A4 70 gsm (rim),Kertas & Cetak,Kertas,52000,41900
+P010,Kertas HVS A4 80 gsm (rim),Kertas & Cetak,Kertas,60000,50100
+P011,Kertas HVS F4 70 gsm (rim),Kertas & Cetak,Kertas,56000,45400
+P012,Kertas Foto A4 Glossy (pak 50),Kertas & Cetak,Kertas,85000,71700
+P013,Toner Laser Hitam,Kertas & Cetak,Cetak,650000,519300
+P014,Tinta Printer Hitam 70 ml,Kertas & Cetak,Cetak,95000,76000
+P015,Tinta Printer Warna (set 3),Kertas & Cetak,Cetak,270000,227400
+P016,Amplop Putih Polos (box 100),Kertas & Cetak,Kertas,45000,36700
+P017,Kalkulator 12 Digit,Elektronik Kantor,Perangkat,185000,132300
+P018,Mesin Penghancur Kertas,Elektronik Kantor,Perangkat,1450000,1048200
+P019,Laminator A3,Elektronik Kantor,Perangkat,1250000,931200
+P020,Mouse Nirkabel,Elektronik Kantor,Aksesoris,165000,118800
+P021,Keyboard USB,Elektronik Kantor,Aksesoris,210000,146900
+P022,Flashdisk 32 GB,Elektronik Kantor,Aksesoris,95000,67300
+P023,Headset Kantor,Elektronik Kantor,Aksesoris,320000,234300
+P024,Webcam HD,Elektronik Kantor,Aksesoris,480000,343000
+P025,Kursi Kerja Staf,Furnitur Kantor,Kursi,950000,569200
+P026,Kursi Direktur,Furnitur Kantor,Kursi,2650000,1496000
+P027,Meja Kerja 120 cm,Furnitur Kantor,Meja,1850000,1106600
+P028,Lemari Arsip 4 Laci,Furnitur Kantor,Penyimpanan,3200000,1919400
+P029,Rak Buku 5 Tingkat,Furnitur Kantor,Penyimpanan,1150000,694400
+P030,Papan Tulis 120x90 cm,Furnitur Kantor,Papan,650000,370500
+P031,Partisi Meja,Furnitur Kantor,Meja,780000,447500
+P032,Filing Cabinet 2 Laci,Furnitur Kantor,Penyimpanan,1950000,1142900
+P033,Tisu Wajah (box 250),Perlengkapan Kebersihan,Tisu,22000,11600
+P034,Sabun Cuci Tangan 500 ml,Perlengkapan Kebersihan,Sabun,28000,15600
+P035,Pembersih Lantai 1 L,Perlengkapan Kebersihan,Pembersih,24000,12600
+P036,Kantong Sampah (pak 20),Perlengkapan Kebersihan,Sampah,18000,10000
+P037,Hand Sanitizer 1 L,Perlengkapan Kebersihan,Sabun,65000,34300
+P038,Pel Lantai Putar,Perlengkapan Kebersihan,Alat Bersih,120000,63900
+P039,Sapu Lantai,Perlengkapan Kebersihan,Alat Bersih,35000,19900
+P040,Pengharum Ruangan,Perlengkapan Kebersihan,Pembersih,42000,22300

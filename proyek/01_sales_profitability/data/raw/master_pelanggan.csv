@@ -1,0 +1,121 @@
+customer_id,nama_pelanggan,segmen,kota,region_id,tanggal_bergabung
+C001,PT Nusantara Medika Indonesia,Korporat,Jakarta Pusat,R01,2020-04-14
+C002,PT Bumi Konstruksi Makmur,Korporat,Jakarta Selatan,R01,2023-10-16
+C003,UD Gemilang Baru,Grosir,Jakarta Selatan,R01,2023-06-01
+C004,PT Sinergi Logistik Abadi,Korporat,Jakarta Selatan,R01,2023-06-15
+C005,Toko Karya Rejeki,Retail,Jakarta Selatan,R01,2019-10-06
+C006,CV Jaya Sarana,Grosir,Jakarta Selatan,R01,2022-02-26
+C007,Toko Gemilang Santosa,Retail,Jakarta Selatan,R01,2019-09-14
+C008,CV Sentosa Mulia,Grosir,Bekasi,R01,2022-03-31
+C009,UD Lestari Mulia,Grosir,Jakarta Barat,R01,2019-07-06
+C010,Toko Sejahtera Perkasa,Retail,Bogor,R01,2021-01-22
+C011,Toko Prima Sarana,Retail,Jakarta Pusat,R01,2020-12-02
+C012,CV Prima Sarana,Grosir,Bogor,R01,2019-07-20
+C013,Toko Harapan Agung,Retail,Jakarta Selatan,R01,2022-04-14
+C014,PT Surya Properti Persada,Korporat,Bekasi,R01,2023-04-08
+C015,PT Prima Transportasi Indonesia,Korporat,Jakarta Pusat,R01,2021-11-02
+C016,PT Mega Medika Indonesia,Korporat,Jakarta Timur,R01,2019-08-12
+C017,UD Lestari Cemerlang,Grosir,Bogor,R01,2021-03-10
+C018,PT Cipta Konstruksi Lestari,Korporat,Depok,R01,2024-05-24
+C019,Toko Utama Perkasa,Retail,Jakarta Barat,R01,2021-12-03
+C020,PT Sarana Logistik Abadi,Korporat,Bogor,R01,2024-04-09
+C021,PT Tirta Manufaktur Lestari,Korporat,Jakarta Utara,R01,2020-04-21
+C022,Toko Sinar Mulia,Retail,Depok,R01,2021-01-13
+C023,UD Jaya Rejeki,Grosir,Jakarta Utara,R01,2021-07-10
+C024,Toko Bahagia Niaga,Retail,Bogor,R01,2023-04-22
+C025,CV Maju Perkasa,Grosir,Bogor,R01,2020-07-02
+C026,Toko Cahaya Nusantara,Retail,Jakarta Selatan,R01,2019-01-30
+C027,Toko Sinar Niaga,Retail,Jakarta Pusat,R01,2022-09-01
+C028,Toko Sumber Rejeki,Retail,Jakarta Pusat,R01,2022-02-19
+C029,UD Mandiri Indah,Grosir,Depok,R01,2021-06-26
+C030,UD Mandiri Bersama,Grosir,Jakarta Utara,R01,2022-06-16
+C031,Toko Mandiri Niaga,Retail,Jakarta Barat,R01,2023-12-24
+C032,CV Jaya Perkasa,Grosir,Depok,R01,2023-09-21
+C033,Toko Sumber Nusantara,Retail,Cirebon,R02,2023-11-04
+C034,UD Bahagia Indah,Grosir,Tasikmalaya,R02,2023-02-01
+C035,Toko Mulia Santosa,Retail,Karawang,R02,2023-07-19
+C036,Toko Abadi Perkasa,Retail,Cirebon,R02,2022-10-26
+C037,Toko Maju Baru,Retail,Bandung,R02,2020-05-29
+C038,PT Dinamika Transportasi Makmur,Korporat,Sukabumi,R02,2020-06-16
+C039,Toko Cahaya Sukses,Retail,Karawang,R02,2022-11-22
+C040,Toko Sejahtera Pratama,Retail,Cimahi,R02,2021-05-07
+C041,PT Adi Teknologi Mandiri,Korporat,Tasikmalaya,R02,2019-11-22
+C042,UD Abadi Indah,Grosir,Tasikmalaya,R02,2022-12-06
+C043,Toko Abadi Sukses,Retail,Bandung,R02,2021-08-08
+C044,Toko Bahagia Baru,Retail,Tasikmalaya,R02,2021-03-01
+C045,PT Graha Energi Sejahtera,Korporat,Sukabumi,R02,2022-11-16
+C046,UD Sejahtera Nusantara,Grosir,Karawang,R02,2020-12-13
+C047,Toko Prima Pratama,Retail,Cirebon,R02,2019-05-03
+C048,Toko Lestari Perkasa,Retail,Sukabumi,R02,2023-10-23
+C049,Toko Sejahtera Niaga,Retail,Karawang,R02,2021-10-26
+C050,CV Maju Santosa,Grosir,Karawang,R02,2022-06-04
+C051,Toko Utama Sarana,Retail,Tegal,R03,2023-03-13
+C052,CV Harapan Mulia,Grosir,Magelang,R03,2024-06-27
+C053,PT Astra Medika Sejahtera,Korporat,Purwokerto,R03,2020-04-28
+C054,Toko Lestari Pratama,Retail,Purwokerto,R03,2021-12-10
+C055,PT Surya Telekomunikasi Abadi,Korporat,Tegal,R03,2019-11-24
+C056,CV Mitra Niaga,Grosir,Surakarta,R03,2022-02-01
+C057,PT Citra Agro Mandiri,Korporat,Surakarta,R03,2024-06-20
+C058,Toko Maju Pratama,Retail,Magelang,R03,2022-12-19
+C059,Toko Maju Sarana,Retail,Yogyakarta,R03,2020-12-26
+C060,Toko Mitra Nusantara,Retail,Purwokerto,R03,2023-10-09
+C061,Toko Utama Indah,Retail,Tegal,R03,2023-03-02
+C062,Toko Sumber Pratama,Retail,Magelang,R03,2019-05-10
+C063,CV Sumber Perkasa,Grosir,Purwokerto,R03,2020-08-06
+C064,Toko Mandiri Rejeki,Retail,Tegal,R03,2021-11-08
+C065,Toko Sejahtera Persada,Retail,Tegal,R03,2020-06-30
+C066,PT Dinamika Finansial Abadi,Korporat,Surabaya,R04,2023-11-24
+C067,Toko Sinar Baru,Retail,Surabaya,R04,2022-02-10
+C068,UD Utama Nusantara,Grosir,Malang,R04,2022-08-13
+C069,UD Harapan Persada,Grosir,Jember,R04,2020-01-10
+C070,CV Lestari Cemerlang,Grosir,Jember,R04,2021-08-13
+C071,Toko Sinar Nusantara,Retail,Surabaya,R04,2023-07-03
+C072,CV Cahaya Niaga,Grosir,Surabaya,R04,2022-03-18
+C073,Toko Bahagia Mulia,Retail,Surabaya,R04,2023-11-01
+C074,Toko Berkah Rejeki,Retail,Jember,R04,2022-06-01
+C075,Toko Maju Santosa,Retail,Kediri,R04,2021-04-19
+C076,Toko Harapan Mulia,Retail,Malang,R04,2020-10-07
+C077,CV Mulia Indah,Grosir,Gresik,R04,2022-07-29
+C078,CV Karya Rejeki,Grosir,Jember,R04,2023-01-29
+C079,UD Sejahtera Pratama,Grosir,Sidoarjo,R04,2021-10-18
+C080,Toko Cahaya Bersama,Retail,Jember,R04,2020-11-27
+C081,Toko Lestari Agung,Retail,Gresik,R04,2021-12-06
+C082,UD Abadi Rejeki,Grosir,Malang,R04,2019-02-20
+C083,Toko Jaya Mulia,Retail,Malang,R04,2024-04-07
+C084,Toko Mitra Mulia,Retail,Gresik,R04,2023-09-08
+C085,Toko Mulia Bersama,Retail,Surabaya,R04,2023-01-26
+C086,PT Graha Properti Utama,Korporat,Pekanbaru,R05,2022-04-17
+C087,PT Mega Edukasi Utama,Korporat,Jambi,R05,2023-01-01
+C088,PT Adi Transportasi Indonesia,Korporat,Padang,R05,2019-05-10
+C089,Toko Prima Rejeki,Retail,Padang,R05,2020-10-02
+C090,Toko Karya Nusantara,Retail,Palembang,R05,2021-01-21
+C091,Toko Mitra Bersama,Retail,Bandar Lampung,R05,2022-05-08
+C092,CV Utama Persada,Grosir,Bandar Lampung,R05,2024-05-17
+C093,UD Utama Rejeki,Grosir,Padang,R05,2023-07-10
+C094,PT Tirta Energi Mandiri,Korporat,Medan,R05,2019-01-01
+C095,Toko Jaya Sukses,Retail,Medan,R05,2022-06-13
+C096,Toko Berkah Nusantara,Retail,Jambi,R05,2021-01-17
+C097,Toko Mandiri Sarana,Retail,Palembang,R05,2023-08-04
+C098,Toko Gemilang Indah,Retail,Bandar Lampung,R05,2022-03-19
+C099,CV Sentosa Sukses,Grosir,Pekanbaru,R05,2021-10-15
+C100,Toko Makmur Agung,Retail,Pekanbaru,R05,2024-06-08
+C101,CV Utama Sukses,Grosir,Bandar Lampung,R05,2021-06-05
+C102,CV Jaya Bersama,Grosir,Padang,R05,2022-01-18
+C103,UD Sinar Santosa,Grosir,Medan,R05,2022-08-30
+C104,CV Lestari Santosa,Grosir,Jambi,R05,2024-03-15
+C105,UD Jaya Perkasa,Grosir,Jambi,R05,2021-08-28
+C106,Toko Sumber Persada,Retail,Samarinda,R06,2021-09-28
+C107,CV Bahagia Agung,Grosir,Banjarmasin,R06,2019-11-19
+C108,Toko Mitra Niaga,Retail,Palangka Raya,R06,2020-07-18
+C109,CV Mitra Rejeki,Grosir,Balikpapan,R06,2020-06-09
+C110,Toko Sentosa Sarana,Retail,Pontianak,R06,2021-04-28
+C111,CV Sumber Santosa,Grosir,Pontianak,R06,2023-04-03
+C112,PT Mandala Konstruksi Nusantara,Korporat,Palangka Raya,R06,2022-11-13
+C113,Toko Karya Pratama,Retail,Balikpapan,R06,2024-05-11
+C114,Toko Berkah Baru,Retail,Samarinda,R06,2020-12-02
+C115,Toko Bahagia Indah,Retail,Balikpapan,R06,2024-05-02
+C116,UD Berkah Nusantara,Grosir,Balikpapan,R06,2020-02-27
+C117,Toko Bahagia Cemerlang,Retail,Samarinda,R06,2022-12-09
+C118,Toko Jaya Niaga,Retail,Palangka Raya,R06,2020-09-03
+C119,CV Sinar Cemerlang,Grosir,Balikpapan,R06,2019-02-09
+C120,Toko Sentosa Bersama,Retail,Pontianak,R06,2021-01-01
