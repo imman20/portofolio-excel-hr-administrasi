@@ -37,9 +37,9 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 |---|---|
 | Jalur belajar: README, roadmap 10 minggu, pemetaan karier | Selesai |
 | Modul belajar 01 Dasar Excel | Selesai: README, dataset, workbook latihan dan solusi, kunci jawaban, verifikasi |
-| Modul belajar 02 sampai 15 | 1 dari 14 modul selesai; rincian di bawah |
+| Modul belajar 02 sampai 15 | 2 dari 14 modul selesai; rincian di bawah |
 | Modul belajar 02 | Selesai: [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) |
-| Modul belajar 03 | Formula dasar *(menyusul)* |
+| Modul belajar 03 | Selesai: [Formula dasar](belajar/03_formula-dasar/) |
 | Modul belajar 04 | Logika dan agregasi bersyarat *(menyusul)* |
 | Modul belajar 05 | Lookup dan penggabungan referensi *(menyusul)* |
 | Modul belajar 06 | Cleaning dan validasi *(menyusul)* |
@@ -90,7 +90,7 @@ Lihat tabel lengkap di [`belajar/README.md`](belajar/README.md) dan pemetaan ke 
 |---|---|---|
 | 01 | Dasar Excel | Workbook, sel, range, format, Sort, Filter, Freeze Panes, nilai vs tampilan |
 | 02 | [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) | Tidy data, Excel Table, structured references, ID dengan nol di depan |
-| 03 | Formula dasar | Referensi relatif/absolut, SUM, AVERAGE, COUNT, ROUND |
+| 03 | [Formula dasar](belajar/03_formula-dasar/) | Referensi relatif/absolut, SUM, AVERAGE, COUNT, ROUND |
 | 04 | Logika dan agregasi bersyarat | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS |
 | 05 | Lookup | XLOOKUP, VLOOKUP, INDEX-MATCH, IFNA vs IFERROR |
 | 06 | Cleaning dan validasi | TRIM, SUBSTITUTE, teks ke angka, duplikasi, outlier, Data Validation, Conditional Formatting |

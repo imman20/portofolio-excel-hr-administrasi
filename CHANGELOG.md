@@ -5,6 +5,7 @@ Semua perubahan penting pada repositori ini dicatat di sini. Format mengikuti Ke
 ## [1.4.0] - 2026-11-05
 
 ### Ditambahkan
+- Modul 03 Formula dasar: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.
 - Modul 02 Struktur data yang benar: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.
 
 ## [1.3.0] - 2026-11-05
