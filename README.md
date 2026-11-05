@@ -41,7 +41,7 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 | Proyek HR dan administrasi 01 sampai 10 | Selesai: 10 workbook, tutorial, latihan, preview, verifikasi |
 | Proyek portofolio analisis 01 Sales & Profitability | Selesai: data, latihan dan solusi, dokumentasi, preview, verifikasi |
 | Proyek portofolio analisis 02 Survei Kepuasan Pelanggan | Selesai: audit data, latihan dan solusi, statistik, dokumentasi, preview, verifikasi |
-| Proyek portofolio analisis 03 Inventory & Operations | Menyusul |
+| Proyek portofolio analisis 03 Inventory & Operations | Selesai: data, stok harian, latihan dan solusi, dokumentasi, preview, verifikasi |
 
 Bagian bertanda "menyusul" belum ada di repositori dan akan ditambahkan dengan standar yang sama. Saya sengaja tidak memasang file kosong atau setengah jadi.
 
@@ -96,7 +96,7 @@ Lihat tabel lengkap di [`belajar/README.md`](belajar/README.md) dan pemetaan ke 
 |---|---|---|
 | Sales & Profitability Analysis | Bagaimana tren penjualan bersih dan laba kotor 2024, pencapaian target per wilayah, dan kontribusi produk serta pelanggan? | [Sales & Profitability](proyek/01_sales_profitability/) |
 | Customer Satisfaction Survey | Bagaimana distribusi kepuasan per dimensi dan kanal, seberapa reliabel kuesionernya, dan apa yang boleh serta tidak boleh disimpulkan? | [Survei Kepuasan Pelanggan](proyek/02_survei_kepuasan_pelanggan/) |
-| Inventory & Operations | SKU mana yang berisiko habis atau overstock, dan berapa usulan pemesanan berdasarkan asumsi yang ditulis? | `proyek/03_inventory_operations` *(menyusul)* |
+| Inventory & Operations | SKU mana yang berisiko habis atau overstock, dan berapa usulan pemesanan berdasarkan asumsi yang ditulis? | [Inventory & Operations](proyek/03_inventory_operations/) |
 
 ## Proyek HR dan administrasi
 
@@ -130,7 +130,7 @@ portofolio-excel-hr-administrasi/
 │   ├── 01_database-karyawan/ ... 10_perencanaan-tenaga-kerja-dan-otomasi/
 │   ├── docs/             # glosarium rumus, standar data HR
 │   └── tools/            # skrip pembangun, generator data, log verifikasi
-├── proyek/               # proyek analisis: Sales dan survei selesai; inventori menyusul
+├── proyek/               # proyek analisis: Sales, survei, dan inventori selesai
 ├── LICENSE, CHANGELOG.md, CONTRIBUTING.md, .gitignore
 ```
 

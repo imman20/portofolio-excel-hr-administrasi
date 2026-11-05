@@ -2,6 +2,17 @@
 
 Semua perubahan penting pada repositori ini dicatat di sini. Format mengikuti Keep a Changelog dan versi mengikuti Semantic Versioning.
 
+## [1.3.0] - 2026-11-05
+
+### Ditambahkan
+- Proyek simulasi `proyek/03_inventory_operations/`: 60 SKU, 8 supplier, 9.087 pergerakan, 500 PO, dan 21.960 baris stok harian dari generator berseed tetap.
+- Workbook latihan dan solusi dengan kisi SUMIFS harian, saldo harian, lead time PO, safety stock, reorder point, usulan pesan, turnover, ABC, dan Checks.
+- Dokumentasi KPI beserta asumsi/periode, kamus data, instruksi latihan, temuan, pemeriksaan kualitas, panduan wawancara, serta preview nyata dari PDF/PNG.
+- Recalculation LibreOffice dan rekonsiliasi pandas/scipy per SKU serta seluruh kisi harian pada kedua workbook.
+
+### Diperbarui
+- Status dan tautan inventori pada README utama dan README belajar. Kedua proyek analisis sebelumnya, proyek HR, dan modul dasar dipertahankan.
+
 ## [1.2.0] - 2026-11-05
 
 ### Ditambahkan
