@@ -1,0 +1,294 @@
+{
+  "module": "09_visualisasi-dan-dashboard",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_09.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Calculation",
+        "Report"
+      ],
+      "formulas": 1168,
+      "errors": 0,
+      "size_kb": 47.7,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_09.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Calculation",
+        "Report"
+      ],
+      "formulas": 1176,
+      "errors": 0,
+      "size_kb": 54.8,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Ringkasan 4",
+      "location": "solusi_09.xlsx:Latihan!C4",
+      "expected": "159469650.0",
+      "actual": "159469650",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "solusi_09.xlsx:Latihan!C5",
+      "expected": "33213576.0",
+      "actual": "33213576",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "solusi_09.xlsx:Latihan!C6",
+      "expected": "0.2082752172592089",
+      "actual": "0.208275217259209",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "solusi_09.xlsx:Latihan!C7",
+      "expected": "1.0288364516129032",
+      "actual": "1.0288364516129",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "solusi_09.xlsx:Latihan!C8",
+      "expected": "0.72357",
+      "actual": "0.72357",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "solusi_09.xlsx:Latihan!C9",
+      "expected": "Kemasan",
+      "actual": "Kemasan",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "solusi_09.xlsx:Latihan!C10",
+      "expected": "ATK",
+      "actual": "ATK",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 11",
+      "location": "solusi_09.xlsx:Latihan!C11",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 1 B",
+      "location": "solusi_09.xlsx:Calculation!B2",
+      "expected": "24964750.0",
+      "actual": "24964750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 1 D",
+      "location": "solusi_09.xlsx:Calculation!D2",
+      "expected": "5500142.0",
+      "actual": "5500142",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 1 E",
+      "location": "solusi_09.xlsx:Calculation!E2",
+      "expected": "1.1347613636363636",
+      "actual": "1.13476136363636",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 1 F",
+      "location": "solusi_09.xlsx:Calculation!F2",
+      "expected": "0.22031632601968776",
+      "actual": "0.220316326019688",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 2 B",
+      "location": "solusi_09.xlsx:Calculation!B3",
+      "expected": "30773050.0",
+      "actual": "30773050",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 2 D",
+      "location": "solusi_09.xlsx:Calculation!D3",
+      "expected": "6521354.0",
+      "actual": "6521354",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 2 E",
+      "location": "solusi_09.xlsx:Calculation!E3",
+      "expected": "1.2822104166666666",
+      "actual": "1.28221041666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 2 F",
+      "location": "solusi_09.xlsx:Calculation!F3",
+      "expected": "0.2119177007153987",
+      "actual": "0.211917700715399",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 3 B",
+      "location": "solusi_09.xlsx:Calculation!B4",
+      "expected": "30619300.0",
+      "actual": "30619300",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 3 D",
+      "location": "solusi_09.xlsx:Calculation!D4",
+      "expected": "6321190.0",
+      "actual": "6321190",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 3 E",
+      "location": "solusi_09.xlsx:Calculation!E4",
+      "expected": "1.1776653846153846",
+      "actual": "1.17766538461538",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 3 F",
+      "location": "solusi_09.xlsx:Calculation!F4",
+      "expected": "0.2064446280613861",
+      "actual": "0.206444628061386",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 4 B",
+      "location": "solusi_09.xlsx:Calculation!B5",
+      "expected": "22008600.0",
+      "actual": "22008600",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 4 D",
+      "location": "solusi_09.xlsx:Calculation!D5",
+      "expected": "4742651.0",
+      "actual": "4742651",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 4 E",
+      "location": "solusi_09.xlsx:Calculation!E5",
+      "expected": "0.880344",
+      "actual": "0.880344",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 4 F",
+      "location": "solusi_09.xlsx:Calculation!F5",
+      "expected": "0.21549080813863672",
+      "actual": "0.215490808138637",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 5 B",
+      "location": "solusi_09.xlsx:Calculation!B6",
+      "expected": "29396850.0",
+      "actual": "29396850",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 5 D",
+      "location": "solusi_09.xlsx:Calculation!D6",
+      "expected": "6031935.0",
+      "actual": "6031935",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 5 E",
+      "location": "solusi_09.xlsx:Calculation!E6",
+      "expected": "1.0498875",
+      "actual": "1.0498875",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 5 F",
+      "location": "solusi_09.xlsx:Calculation!F6",
+      "expected": "0.20518984176876093",
+      "actual": "0.205189841768761",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 6 B",
+      "location": "solusi_09.xlsx:Calculation!B7",
+      "expected": "21707100.0",
+      "actual": "21707100",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 6 D",
+      "location": "solusi_09.xlsx:Calculation!D7",
+      "expected": "4096304.0",
+      "actual": "4096304",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 6 E",
+      "location": "solusi_09.xlsx:Calculation!E7",
+      "expected": "0.72357",
+      "actual": "0.72357",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 6 F",
+      "location": "solusi_09.xlsx:Calculation!F7",
+      "expected": "0.18870802640610676",
+      "actual": "0.188708026406107",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}
