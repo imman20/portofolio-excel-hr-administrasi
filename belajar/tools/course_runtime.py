@@ -17,7 +17,7 @@ from openpyxl.styles import Alignment
 import belajar_lib as L
 
 ALLOWED=set('SUM AVERAGE MIN MAX COUNT COUNTA COUNTBLANK ROUND IF IFS AND OR SUMIFS COUNTIFS AVERAGEIFS MAXIFS MINIFS SUMPRODUCT VLOOKUP INDEX MATCH IFERROR IFNA TRIM CLEAN SUBSTITUTE LEFT RIGHT MID LEN VALUE TEXT DATE DATEVALUE YEAR MONTH DAY EOMONTH EDATE TODAY NETWORKDAYS NETWORKDAYS.INTL DATEDIF RANK.EQ CORREL STDEV.S VAR.S CONFIDENCE.T T.TEST T.INV.2T NORM.S.INV LINEST FORECAST.LINEAR TREND SWITCH TEXTJOIN ABS SQRT PERCENTILE.INC QUARTILE.INC MEDIAN LARGE SMALL'.split())
-FUTURE=set('IFS MAXIFS MINIFS RANK.EQ CORREL STDEV.S VAR.S CONFIDENCE.T T.TEST T.INV.2T NORM.S.INV FORECAST.LINEAR SWITCH TEXTJOIN PERCENTILE.INC QUARTILE.INC NETWORKDAYS.INTL'.split())-{'CORREL'}
+FUTURE=set('IFNA IFS MAXIFS MINIFS RANK.EQ CORREL STDEV.S VAR.S CONFIDENCE.T T.TEST T.INV.2T NORM.S.INV FORECAST.LINEAR SWITCH TEXTJOIN PERCENTILE.INC QUARTILE.INC NETWORKDAYS.INTL'.split())-{'CORREL'}
 
 
 def finish(wb):
@@ -136,7 +136,7 @@ def verify(root):
                     if c.data_type=='f':
                         assert isinstance(c.value,str),'Rumus array tidak diperbolehkan'
                         expr=re.sub(r'"(?:[^"]|"")*"','""',c.value).replace('_xlfn.','')
-                        funcs=set(re.findall(r'([A-Za-z_][A-Za-z_0-9.]*)\s*\(',expr));assert funcs<=ALLOWED,(c.coordinate,funcs-ALLOWED)
+                        funcs={f.upper() for f in re.findall(r'([A-Za-z_][A-Za-z_0-9.]*)\s*\(',expr)};assert funcs<=ALLOWED,(c.coordinate,funcs-ALLOWED)
                         assert not re.search(r'\[[^]]+\.xlsx',expr,re.I),'Tautan eksternal'
                         assert wv[ws.title][c.coordinate].value is not None,(ws.title,c.coordinate,'cache kosong')
                         count+=1
