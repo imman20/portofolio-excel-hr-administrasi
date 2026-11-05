@@ -4,6 +4,13 @@ Semua perubahan penting pada repositori ini dicatat di sini. Format mengikuti Ke
 
 ## [1.4.0] - 2026-11-05
 
+### Penutup
+- Modul 02 sampai 15 selesai dalam commit terpisah; seluruh README memiliki 11 bagian, sedikitnya lima soal, dan panjang sesuai standar.
+- Audit 47 workbook pada salinan sementara: 327,539 rumus, 0 error, dan 101,558 pembanding lulus; sumber unit final dipertahankan identik.
+- Pemeriksaan seluruh tautan relatif dan istilah, dengan satu pengecualian teknis penanda rentang kolom pada skrip HR lama yang tetap dipertahankan.
+- Sumbu grafik batang modul visualisasi dikunci pada nol dan smoothing garis dimatikan; preview dibangun ulang dari render nyata.
+- Panduan fungsi modern beserta alternatif Excel 2016 dan laporan audit menyeluruh ditambahkan.
+
 ### Ditambahkan
 - Modul 15 Praktik kerja profesional: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.
 - Modul 14 Otomasi lanjutan: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.

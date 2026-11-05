@@ -1,0 +1,1437 @@
+{
+  "date": "2026-11-05",
+  "base": "5e8d7dcf2da6a90e79a669dcc2b0735b242dbff4",
+  "files": [
+    {
+      "file": "belajar/01_dasar-excel/latihan/latihan_01.xlsx",
+      "formulas": 5,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 19775,
+      "sha256": "0619fe467c37355522198b1f43827c204c163ad14687801830e12cd9fd8ccafc",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan"
+      ]
+    },
+    {
+      "file": "belajar/01_dasar-excel/latihan/solusi_01.xlsx",
+      "formulas": 24,
+      "errors": 0,
+      "comparisons": 8,
+      "recalc": "success",
+      "size_bytes": 20430,
+      "sha256": "5cd5c744166987601e9f01289d78b90113b42a27c61ef796eb055e75a29598cb",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan"
+      ]
+    },
+    {
+      "file": "belajar/02_struktur-data-yang-benar/latihan/latihan_02.xlsx",
+      "formulas": 269,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 28269,
+      "sha256": "8108c1b247349c5767188220a3767a1be2d61f08a77034df6076e94505d7c73c",
+      "sheets": [
+        "Instruksi",
+        "Laporan_Lama",
+        "Data",
+        "ID_Rusak",
+        "Latihan"
+      ]
+    },
+    {
+      "file": "belajar/02_struktur-data-yang-benar/latihan/solusi_02.xlsx",
+      "formulas": 332,
+      "errors": 0,
+      "comparisons": 8,
+      "recalc": "success",
+      "size_bytes": 30306,
+      "sha256": "017bd8e7d80dbca4af859a43619801a88c8a808176639152662103c1fcd7ece4",
+      "sheets": [
+        "Instruksi",
+        "Laporan_Lama",
+        "Data",
+        "ID_Rusak",
+        "Latihan"
+      ]
+    },
+    {
+      "file": "belajar/03_formula-dasar/latihan/latihan_03.xlsx",
+      "formulas": 720,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 27637,
+      "sha256": "0183647675cffdda9e0b1094dc46513296544ed35be8446a24fb85808610ac0e",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master"
+      ]
+    },
+    {
+      "file": "belajar/03_formula-dasar/latihan/solusi_03.xlsx",
+      "formulas": 749,
+      "errors": 0,
+      "comparisons": 195,
+      "recalc": "success",
+      "size_bytes": 27947,
+      "sha256": "7fea2c6487bf252fd7db1c0017726de7e3b9e69b0615c19c8c508b2367e42edd",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master"
+      ]
+    },
+    {
+      "file": "belajar/04_logika-dan-agregasi-bersyarat/latihan/latihan_04.xlsx",
+      "formulas": 880,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 32330,
+      "sha256": "ab02d48d61c3bb7a337f41efd57430ff11c391b3742d48943623e9a7f800b89c",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master"
+      ]
+    },
+    {
+      "file": "belajar/04_logika-dan-agregasi-bersyarat/latihan/solusi_04.xlsx",
+      "formulas": 893,
+      "errors": 0,
+      "comparisons": 231,
+      "recalc": "success",
+      "size_bytes": 32770,
+      "sha256": "226042caab56da0a707bd94c6652203cae42c328591d84debc86752101d9cda8",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master"
+      ]
+    },
+    {
+      "file": "belajar/05_lookup-dan-penggabungan-referensi/latihan/latihan_05.xlsx",
+      "formulas": 805,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 26596,
+      "sha256": "dd4fd7ea14846067bf9dc6e8ebb93a82cdc47cda0e98bed02a6e71c9bca0e100",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Audit_Master"
+      ]
+    },
+    {
+      "file": "belajar/05_lookup-dan-penggabungan-referensi/latihan/solusi_05.xlsx",
+      "formulas": 814,
+      "errors": 0,
+      "comparisons": 329,
+      "recalc": "success",
+      "size_bytes": 26873,
+      "sha256": "f16ff3a18e935733ac1269fc56037700ba15d63bcb5b263f5732a9cce787bd9c",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Audit_Master"
+      ]
+    },
+    {
+      "file": "belajar/06_cleaning-dan-validasi/latihan/latihan_06.xlsx",
+      "formulas": 1005,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 31057,
+      "sha256": "39c363db7cc25107c0338f828ddfa0abc86e63e5126d72664dd0c2c717075a8c",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Input_Validasi"
+      ]
+    },
+    {
+      "file": "belajar/06_cleaning-dan-validasi/latihan/solusi_06.xlsx",
+      "formulas": 1015,
+      "errors": 0,
+      "comparisons": 314,
+      "recalc": "success",
+      "size_bytes": 31229,
+      "sha256": "d40119496429f36712e048879ceb15a418a097fb85f0645769851d5a453bd686",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Input_Validasi"
+      ]
+    },
+    {
+      "file": "belajar/07_tanggal-dan-laporan-berkala/latihan/latihan_07.xlsx",
+      "formulas": 240,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 30556,
+      "sha256": "8b9418e1863bdfbc9e7700531dcca723515212856811e219407f396c049d60e9",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Libur",
+        "Master",
+        "Laporan_Bulanan"
+      ]
+    },
+    {
+      "file": "belajar/07_tanggal-dan-laporan-berkala/latihan/solusi_07.xlsx",
+      "formulas": 253,
+      "errors": 0,
+      "comparisons": 72,
+      "recalc": "success",
+      "size_bytes": 30855,
+      "sha256": "74c5dc9fd05656793bf50604dfeb1e863e5b4ce3470d855754e87704151d8593",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Libur",
+        "Master",
+        "Laporan_Bulanan"
+      ]
+    },
+    {
+      "file": "belajar/08_pivottable-dan-pivotchart/latihan/latihan_08.xlsx",
+      "formulas": 286,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 25173,
+      "sha256": "dfc2cf3a845cc557d818825430a3015992dcd8a49318ded3840e7fef94bf812e",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Hasil_Pivot_Diharapkan"
+      ]
+    },
+    {
+      "file": "belajar/08_pivottable-dan-pivotchart/latihan/solusi_08.xlsx",
+      "formulas": 294,
+      "errors": 0,
+      "comparisons": 23,
+      "recalc": "success",
+      "size_bytes": 25342,
+      "sha256": "67f8a2c1a84532a789284f56fba116707308c086a002e119e19d4ce56d42460d",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Hasil_Pivot_Diharapkan"
+      ]
+    },
+    {
+      "file": "belajar/09_visualisasi-dan-dashboard/latihan/latihan_09.xlsx",
+      "formulas": 1168,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 48894,
+      "sha256": "e9ee071f6e249bd8f1613cdde043608f1bf48594a68eab91c9aadb478388deac",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Calculation",
+        "Report"
+      ]
+    },
+    {
+      "file": "belajar/09_visualisasi-dan-dashboard/latihan/solusi_09.xlsx",
+      "formulas": 1176,
+      "errors": 0,
+      "comparisons": 32,
+      "recalc": "success",
+      "size_bytes": 56113,
+      "sha256": "260c936a17f1a7ea582265fe6f9cf10cc43ef7deea0e8dcab3f0b98e3f8a4083",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Calculation",
+        "Report"
+      ]
+    },
+    {
+      "file": "belajar/10_power-query/latihan/latihan_10.xlsx",
+      "formulas": 624,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 25998,
+      "sha256": "d8b85289697470cb90f5d9c8d41da353a826bf84c65ebcb758246cb3ac581e4b",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Target_Wide",
+        "Hasil_Query_Diharapkan"
+      ]
+    },
+    {
+      "file": "belajar/10_power-query/latihan/solusi_10.xlsx",
+      "formulas": 631,
+      "errors": 0,
+      "comparisons": 207,
+      "recalc": "success",
+      "size_bytes": 26139,
+      "sha256": "2ca2ecffa7f8012650dc451637c030a95a5e668f92dbbb2a2019b26d96aad673",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Target_Wide",
+        "Hasil_Query_Diharapkan"
+      ]
+    },
+    {
+      "file": "belajar/11_data-model-dan-power-pivot/latihan/latihan_11.xlsx",
+      "formulas": 2112,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 46857,
+      "sha256": "a2bc5b3d20b6b5aad9418c0cb9cee1044970242c7555fdbf08af03f5e99f134a",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Produk",
+        "Kalender",
+        "Hasil_Model_Diharapkan"
+      ]
+    },
+    {
+      "file": "belajar/11_data-model-dan-power-pivot/latihan/solusi_11.xlsx",
+      "formulas": 2121,
+      "errors": 0,
+      "comparisons": 36,
+      "recalc": "success",
+      "size_bytes": 47033,
+      "sha256": "cb7f76a8dff12db13a74d37e44a5168a55913c74df40604f2dbf064f6f7e09bb",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Produk",
+        "Kalender",
+        "Hasil_Model_Diharapkan"
+      ]
+    },
+    {
+      "file": "belajar/12_statistika-terapan/latihan/latihan_12.xlsx",
+      "formulas": 34,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 16849,
+      "sha256": "b3dee2fa2ad27b4a1edb0eb1c56b7068b89436492e75584fce60887bea48f573",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Tren",
+        "Histogram"
+      ]
+    },
+    {
+      "file": "belajar/12_statistika-terapan/latihan/solusi_12.xlsx",
+      "formulas": 57,
+      "errors": 0,
+      "comparisons": 55,
+      "recalc": "success",
+      "size_bytes": 21623,
+      "sha256": "ca8ca2e643c072abeb27001ca667ffcdbee0d5dbce99a69c8f9c7b3694239825",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Tren",
+        "Histogram"
+      ]
+    },
+    {
+      "file": "belajar/13_what-if-dan-optimasi/latihan/latihan_13.xlsx",
+      "formulas": 47,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 16622,
+      "sha256": "7222c4f39845e7d8f127cf34cb8f7c41ae87d962458df9f10b99ca4f918e89a3",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Kandidat",
+        "Model",
+        "What_If"
+      ]
+    },
+    {
+      "file": "belajar/13_what-if-dan-optimasi/latihan/solusi_13.xlsx",
+      "formulas": 57,
+      "errors": 0,
+      "comparisons": 31,
+      "recalc": "success",
+      "size_bytes": 16832,
+      "sha256": "f5ec4e81b0bd7630160cb38f50e877d93583315e2ba36dff213e79868c1d0ec7",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Kandidat",
+        "Model",
+        "What_If"
+      ]
+    },
+    {
+      "file": "belajar/14_otomasi-lanjutan/latihan/latihan_14.xlsx",
+      "formulas": 246,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 19711,
+      "sha256": "429f964f24151b2ff6ebf7fb0d4cd73f3c049e05d91aa1c94639f8f6fba9cc27",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Ringkasan"
+      ]
+    },
+    {
+      "file": "belajar/14_otomasi-lanjutan/latihan/solusi_14.xlsx",
+      "formulas": 253,
+      "errors": 0,
+      "comparisons": 13,
+      "recalc": "success",
+      "size_bytes": 19860,
+      "sha256": "18a883bd8e170926018001582b477ff7d15cfc72d3ff86193104e1ac9ba5566d",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Ringkasan"
+      ]
+    },
+    {
+      "file": "belajar/15_praktik-kerja-profesional/latihan/latihan_15.xlsx",
+      "formulas": 907,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 31797,
+      "sha256": "0df59c9a609c0f82709dbb5effa131286b49ed79adad83f7efada779b04024af",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Pembayaran",
+        "Master",
+        "Calculation",
+        "Check_Pembayaran",
+        "Checks",
+        "Report"
+      ]
+    },
+    {
+      "file": "belajar/15_praktik-kerja-profesional/latihan/solusi_15.xlsx",
+      "formulas": 914,
+      "errors": 0,
+      "comparisons": 67,
+      "recalc": "success",
+      "size_bytes": 31944,
+      "sha256": "0dae4a3921edec558f63353fa4370203ffec539eb3bbc2882625595568d3e872",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Pembayaran",
+        "Master",
+        "Calculation",
+        "Check_Pembayaran",
+        "Checks",
+        "Report"
+      ]
+    },
+    {
+      "file": "belajar/15_praktik-kerja-profesional/latihan/template_15.xlsx",
+      "formulas": 914,
+      "errors": 0,
+      "comparisons": 7,
+      "recalc": "success",
+      "size_bytes": 32305,
+      "sha256": "c987ba56bb2d0025a8e3169b2f462f09784de71aa71f19ade0a27f1ffa0ba3c7",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Pembayaran",
+        "Master",
+        "Calculation",
+        "Check_Pembayaran",
+        "Checks",
+        "Report"
+      ]
+    },
+    {
+      "file": "proyek-hr/01_database-karyawan/01_database_karyawan.xlsx",
+      "formulas": 297,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 29103,
+      "sha256": "b609eb0531f0c4fd17bf403b0ea0f0a25c7e05855501b5ea2257007e09a0dc4e",
+      "sheets": [
+        "Data Karyawan",
+        "Daftar",
+        "Ringkasan",
+        "Petunjuk"
+      ]
+    },
+    {
+      "file": "proyek-hr/02_rekap-absensi-bulanan/02_rekap_absensi_bulanan.xlsx",
+      "formulas": 655,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 29336,
+      "sha256": "51c404fb77373ed7fc548fe90f9a5de48671f0b90e6ee037a7729936a002b7bb",
+      "sheets": [
+        "Absensi",
+        "Rekap Departemen",
+        "Kode & Libur",
+        "Petunjuk"
+      ]
+    },
+    {
+      "file": "proyek-hr/03_administrasi-surat-dan-atk/03_administrasi_surat_dan_atk.xlsx",
+      "formulas": 1110,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 55083,
+      "sha256": "313920fa22fc374ea046fd210e297044264054b3115dc57632870b83c35c9dd1",
+      "sheets": [
+        "Surat Masuk",
+        "Surat Keluar",
+        "Ringkasan Surat",
+        "Master ATK",
+        "Transaksi ATK",
+        "Kartu Stok",
+        "Laporan Bulanan ATK",
+        "Daftar",
+        "Petunjuk"
+      ]
+    },
+    {
+      "file": "proyek-hr/04_penggajian-dan-slip-gaji/04_penggajian_dan_slip_gaji.xlsx",
+      "formulas": 1853,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 55371,
+      "sha256": "d1f68b97b667898a5552903720427d7fa798f549b57286c965a3059f13bf018e",
+      "sheets": [
+        "Parameter",
+        "Master Karyawan",
+        "Kehadiran & Lembur",
+        "Perhitungan Gaji",
+        "Rekap Departemen",
+        "Slip Gaji",
+        "Petunjuk"
+      ]
+    },
+    {
+      "file": "proyek-hr/05_pengelolaan-cuti/05_pengelolaan_cuti.xlsx",
+      "formulas": 1401,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 50316,
+      "sha256": "cff56b0808a0e3f1a1ea172c3a2a7f75fb6e99cd6de9b4cedf5d7fdb11e62ab0",
+      "sheets": [
+        "Hari Libur 2024",
+        "Saldo Cuti",
+        "Pengajuan Cuti",
+        "Rekap Cuti",
+        "Kalender",
+        "Daftar",
+        "Petunjuk"
+      ]
+    },
+    {
+      "file": "proyek-hr/06_rekrutmen-tracker/06_rekrutmen_tracker.xlsx",
+      "formulas": 627,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 44576,
+      "sha256": "f833624a8283e06d4473b7e4708e3ccb56a003a5b478442908afe1fb7d349700",
+      "sheets": [
+        "Kandidat",
+        "Funnel",
+        "Ringkasan Rumus",
+        "Panduan Pivot",
+        "Daftar"
+      ]
+    },
+    {
+      "file": "proyek-hr/07_penilaian-kinerja-kpi/07_penilaian_kinerja_kpi.xlsx",
+      "formulas": 1097,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 38806,
+      "sha256": "bfb6dca9dc14d9ca3a2f5c5d3ad7d69fcf98d4eb7f27ce21abb2dc8fc42b9c42",
+      "sheets": [
+        "Master KPI",
+        "Penilaian",
+        "9-Box",
+        "Rekap",
+        "Petunjuk"
+      ]
+    },
+    {
+      "file": "proyek-hr/08_hr-dashboard-analitik/08_hr_dashboard_analitik.xlsx",
+      "formulas": 1636,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 69321,
+      "sha256": "1d633abec170294222de48a7f5311e0d5e743fefdf5d4f2206a2b29e187e63f3",
+      "sheets": [
+        "Dashboard",
+        "Data Karyawan",
+        "Perhitungan",
+        "Panduan Power Query",
+        "Panduan Slicer"
+      ]
+    },
+    {
+      "file": "proyek-hr/09_analisis-survei-engagement-statistik/09_analisis_survei_engagement.xlsx",
+      "formulas": 3098,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 84094,
+      "sha256": "092dd19544ce6aa0f41dba3cfe7185863a42d75ded7f2465013dd36ad0284be2",
+      "sheets": [
+        "Data Survei",
+        "Statistik Deskriptif",
+        "Korelasi",
+        "Uji t",
+        "ANOVA",
+        "Regresi",
+        "Histogram",
+        "Interpretasi"
+      ]
+    },
+    {
+      "file": "proyek-hr/10_perencanaan-tenaga-kerja-dan-otomasi/10_perencanaan_tenaga_kerja.xlsx",
+      "formulas": 196,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 31885,
+      "sha256": "c762c645bef06ee43941976a37625b6ae468c4a5d4dc96cb967c7eab7f3dcb4e",
+      "sheets": [
+        "Historis",
+        "Proyeksi",
+        "Anggaran Gaji",
+        "Data Karyawan",
+        "Panduan What-If & VBA"
+      ]
+    },
+    {
+      "file": "proyek/01_sales_profitability/workbook/latihan_sales_profitability.xlsx",
+      "formulas": 133,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 514876,
+      "sha256": "3a326c671856fc0bf1b8d7043fe8ad864728845a623df3c8960e9eeeda680b2e",
+      "sheets": [
+        "Instruksi",
+        "Raw_Data",
+        "Retur",
+        "Master",
+        "Calculation",
+        "Report",
+        "Checks"
+      ]
+    },
+    {
+      "file": "proyek/01_sales_profitability/workbook/solusi_sales_profitability.xlsx",
+      "formulas": 92656,
+      "errors": 0,
+      "comparisons": 52,
+      "recalc": "success",
+      "size_bytes": 1438710,
+      "sha256": "17542a4ab1b99597aaad11107b0fd8641e0e3b61a3667d16c61881221a5aee36",
+      "sheets": [
+        "Readme",
+        "Raw_Data",
+        "Retur",
+        "Master",
+        "Calculation",
+        "Report",
+        "Checks"
+      ]
+    },
+    {
+      "file": "proyek/02_survei_kepuasan_pelanggan/workbook/latihan_survei_kepuasan_pelanggan.xlsx",
+      "formulas": 13047,
+      "errors": 0,
+      "comparisons": 0,
+      "recalc": "success",
+      "size_bytes": 528296,
+      "sha256": "03c040882503d8d75365e14278738092d0e0f2eb31923501e205e21d74033907",
+      "sheets": [
+        "Readme",
+        "Instruksi",
+        "Codebook",
+        "Raw_Data",
+        "Master",
+        "Clean_Data",
+        "Analisis_Set",
+        "Calculation",
+        "Report",
+        "Reference",
+        "Check_Detail",
+        "Checks"
+      ]
+    },
+    {
+      "file": "proyek/02_survei_kepuasan_pelanggan/workbook/solusi_survei_kepuasan_pelanggan.xlsx",
+      "formulas": 41313,
+      "errors": 0,
+      "comparisons": 11258,
+      "recalc": "success",
+      "size_bytes": 1016946,
+      "sha256": "09c42bf43ffa75743332470a00c8869626a7bfa7544a24b6197973063da36643",
+      "sheets": [
+        "Readme",
+        "Codebook",
+        "Raw_Data",
+        "Master",
+        "Clean_Data",
+        "Analisis_Set",
+        "Calculation",
+        "Report",
+        "Reference",
+        "Check_Detail",
+        "Checks"
+      ]
+    },
+    {
+      "file": "proyek/03_inventory_operations/workbook/latihan_inventory_operations.xlsx",
+      "formulas": 74199,
+      "errors": 0,
+      "comparisons": 44100,
+      "recalc": "success",
+      "size_bytes": 1192907,
+      "sha256": "c3560caf3581eb7fae8762971f9d0c243d1504e81f1c9ec9d758a3ebf17cb07c",
+      "sheets": [
+        "Readme",
+        "Raw_Data",
+        "Master",
+        "Permintaan_Harian",
+        "Calculation",
+        "Report",
+        "Checks",
+        "Purchase_Order"
+      ]
+    },
+    {
+      "file": "proyek/03_inventory_operations/workbook/solusi_inventory_operations.xlsx",
+      "formulas": 74376,
+      "errors": 0,
+      "comparisons": 44520,
+      "recalc": "success",
+      "size_bytes": 1196246,
+      "sha256": "c5bea1f5dd42ba2283099fe9caf64e23185843e000afdee9d7a6aefd8c76dfca",
+      "sheets": [
+        "Readme",
+        "Raw_Data",
+        "Master",
+        "Permintaan_Harian",
+        "Calculation",
+        "Report",
+        "Checks",
+        "Purchase_Order"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "module": "02_struktur-data-yang-benar",
+      "status": "SELESAI",
+      "words": 1771,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/02_struktur-data-yang-benar/latihan/latihan_02.xlsx",
+          "formulas": 269,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 28269,
+          "sha256": "8108c1b247349c5767188220a3767a1be2d61f08a77034df6076e94505d7c73c",
+          "sheets": [
+            "Instruksi",
+            "Laporan_Lama",
+            "Data",
+            "ID_Rusak",
+            "Latihan"
+          ]
+        },
+        {
+          "file": "belajar/02_struktur-data-yang-benar/latihan/solusi_02.xlsx",
+          "formulas": 332,
+          "errors": 0,
+          "comparisons": 8,
+          "recalc": "success",
+          "size_bytes": 30306,
+          "sha256": "017bd8e7d80dbca4af859a43619801a88c8a808176639152662103c1fcd7ece4",
+          "sheets": [
+            "Instruksi",
+            "Laporan_Lama",
+            "Data",
+            "ID_Rusak",
+            "Latihan"
+          ]
+        }
+      ],
+      "formulas": 601,
+      "errors": 0
+    },
+    {
+      "module": "03_formula-dasar",
+      "status": "SELESAI",
+      "words": 1637,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/03_formula-dasar/latihan/latihan_03.xlsx",
+          "formulas": 720,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 27637,
+          "sha256": "0183647675cffdda9e0b1094dc46513296544ed35be8446a24fb85808610ac0e",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master"
+          ]
+        },
+        {
+          "file": "belajar/03_formula-dasar/latihan/solusi_03.xlsx",
+          "formulas": 749,
+          "errors": 0,
+          "comparisons": 195,
+          "recalc": "success",
+          "size_bytes": 27947,
+          "sha256": "7fea2c6487bf252fd7db1c0017726de7e3b9e69b0615c19c8c508b2367e42edd",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master"
+          ]
+        }
+      ],
+      "formulas": 1469,
+      "errors": 0
+    },
+    {
+      "module": "04_logika-dan-agregasi-bersyarat",
+      "status": "SELESAI",
+      "words": 1516,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/04_logika-dan-agregasi-bersyarat/latihan/latihan_04.xlsx",
+          "formulas": 880,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 32330,
+          "sha256": "ab02d48d61c3bb7a337f41efd57430ff11c391b3742d48943623e9a7f800b89c",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master"
+          ]
+        },
+        {
+          "file": "belajar/04_logika-dan-agregasi-bersyarat/latihan/solusi_04.xlsx",
+          "formulas": 893,
+          "errors": 0,
+          "comparisons": 231,
+          "recalc": "success",
+          "size_bytes": 32770,
+          "sha256": "226042caab56da0a707bd94c6652203cae42c328591d84debc86752101d9cda8",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master"
+          ]
+        }
+      ],
+      "formulas": 1773,
+      "errors": 0
+    },
+    {
+      "module": "05_lookup-dan-penggabungan-referensi",
+      "status": "SELESAI",
+      "words": 1470,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/05_lookup-dan-penggabungan-referensi/latihan/latihan_05.xlsx",
+          "formulas": 805,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 26596,
+          "sha256": "dd4fd7ea14846067bf9dc6e8ebb93a82cdc47cda0e98bed02a6e71c9bca0e100",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master",
+            "Audit_Master"
+          ]
+        },
+        {
+          "file": "belajar/05_lookup-dan-penggabungan-referensi/latihan/solusi_05.xlsx",
+          "formulas": 814,
+          "errors": 0,
+          "comparisons": 329,
+          "recalc": "success",
+          "size_bytes": 26873,
+          "sha256": "f16ff3a18e935733ac1269fc56037700ba15d63bcb5b263f5732a9cce787bd9c",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master",
+            "Audit_Master"
+          ]
+        }
+      ],
+      "formulas": 1619,
+      "errors": 0
+    },
+    {
+      "module": "06_cleaning-dan-validasi",
+      "status": "SELESAI",
+      "words": 1520,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/06_cleaning-dan-validasi/latihan/latihan_06.xlsx",
+          "formulas": 1005,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 31057,
+          "sha256": "39c363db7cc25107c0338f828ddfa0abc86e63e5126d72664dd0c2c717075a8c",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Input_Validasi"
+          ]
+        },
+        {
+          "file": "belajar/06_cleaning-dan-validasi/latihan/solusi_06.xlsx",
+          "formulas": 1015,
+          "errors": 0,
+          "comparisons": 314,
+          "recalc": "success",
+          "size_bytes": 31229,
+          "sha256": "d40119496429f36712e048879ceb15a418a097fb85f0645769851d5a453bd686",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Input_Validasi"
+          ]
+        }
+      ],
+      "formulas": 2020,
+      "errors": 0
+    },
+    {
+      "module": "07_tanggal-dan-laporan-berkala",
+      "status": "SELESAI",
+      "words": 1474,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/07_tanggal-dan-laporan-berkala/latihan/latihan_07.xlsx",
+          "formulas": 240,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 30556,
+          "sha256": "8b9418e1863bdfbc9e7700531dcca723515212856811e219407f396c049d60e9",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Libur",
+            "Master",
+            "Laporan_Bulanan"
+          ]
+        },
+        {
+          "file": "belajar/07_tanggal-dan-laporan-berkala/latihan/solusi_07.xlsx",
+          "formulas": 253,
+          "errors": 0,
+          "comparisons": 72,
+          "recalc": "success",
+          "size_bytes": 30855,
+          "sha256": "74c5dc9fd05656793bf50604dfeb1e863e5b4ce3470d855754e87704151d8593",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Libur",
+            "Master",
+            "Laporan_Bulanan"
+          ]
+        }
+      ],
+      "formulas": 493,
+      "errors": 0
+    },
+    {
+      "module": "08_pivottable-dan-pivotchart",
+      "status": "SELESAI",
+      "words": 1539,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/08_pivottable-dan-pivotchart/latihan/latihan_08.xlsx",
+          "formulas": 286,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 25173,
+          "sha256": "dfc2cf3a845cc557d818825430a3015992dcd8a49318ded3840e7fef94bf812e",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Hasil_Pivot_Diharapkan"
+          ]
+        },
+        {
+          "file": "belajar/08_pivottable-dan-pivotchart/latihan/solusi_08.xlsx",
+          "formulas": 294,
+          "errors": 0,
+          "comparisons": 23,
+          "recalc": "success",
+          "size_bytes": 25342,
+          "sha256": "67f8a2c1a84532a789284f56fba116707308c086a002e119e19d4ce56d42460d",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Hasil_Pivot_Diharapkan"
+          ]
+        }
+      ],
+      "formulas": 580,
+      "errors": 0
+    },
+    {
+      "module": "09_visualisasi-dan-dashboard",
+      "status": "SELESAI",
+      "words": 1464,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/09_visualisasi-dan-dashboard/latihan/latihan_09.xlsx",
+          "formulas": 1168,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 48894,
+          "sha256": "e9ee071f6e249bd8f1613cdde043608f1bf48594a68eab91c9aadb478388deac",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master",
+            "Calculation",
+            "Report"
+          ]
+        },
+        {
+          "file": "belajar/09_visualisasi-dan-dashboard/latihan/solusi_09.xlsx",
+          "formulas": 1176,
+          "errors": 0,
+          "comparisons": 32,
+          "recalc": "success",
+          "size_bytes": 56113,
+          "sha256": "260c936a17f1a7ea582265fe6f9cf10cc43ef7deea0e8dcab3f0b98e3f8a4083",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master",
+            "Calculation",
+            "Report"
+          ]
+        }
+      ],
+      "formulas": 2344,
+      "errors": 0
+    },
+    {
+      "module": "10_power-query",
+      "status": "SELESAI",
+      "words": 1519,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/10_power-query/latihan/latihan_10.xlsx",
+          "formulas": 624,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 25998,
+          "sha256": "d8b85289697470cb90f5d9c8d41da353a826bf84c65ebcb758246cb3ac581e4b",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master",
+            "Target_Wide",
+            "Hasil_Query_Diharapkan"
+          ]
+        },
+        {
+          "file": "belajar/10_power-query/latihan/solusi_10.xlsx",
+          "formulas": 631,
+          "errors": 0,
+          "comparisons": 207,
+          "recalc": "success",
+          "size_bytes": 26139,
+          "sha256": "2ca2ecffa7f8012650dc451637c030a95a5e668f92dbbb2a2019b26d96aad673",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master",
+            "Target_Wide",
+            "Hasil_Query_Diharapkan"
+          ]
+        }
+      ],
+      "formulas": 1255,
+      "errors": 0
+    },
+    {
+      "module": "11_data-model-dan-power-pivot",
+      "status": "SELESAI",
+      "words": 1518,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/11_data-model-dan-power-pivot/latihan/latihan_11.xlsx",
+          "formulas": 2112,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 46857,
+          "sha256": "a2bc5b3d20b6b5aad9418c0cb9cee1044970242c7555fdbf08af03f5e99f134a",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Produk",
+            "Kalender",
+            "Hasil_Model_Diharapkan"
+          ]
+        },
+        {
+          "file": "belajar/11_data-model-dan-power-pivot/latihan/solusi_11.xlsx",
+          "formulas": 2121,
+          "errors": 0,
+          "comparisons": 36,
+          "recalc": "success",
+          "size_bytes": 47033,
+          "sha256": "cb7f76a8dff12db13a74d37e44a5168a55913c74df40604f2dbf064f6f7e09bb",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Produk",
+            "Kalender",
+            "Hasil_Model_Diharapkan"
+          ]
+        }
+      ],
+      "formulas": 4233,
+      "errors": 0
+    },
+    {
+      "module": "12_statistika-terapan",
+      "status": "SELESAI",
+      "words": 1660,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/12_statistika-terapan/latihan/latihan_12.xlsx",
+          "formulas": 34,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 16849,
+          "sha256": "b3dee2fa2ad27b4a1edb0eb1c56b7068b89436492e75584fce60887bea48f573",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Tren",
+            "Histogram"
+          ]
+        },
+        {
+          "file": "belajar/12_statistika-terapan/latihan/solusi_12.xlsx",
+          "formulas": 57,
+          "errors": 0,
+          "comparisons": 55,
+          "recalc": "success",
+          "size_bytes": 21623,
+          "sha256": "ca8ca2e643c072abeb27001ca667ffcdbee0d5dbce99a69c8f9c7b3694239825",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Tren",
+            "Histogram"
+          ]
+        }
+      ],
+      "formulas": 91,
+      "errors": 0
+    },
+    {
+      "module": "13_what-if-dan-optimasi",
+      "status": "SELESAI",
+      "words": 1596,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/13_what-if-dan-optimasi/latihan/latihan_13.xlsx",
+          "formulas": 47,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 16622,
+          "sha256": "7222c4f39845e7d8f127cf34cb8f7c41ae87d962458df9f10b99ca4f918e89a3",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master",
+            "Kandidat",
+            "Model",
+            "What_If"
+          ]
+        },
+        {
+          "file": "belajar/13_what-if-dan-optimasi/latihan/solusi_13.xlsx",
+          "formulas": 57,
+          "errors": 0,
+          "comparisons": 31,
+          "recalc": "success",
+          "size_bytes": 16832,
+          "sha256": "f5ec4e81b0bd7630160cb38f50e877d93583315e2ba36dff213e79868c1d0ec7",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Master",
+            "Kandidat",
+            "Model",
+            "What_If"
+          ]
+        }
+      ],
+      "formulas": 104,
+      "errors": 0
+    },
+    {
+      "module": "14_otomasi-lanjutan",
+      "status": "SELESAI",
+      "words": 1523,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/14_otomasi-lanjutan/latihan/latihan_14.xlsx",
+          "formulas": 246,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 19711,
+          "sha256": "429f964f24151b2ff6ebf7fb0d4cd73f3c049e05d91aa1c94639f8f6fba9cc27",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Ringkasan"
+          ]
+        },
+        {
+          "file": "belajar/14_otomasi-lanjutan/latihan/solusi_14.xlsx",
+          "formulas": 253,
+          "errors": 0,
+          "comparisons": 13,
+          "recalc": "success",
+          "size_bytes": 19860,
+          "sha256": "18a883bd8e170926018001582b477ff7d15cfc72d3ff86193104e1ac9ba5566d",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Ringkasan"
+          ]
+        }
+      ],
+      "formulas": 499,
+      "errors": 0
+    },
+    {
+      "module": "15_praktik-kerja-profesional",
+      "status": "SELESAI",
+      "words": 1506,
+      "exercises": 7,
+      "files": [
+        {
+          "file": "belajar/15_praktik-kerja-profesional/latihan/latihan_15.xlsx",
+          "formulas": 907,
+          "errors": 0,
+          "comparisons": 0,
+          "recalc": "success",
+          "size_bytes": 31797,
+          "sha256": "0df59c9a609c0f82709dbb5effa131286b49ed79adad83f7efada779b04024af",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Pembayaran",
+            "Master",
+            "Calculation",
+            "Check_Pembayaran",
+            "Checks",
+            "Report"
+          ]
+        },
+        {
+          "file": "belajar/15_praktik-kerja-profesional/latihan/solusi_15.xlsx",
+          "formulas": 914,
+          "errors": 0,
+          "comparisons": 67,
+          "recalc": "success",
+          "size_bytes": 31944,
+          "sha256": "0dae4a3921edec558f63353fa4370203ffec539eb3bbc2882625595568d3e872",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Pembayaran",
+            "Master",
+            "Calculation",
+            "Check_Pembayaran",
+            "Checks",
+            "Report"
+          ]
+        },
+        {
+          "file": "belajar/15_praktik-kerja-profesional/latihan/template_15.xlsx",
+          "formulas": 914,
+          "errors": 0,
+          "comparisons": 7,
+          "recalc": "success",
+          "size_bytes": 32305,
+          "sha256": "c987ba56bb2d0025a8e3169b2f462f09784de71aa71f19ade0a27f1ffa0ba3c7",
+          "sheets": [
+            "Instruksi",
+            "Data",
+            "Latihan",
+            "Pembayaran",
+            "Master",
+            "Calculation",
+            "Check_Pembayaran",
+            "Checks",
+            "Report"
+          ]
+        }
+      ],
+      "formulas": 2735,
+      "errors": 0
+    }
+  ],
+  "total_formulas": 327539,
+  "total_errors": 0,
+  "total_comparisons": 101558,
+  "relative_links": 430,
+  "broken_links": 0,
+  "blocked_terms": 0,
+  "raw_term_matches": 1,
+  "term_exceptions": [
+    {
+      "file": "proyek-hr/tools/p09.py",
+      "line": 148,
+      "reason": "Penanda rentang kolom Excel pada komentar teknis unit final"
+    }
+  ],
+  "protected_files": 173,
+  "protected_identical": true,
+  "tracked_bytes": 20079870
+}

@@ -15,11 +15,11 @@ Konvensi warna sel di semua workbook: font biru = input/data mentah, font hitam 
 
 ## Prasyarat
 
-- Excel 2016 atau lebih baru. Beberapa fungsi (XLOOKUP, TEXTSPLIT, IFS) hanya ada di Excel 2019/365; setiap modul menyediakan alternatifnya.
+- Excel 2016 atau lebih baru. Ketersediaan fungsi modern seperti XLOOKUP, TEXTSPLIT, dan IFS bergantung versi; setiap modul menyediakan alternatif untuk Excel 2016 dan menjelaskan batasnya.
 - Pengaturan regional: contoh di README ditulis untuk Excel regional Indonesia (pemisah argumen `;`, desimal `,`). Pada regional Inggris, ganti `;` dengan `,` dan desimal dengan `.`. Di dalam file `.xlsx`, rumus selalu tersimpan dengan koma dan nama fungsi Inggris; Excel menyesuaikan tampilannya otomatis.
 - Power Query dan Power Pivot (modul 10 dan 11): Excel 2016+ untuk Windows. Pada Mac, Power Query tersedia terbatas di Microsoft 365 dan Power Pivot tidak tersedia.
 - Solver (modul 13): add-in bawaan, aktifkan lewat `File > Options > Add-ins > Go > Solver Add-in`.
-- Untuk menjalankan ulang skrip pembangun: Python 3.10+, `pandas`, `numpy`, `openpyxl`, `scipy` (modul 13). Verifikasi memakai LibreOffice headless.
+- Untuk menjalankan ulang skrip pembangun: Python 3.10+, `pandas`, `numpy`, `openpyxl`, `scipy` (statistika dan optimasi). Verifikasi memakai LibreOffice headless.
 
 ## Daftar modul
 
@@ -27,7 +27,7 @@ Konvensi warna sel di semua workbook: font biru = input/data mentah, font hitam 
 |---|---|---|---|---|
 | 01 | [Dasar Excel](01_dasar-excel/) | cell/range, shortcut, format angka-tanggal-persen, Paste Special, Sort, Filter, Freeze Panes, nilai vs tampilan | 3 jam | - |
 | 02 | [Struktur data yang benar](02_struktur-data-yang-benar/) | tidy data, Excel Table (Ctrl+T), structured references, tipe data, ID berawalan nol, anti-pola | 3 jam | 01 |
-| 03 | [Formula dasar](03_formula-dasar/) | operator, referensi relatif/absolut/campuran, SUM..COUNTBLANK, ROUND/ROUNDUP/ROUNDDOWN | 4 jam | 01 |
+| 03 | [Formula dasar](03_formula-dasar/) | operator, referensi relatif/absolut/campuran, SUM..COUNTBLANK, ROUND | 4 jam | 01 |
 | 04 | [Logika dan agregasi bersyarat](04_logika-dan-agregasi-bersyarat/) | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS, wildcard, kriteria tanggal | 5 jam | 03 |
 | 05 | [Lookup dan penggabungan referensi](05_lookup-dan-penggabungan-referensi/) | XLOOKUP, VLOOKUP, INDEX-MATCH, kunci unik, IFNA vs IFERROR | 5 jam | 03, 04 |
 | 06 | [Cleaning dan validasi](06_cleaning-dan-validasi/) | TRIM/CLEAN/SUBSTITUTE, teks, konversi angka, duplikat, outlier IQR, Data Validation, Conditional Formatting | 6 jam | 02, 05 |
@@ -51,6 +51,8 @@ File `.xlsx` dibangun dengan openpyxl dan dihitung ulang dengan LibreOffice untu
 - Fungsi array dinamis (XLOOKUP, FILTER, UNIQUE, TEXTSPLIT, LET) **dijelaskan di README dengan contoh**, tetapi di file dipakai alternatifnya (INDEX/MATCH, SUMIFS, kolom bantu) agar kompatibel dengan Excel 2016 dan mesin verifikasi.
 - PivotTable, Slicer, Timeline, Power Query, Data Model, Solver, Goal Seek, dan makro **tidak bisa disisipkan otomatis**. Untuk fitur-fitur itu saya menyediakan dataset siap pakai, langkah klik presisi, skrip (M, DAX, VBA, Office Script) yang bisa ditempel, dan sheet "hasil yang diharapkan" yang dihitung dengan rumus biasa sebagai pembanding. Setiap README modul menuliskan batasan ini pada bagian kompatibilitas.
 
+Panduan tambahan: [fungsi modern dan alternatif Excel 2016](docs/fungsi_modern_dan_alternatif_2016.md). Contohnya hanya berada di dokumen; workbook mempertahankan jalur fungsi yang kompatibel.
+
 ## Struktur folder
 
 ```
@@ -69,6 +71,8 @@ belajar/
 ```
 
 Membangun ulang satu modul: `cd belajar/NN_slug && python tools/build.py`. Memverifikasi: `cd belajar && python tools/verify.py NN_slug`.
+
+Bukti penutup: [verifikasi seluruh repositori](VERIFIKASI_REPO.md). Setiap modul tetap mempunyai laporan terpisah dan batas pengujian yang dijelaskan.
 
 ## Hubungan dengan proyek portofolio
 

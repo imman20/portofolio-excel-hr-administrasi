@@ -39,8 +39,10 @@ def main():
         for cell,label in [('A4','Penjualan (Rp)'),('A5','Laba kotor (Rp)'),('E4','Pencapaian'),('E5','Margin kotor')]:L.label(report,cell,label)
         for cell,f,fmt in [('C4','=SUM(Calculation!B2:B7)','#,##0'),('C5','=SUM(Calculation!D2:D7)','#,##0'),('G4','=IF(SUM(Calculation!C2:C7)=0,0,C4/SUM(Calculation!C2:C7))','0.0%'),('G5','=IF(C4=0,0,C5/C4)','0.0%')]:L.sel_rumus(report,cell,f,fmt,bold=True)
         if sol:
-            line=LineChart();line.title='Tren bulanan vs target';line.y_axis.title='Rupiah';line.x_axis.title='Bulan';line.add_data(Reference(cal,min_col=2,max_col=3,min_row=1,max_row=7),titles_from_data=True);line.set_categories(Reference(cal,min_col=1,min_row=2,max_row=7));line.width=12.5;line.height=8;line.legend.position='b';report.add_chart(line,'A8')
-            bar=BarChart();bar.title='Penjualan per kategori';bar.y_axis.title='Rupiah';bar.add_data(Reference(cal,min_col=2,min_row=11,max_row=14),titles_from_data=True);bar.set_categories(Reference(cal,min_col=1,min_row=12,max_row=14));bar.width=12.5;bar.height=8;bar.legend=None;report.add_chart(bar,'E8')
+            line=LineChart();line.title='Tren bulanan vs target';line.y_axis.title='Rupiah';line.x_axis.title='Bulan';line.add_data(Reference(cal,min_col=2,max_col=3,min_row=1,max_row=7),titles_from_data=True);line.set_categories(Reference(cal,min_col=1,min_row=2,max_row=7));line.width=12.5;line.height=8;line.legend.position='b';line.smooth=False;line.y_axis.scaling.min=0
+            for series in line.series:series.smooth=False;series.marker.symbol='circle';series.marker.size=4
+            report.add_chart(line,'A8')
+            bar=BarChart();bar.title='Penjualan per kategori';bar.y_axis.title='Rupiah';bar.y_axis.scaling.min=0;bar.add_data(Reference(cal,min_col=2,min_row=11,max_row=14),titles_from_data=True);bar.set_categories(Reference(cal,min_col=1,min_row=12,max_row=14));bar.width=12.5;bar.height=8;bar.legend=None;report.add_chart(bar,'E8')
         L.tulis_header(report,26,1,['Bulan','Penjualan','Target','Pencapaian'])
         for i,j in enumerate(range(2,8),27):
             for c,source in [('A','A'),('B','B'),('C','C'),('D','E')]:L.sel_rumus(report,c+str(i),f'=Calculation!{source}{j}','dd/mm/yyyy' if c=='A' else '0.0%' if c=='D' else '#,##0')

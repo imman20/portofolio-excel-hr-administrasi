@@ -37,7 +37,7 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 |---|---|
 | Jalur belajar: README, roadmap 10 minggu, pemetaan karier | Selesai |
 | Modul belajar 01 Dasar Excel | Selesai: README, dataset, workbook latihan dan solusi, kunci jawaban, verifikasi |
-| Modul belajar 02 sampai 15 | 14 dari 14 modul selesai; rincian di bawah |
+| Modul belajar 02 sampai 15 | Selesai: 14 modul, dataset, latihan dan solusi, dokumentasi, preview, serta verifikasi |
 | Modul belajar 02 | Selesai: [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) |
 | Modul belajar 03 | Selesai: [Formula dasar](belajar/03_formula-dasar/) |
 | Modul belajar 04 | Selesai: [Logika dan agregasi bersyarat](belajar/04_logika-dan-agregasi-bersyarat/) |
@@ -57,7 +57,7 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 | Proyek portofolio analisis 02 Survei Kepuasan Pelanggan | Selesai: audit data, latihan dan solusi, statistik, dokumentasi, preview, verifikasi |
 | Proyek portofolio analisis 03 Inventory & Operations | Selesai: data, stok harian, latihan dan solusi, dokumentasi, preview, verifikasi |
 
-Bagian bertanda "menyusul" belum ada di repositori dan akan ditambahkan dengan standar yang sama. Saya sengaja tidak memasang file kosong atau setengah jadi.
+Semua unit pada tabel status sudah tersedia. Materi belajar dan proyek tetap merupakan latihan serta simulasi dengan batas pengujian yang dijelaskan pada setiap unit.
 
 ## Tiga bagian repositori
 
@@ -123,6 +123,8 @@ Sepuluh proyek bertingkat (pemula sampai lanjut) dengan tutorial langkah demi la
 - Setiap file di-recalculate dengan LibreOffice headless dan diperiksa: nol error (`#REF!`, `#NAME?`, `#DIV/0!`, `#VALUE!`, `#N/A` yang tidak disengaja). Total kunci dicocokkan dengan perhitungan pandas. Hasil dicatat di `VERIFIKASI.md` tiap unit.
 - Preview PNG berasal dari render nyata file (LibreOffice ke PDF ke PNG), bukan gambar buatan.
 - Untuk membangun ulang semuanya dibutuhkan Python 3.10+, `openpyxl`, `pandas`, `numpy`, `scipy`, serta LibreOffice headless dan pdftoppm untuk verifikasi dan preview.
+
+Bukti penutup tersedia pada [verifikasi menyeluruh repositori](belajar/VERIFIKASI_REPO.md), termasuk jumlah rumus, hasil recalc, rekonsiliasi, tautan, dan batas audit.
 
 ## Batasan tool dan langkah manual
 
