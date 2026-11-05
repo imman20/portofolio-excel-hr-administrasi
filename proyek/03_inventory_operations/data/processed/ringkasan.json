@@ -1,0 +1,93 @@
+{
+  "tanggal": "2026-11-05",
+  "sku": 60,
+  "supplier": 8,
+  "pergerakan": 9087,
+  "purchase_order": 500,
+  "status": {
+    "NORMAL": 27,
+    "OVERSTOCK": 25,
+    "RISIKO HABIS": 8
+  },
+  "abc": {
+    "A": 31,
+    "B": 18,
+    "C": 11
+  },
+  "top5": [
+    {
+      "sku": "SKU021",
+      "usulan_pesan": 207.10213517483749,
+      "status": "RISIKO HABIS"
+    },
+    {
+      "sku": "SKU051",
+      "usulan_pesan": 111.1347143014815,
+      "status": "RISIKO HABIS"
+    },
+    {
+      "sku": "SKU042",
+      "usulan_pesan": 110.57033634856032,
+      "status": "NORMAL"
+    },
+    {
+      "sku": "SKU027",
+      "usulan_pesan": 105.85210882480328,
+      "status": "NORMAL"
+    },
+    {
+      "sku": "SKU026",
+      "usulan_pesan": 100.05685101302947,
+      "status": "NORMAL"
+    }
+  ],
+  "rata_turnover": 9.83061602348104,
+  "total_stockout": 1770,
+  "total_stok": 70987,
+  "nilai_stok": 6470217000,
+  "files": [
+    {
+      "file": "latihan_inventory_operations.xlsx",
+      "formulas": 74199,
+      "errors": 0,
+      "size_kb": 1164.9,
+      "recalc": "success",
+      "sheets": [
+        "Readme",
+        "Raw_Data",
+        "Master",
+        "Permintaan_Harian",
+        "Calculation",
+        "Report",
+        "Checks",
+        "Purchase_Order"
+      ]
+    },
+    {
+      "file": "solusi_inventory_operations.xlsx",
+      "formulas": 74376,
+      "errors": 0,
+      "size_kb": 1168.2,
+      "recalc": "success",
+      "sheets": [
+        "Readme",
+        "Raw_Data",
+        "Master",
+        "Permintaan_Harian",
+        "Calculation",
+        "Report",
+        "Checks",
+        "Purchase_Order"
+      ]
+    }
+  ],
+  "rekonsiliasi": 184,
+  "rekonsiliasi_detail": 3063,
+  "sel_harian_diperiksa": 87840,
+  "hash_csv": {
+    "master_sku.csv": "dc3de26557774bdb06b0edad94ce8cf75bcb409079caaae2ae794a9a62d5745f",
+    "pergerakan.csv": "176591c47ddc30f18f1c86434e779edd34f0b2388d5fe14708b1036aa5186e42",
+    "purchase_order.csv": "23d97211668a8d6857c23b72f0408ad4367e15f9ca919476168356e6ee593d02",
+    "supplier.csv": "72fc6287b98591ad6965de4dd851ad166d5975ecbdfead1831539be07c91ff43"
+  }
+}
