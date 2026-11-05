@@ -72,4 +72,4 @@ Membangun ulang satu modul: `cd belajar/NN_slug && python tools/build.py`. Memve
 
 ## Hubungan dengan proyek portofolio
 
-Setelah modul 09, saya menerapkan semuanya pada [Sales & Profitability](../proyek/01_sales_profitability/) dan proyek tematik HR di `../proyek-hr/`. Survei Kepuasan Pelanggan dan Inventory & Operations menyusul. Proyek-proyek itu juga memakai data simulasi berlabel jelas; pemetaannya ada di `PEMETAAN-KARIER.md`.
+Setelah modul 09, saya menerapkan semuanya pada [Sales & Profitability](../proyek/01_sales_profitability/) dan proyek tematik HR di `../proyek-hr/`. [Survei Kepuasan Pelanggan](../proyek/02_survei_kepuasan_pelanggan/) sudah tersedia untuk latihan cleaning, CI, uji t Welch, alpha, dan NPS; Inventory & Operations menyusul. Proyek-proyek itu juga memakai data simulasi berlabel jelas; pemetaannya ada di `PEMETAAN-KARIER.md`.

@@ -1,0 +1,35 @@
+{
+  "sel_kosong_skor": 174,
+  "teks_na": 12,
+  "teks_strip": 10,
+  "angka_berspasi": 15,
+  "luar_rentang_0": 5,
+  "luar_rentang_6": 5,
+  "luar_rentang_7": 3,
+  "usia_outlier": 2,
+  "tanggal_format_dmy": 62,
+  "kanal_kapitalisasi": 34,
+  "baris_duplikat": 6,
+  "duplikat_id": [
+    "R-0094",
+    "R-0097",
+    "R-0179",
+    "R-0297",
+    "R-0377",
+    "R-0390"
+  ],
+  "total_baris_raw": 420,
+  "cakupan_hitungan": "Kunci masalah di tingkat atas dihitung pada 414 ID unik sebelum duplikasi; hitungan_csv_akhir mencakup seluruh 420 baris.",
+  "hitungan_csv_akhir": {
+    "sel_kosong_skor": 175,
+    "teks_na": 12,
+    "teks_strip": 10,
+    "angka_berspasi": 16,
+    "luar_rentang_0": 5,
+    "luar_rentang_6": 5,
+    "luar_rentang_7": 3,
+    "usia_outlier": 2,
+    "tanggal_format_dmy": 62,
+    "kanal_kapitalisasi": 34
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-05T18:56:39.317664+07:00",
+  "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "files": [
+    {
+      "file": "latihan_survei_kepuasan_pelanggan.xlsx",
+      "sheets": [
+        "Readme",
+        "Instruksi",
+        "Codebook",
+        "Raw_Data",
+        "Master",
+        "Clean_Data",
+        "Analisis_Set",
+        "Calculation",
+        "Report",
+        "Reference",
+        "Check_Detail",
+        "Checks"
+      ],
+      "formula_count": 13047,
+      "error_count": 0,
+      "status": "success (LibreOffice headless)",
+      "size_kb": 515.9,
+      "functions": [
+        "AND",
+        "AVERAGE",
+        "COUNT",
+        "COUNTA",
+        "COUNTIFS",
+        "DATE",
+        "IF",
+        "IFERROR",
+        "INDEX",
+        "LEFT",
+        "LEN",
+        "MATCH",
+        "MID",
+        "RIGHT",
+        "ROUND",
+        "SUBSTITUTE",
+        "SUM",
+        "TEXT",
+        "TRIM",
+        "VALUE"
+      ],
+      "reconciliation": "PASS contoh; BELUM DIISI pada sel latihan"
+    },
+    {
+      "file": "solusi_survei_kepuasan_pelanggan.xlsx",
+      "sheets": [
+        "Readme",
+        "Codebook",
+        "Raw_Data",
+        "Master",
+        "Clean_Data",
+        "Analisis_Set",
+        "Calculation",
+        "Report",
+        "Reference",
+        "Check_Detail",
+        "Checks"
+      ],
+      "formula_count": 41313,
+      "error_count": 0,
+      "status": "success (LibreOffice headless)",
+      "size_kb": 993.1,
+      "functions": [
+        "ABS",
+        "AND",
+        "AVERAGE",
+        "AVERAGEIFS",
+        "CONFIDENCE.T",
+        "CORREL",
+        "COUNT",
+        "COUNTA",
+        "COUNTBLANK",
+        "COUNTIFS",
+        "DATE",
+        "IF",
+        "IFERROR",
+        "INDEX",
+        "LEFT",
+        "LEN",
+        "LINEST",
+        "MATCH",
+        "MID",
+        "MIN",
+        "OR",
+        "RIGHT",
+        "ROUND",
+        "SQRT",
+        "STDEV.S",
+        "SUBSTITUTE",
+        "SUM",
+        "SUMPRODUCT",
+        "T.INV.2T",
+        "T.TEST",
+        "TEXT",
+        "TRIM",
+        "VALUE",
+        "VAR.S"
+      ],
+      "reconciliation": "PASS"
+    }
+  ],
+  "quality": {
+    "sebelum_duplikasi": {
+      "sel_kosong_skor": 174,
+      "teks_na": 12,
+      "teks_strip": 10,
+      "angka_berspasi": 15,
+      "luar_rentang_0": 5,
+      "luar_rentang_6": 5,
+      "luar_rentang_7": 3,
+      "usia_outlier": 2,
+      "tanggal_format_dmy": 62,
+      "kanal_kapitalisasi": 34
+    },
+    "csv_akhir": {
+      "sel_kosong_skor": 175,
+      "teks_na": 12,
+      "teks_strip": 10,
+      "angka_berspasi": 16,
+      "luar_rentang_0": 5,
+      "luar_rentang_6": 5,
+      "luar_rentang_7": 3,
+      "usia_outlier": 2,
+      "tanggal_format_dmy": 62,
+      "kanal_kapitalisasi": 34
+    },
+    "duplikat_id": [
+      "R-0094",
+      "R-0097",
+      "R-0179",
+      "R-0297",
+      "R-0377",
+      "R-0390"
+    ],
+    "total_baris_raw": 420,
+    "n_bersih": 414
+  },
+  "statistics": {
+    "n_bersih": 414,
+    "dimensions": {
+      "Produk": {
+        "n": 369,
+        "mean": 4.011743450767841,
+        "sd": 0.6969009221950395,
+        "margin": 0.07134057857973913,
+        "ci_low": 3.940402872188102,
+        "ci_high": 4.08308402934758,
+        "alpha": 0.8134822222821254
+      },
+      "Layanan": {
+        "n": 375,
+        "mean": 3.7182222222222228,
+        "sd": 0.7866664652506867,
+        "margin": 0.07987866285534499,
+        "ci_low": 3.6383435593668776,
+        "ci_high": 3.798100885077568,
+        "alpha": 0.835164427193216
+      },
+      "Harga": {
+        "n": 372,
+        "mean": 3.2455197132616487,
+        "sd": 0.7499990607359447,
+        "margin": 0.07646389794909117,
+        "ci_low": 3.1690558153125576,
+        "ci_high": 3.3219836112107397,
+        "alpha": 0.7999625009303204
+      },
+      "Pengiriman": {
+        "n": 366,
+        "mean": 3.4617486338797816,
+        "sd": 0.8354184558094877,
+        "margin": 0.08587249305363197,
+        "ci_low": 3.3758761408261497,
+        "ci_high": 3.5476211269334135,
+        "alpha": 0.8496104852577874
+      }
+    },
+    "overall": {
+      "n": 395,
+      "mean": 3.90126582278481,
+      "sd": 0.7073747976043577,
+      "margin": 0.06997376716112183,
+      "ci_low": 3.8312920556236882,
+      "ci_high": 3.971239589945932
+    },
+    "nps": {
+      "n": 403,
+      "promotor": 119,
+      "detraktor": 107,
+      "pasif": 177,
+      "value": 2.977667493796526
+    },
+    "welch": {
+      "n_toko": 186,
+      "n_online": 132,
+      "mean_toko": 4.032258064516129,
+      "mean_online": 3.75,
+      "diff": 0.282258064516129,
+      "t": 3.4481261366916574,
+      "df": 266.11345982795876,
+      "p": 0.0006560273902913847,
+      "cohen_d": 0.398472120990123
+    },
+    "regression": {
+      "n": 248,
+      "beta": [
+        0.570548007209082,
+        0.2577193597106963,
+        0.2700516612609835,
+        0.1958726865093996,
+        0.18991690077759446
+      ],
+      "se": [
+        0.1883665252063631,
+        0.048758360349510296,
+        0.044360455199157704,
+        0.046611882210370686,
+        0.04196622960602241
+      ],
+      "r2": 0.5837447140150986,
+      "sey": 0.4527754302119708,
+      "dfres": 243,
+      "F": 85.19409259274502
+    },
+    "correlation": {
+      "Produk": 0.5766191773759144,
+      "Layanan": 0.6023139775911056,
+      "Harga": 0.5732088950131006,
+      "Pengiriman": 0.5714252738579656
+    }
+  },
+  "clean_cells_compared": 11178,
+  "comparisons": 82,
+  "preview_pages": 2,
+  "hashes": {
+    "data/raw/survei_raw.csv": "3c15ba2a9507518ce8954ecd8ff1291c609dc1cd437d0a573dfcdda3c372479c",
+    "data/processed/survei_bersih_referensi.csv": "91d489a6f8049387c49537fd39cd5b56c9e066a6dbc9e62225f9505326dc0821",
+    "data/processed/catatan_masalah_disengaja.json": "443c42ec45110cf63dac28e22bfdcbc1e3b72eef3bc79a3a2245aea8b5147c15",
+    "workbook/latihan_survei_kepuasan_pelanggan.xlsx": "03c040882503d8d75365e14278738092d0e0f2eb31923501e205e21d74033907",
+    "workbook/solusi_survei_kepuasan_pelanggan.xlsx": "09c42bf43ffa75743332470a00c8869626a7bfa7544a24b6197973063da36643"
+  },
+  "negative_tests": [
+    {
+      "case": "Duplikat ID berkonflik",
+      "status": "DITOLAK"
+    },
+    {
+      "case": "Hitungan JSON salah",
+      "status": "DITOLAK"
+    },
+    {
+      "case": "Tanggal ISO referensi tertukar",
+      "status": "DITOLAK"
+    },
+    {
+      "case": "Nilai sel hasil pembersihan berubah",
+      "status": "DITOLAK"
+    }
+  ]
+}

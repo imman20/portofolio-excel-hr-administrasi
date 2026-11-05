@@ -2,6 +2,20 @@
 
 Semua perubahan penting pada repositori ini dicatat di sini. Format mengikuti Keep a Changelog dan versi mengikuti Semantic Versioning.
 
+## [1.2.0] - 2026-11-05
+
+### Ditambahkan
+- Proyek simulasi `proyek/02_survei_kepuasan_pelanggan/`: CSV mentah 420 baris, 414 ID unik, workbook latihan dan solusi dengan rumus pembersih, distribusi item, CI, alpha, NPS, Welch, CORREL, dan LINEST deskriptif.
+- Codebook, kamus data, dokumentasi kualitas dan statistik, panduan latihan/wawancara, dashboard native, serta preview dari render Report.
+- Rekonsiliasi 11.178 sel bersih terhadap CSV referensi dan pembanding statistik pandas/scipy, audit hitungan masalah sebelum/sesudah duplikasi, serta pengujian negatif pada salinan.
+
+### Diperbaiki
+- Parser tanggal bahan survei yang menukar hari/bulan pada 133 tanggal ISO di referensi; CSV mentah dipertahankan. Daftar koreksi tersedia pada proyek survei.
+- Cakupan catatan masalah dibuat eksplisit: 174 sel kosong dan 15 angka berspasi pada ID unik; 175 dan 16 pada CSV akhir yang mencakup duplikat.
+
+### Diperbarui
+- Status dan tautan proyek survei pada README utama dan README belajar. Proyek Sales, HR, serta modul dasar dipertahankan.
+
 ## [1.1.0] - 2026-11-05
 
 ### Ditambahkan
