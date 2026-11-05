@@ -31,12 +31,24 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 - **Pembelajar lain** yang ingin mulai dari nol dengan dataset, latihan, dan kunci jawaban yang saling konsisten.
 - **Recruiter dan hiring manager** yang ingin melihat bukti kemampuan Excel yang bisa dibuka, ditelusuri rumusnya, dan diperiksa hasilnya, bukan sekadar daftar skill di CV.
 
+## Status pengerjaan
+
+| Bagian | Status |
+|---|---|
+| Jalur belajar: README, roadmap 10 minggu, pemetaan karier | Selesai |
+| Modul belajar 01 Dasar Excel | Selesai: README, dataset, workbook latihan dan solusi, kunci jawaban, verifikasi |
+| Modul belajar 02 sampai 15 | Menyusul. Cakupan tiap modul sudah tercantum di peta belajar di bawah |
+| Proyek HR dan administrasi 01 sampai 10 | Selesai: 10 workbook, tutorial, latihan, preview, verifikasi |
+| Proyek portofolio analisis 01 sampai 03 | Menyusul |
+
+Bagian bertanda "menyusul" belum ada di repositori dan akan ditambahkan dengan standar yang sama. Saya sengaja tidak memasang file kosong atau setengah jadi.
+
 ## Tiga bagian repositori
 
 | Bagian | Folder | Sifat | Isi |
 |---|---|---|---|
 | Jalur belajar | [`belajar/`](belajar/) | Materi latihan | 15 modul berurutan dari dasar Excel sampai praktik kerja profesional, roadmap 10 minggu, pemetaan kemampuan ke bidang kerja |
-| Proyek portofolio analisis | [`proyek/`](proyek/) | Proyek simulasi | Sales & Profitability, Survei Kepuasan Pelanggan, Inventory & Operations |
+| Proyek portofolio analisis | `proyek/` *(menyusul)* | Proyek simulasi | Sales & Profitability, Survei Kepuasan Pelanggan, Inventory & Operations |
 | Proyek HR dan administrasi | [`proyek-hr/`](proyek-hr/) | Proyek simulasi bertingkat | 10 proyek dari database karyawan sampai workforce planning dan makro VBA, masing-masing dengan tutorial |
 
 ## Cara mulai belajar dari nol
@@ -80,9 +92,9 @@ Lihat tabel lengkap di [`belajar/README.md`](belajar/README.md) dan pemetaan ke 
 
 | Proyek | Pertanyaan utama | Folder |
 |---|---|---|
-| Sales & Profitability Analysis | Bagaimana tren penjualan bersih dan laba kotor 2024, pencapaian target per wilayah, dan kontribusi produk serta pelanggan? | [`proyek/01_sales_profitability`](proyek/01_sales_profitability/) |
-| Customer Satisfaction Survey | Bagaimana distribusi kepuasan per dimensi dan kanal, seberapa reliabel kuesionernya, dan apa yang boleh serta tidak boleh disimpulkan? | [`proyek/02_survei_kepuasan_pelanggan`](proyek/02_survei_kepuasan_pelanggan/) |
-| Inventory & Operations | SKU mana yang berisiko habis atau overstock, dan berapa usulan pemesanan berdasarkan asumsi yang ditulis? | [`proyek/03_inventory_operations`](proyek/03_inventory_operations/) |
+| Sales & Profitability Analysis | Bagaimana tren penjualan bersih dan laba kotor 2024, pencapaian target per wilayah, dan kontribusi produk serta pelanggan? | `proyek/01_sales_profitability` *(menyusul)* |
+| Customer Satisfaction Survey | Bagaimana distribusi kepuasan per dimensi dan kanal, seberapa reliabel kuesionernya, dan apa yang boleh serta tidak boleh disimpulkan? | `proyek/02_survei_kepuasan_pelanggan` *(menyusul)* |
+| Inventory & Operations | SKU mana yang berisiko habis atau overstock, dan berapa usulan pemesanan berdasarkan asumsi yang ditulis? | `proyek/03_inventory_operations` *(menyusul)* |
 
 ## Proyek HR dan administrasi
 
@@ -112,13 +124,11 @@ File dibuat secara terprogram, sehingga fitur berikut **tidak tertanam** di dala
 portofolio-excel-hr-administrasi/
 ├── README.md
 ├── belajar/              # materi latihan: 15 modul, ROADMAP.md, PEMETAAN-KARIER.md
-├── proyek/               # 3 proyek portofolio analisis (data simulasi)
-│   ├── 01_sales_profitability/
-│   ├── 02_survei_kepuasan_pelanggan/
-│   └── 03_inventory_operations/
 ├── proyek-hr/            # 10 proyek HR/administrasi bertingkat
-├── docs/                 # glosarium rumus, standar data
-├── tools/                # skrip pembangun dan verifikasi gabungan
+│   ├── 01_database-karyawan/ ... 10_perencanaan-tenaga-kerja-dan-otomasi/
+│   ├── docs/             # glosarium rumus, standar data HR
+│   └── tools/            # skrip pembangun, generator data, log verifikasi
+├── proyek/               # 3 proyek portofolio analisis (menyusul)
 ├── LICENSE, CHANGELOG.md, CONTRIBUTING.md, .gitignore
 ```
 

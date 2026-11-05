@@ -26,20 +26,20 @@ Konvensi warna sel di semua workbook: font biru = input/data mentah, font hitam 
 | No | Modul | Fitur utama | Durasi perkiraan | Prasyarat |
 |---|---|---|---|---|
 | 01 | [Dasar Excel](01_dasar-excel/) | cell/range, shortcut, format angka-tanggal-persen, Paste Special, Sort, Filter, Freeze Panes, nilai vs tampilan | 3 jam | - |
-| 02 | [Struktur data yang benar](02_struktur-data-yang-benar/) | tidy data, Excel Table (Ctrl+T), structured references, tipe data, ID berawalan nol, anti-pola | 3 jam | 01 |
-| 03 | [Formula dasar](03_formula-dasar/) | operator, referensi relatif/absolut/campuran, SUM..COUNTBLANK, ROUND/ROUNDUP/ROUNDDOWN | 4 jam | 01 |
-| 04 | [Logika dan agregasi bersyarat](04_logika-dan-agregasi-bersyarat/) | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS, wildcard, kriteria tanggal | 5 jam | 03 |
-| 05 | [Lookup dan penggabungan referensi](05_lookup-dan-penggabungan-referensi/) | XLOOKUP, VLOOKUP, INDEX-MATCH, kunci unik, IFNA vs IFERROR | 5 jam | 03, 04 |
-| 06 | [Cleaning dan validasi](06_cleaning-dan-validasi/) | TRIM/CLEAN/SUBSTITUTE, teks, konversi angka, duplikat, outlier IQR, Data Validation, Conditional Formatting | 6 jam | 02, 05 |
-| 07 | [Tanggal dan laporan berkala](07_tanggal-dan-laporan-berkala/) | fungsi tanggal, NETWORKDAYS, kunci periode YYYY-MM, MoM/YoY, laporan bulanan SUMIFS | 5 jam | 04 |
-| 08 | [PivotTable dan PivotChart](08_pivottable-dan-pivotchart/) | Rows/Columns/Values/Filters, Show Values As, Group tanggal, Slicer, Timeline, Refresh | 5 jam | 02, 04 |
-| 09 | [Visualisasi dan dashboard](09_visualisasi-dan-dashboard/) | pemilihan KPI, chart line/bar/scatter/histogram, target, dashboard satu layar, anti-pola | 6 jam | 07, 08 |
-| 10 | [Power Query](10_power-query/) | Get Data, cleaning, Append, Merge (join), Unpivot, impor folder, parameter, Refresh, skrip M | 6 jam | 02, 06 |
-| 11 | [Data Model dan Power Pivot](11_data-model-dan-power-pivot/) | fakta/dimensi, relasi, kalender, calculated column vs measure, DAX dasar | 6 jam | 08, 10 |
-| 12 | [Statistika terapan](12_statistika-terapan/) | deskriptif, distribusi, CI, korelasi, regresi LINEST, uji t, peramalan, ukuran efek, keterbatasan | 8 jam | 03, 09 |
-| 13 | [What-if dan optimasi](13_what-if-dan-optimasi/) | Goal Seek, Data Table 1 dan 2 variabel, Scenario Manager, Solver (program linear) | 5 jam | 03, 04 |
-| 14 | [Otomasi lanjutan](14_otomasi-lanjutan/) | VBA (.bas), Office Scripts (.ts), Power Automate, keamanan makro; materi lanjutan | 5 jam | 05, 09 (opsional) |
-| 15 | [Praktik kerja profesional](15_praktik-kerja-profesional/) | rekonsiliasi, audit formula, dokumentasi KPI, Input-Proses-Output, proteksi, keamanan data, handover | 6 jam | 01 sampai 09 |
+| 02 | Struktur data yang benar *(menyusul)* | tidy data, Excel Table (Ctrl+T), structured references, tipe data, ID berawalan nol, anti-pola | 3 jam | 01 |
+| 03 | Formula dasar *(menyusul)* | operator, referensi relatif/absolut/campuran, SUM..COUNTBLANK, ROUND/ROUNDUP/ROUNDDOWN | 4 jam | 01 |
+| 04 | Logika dan agregasi bersyarat *(menyusul)* | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS, wildcard, kriteria tanggal | 5 jam | 03 |
+| 05 | Lookup dan penggabungan referensi *(menyusul)* | XLOOKUP, VLOOKUP, INDEX-MATCH, kunci unik, IFNA vs IFERROR | 5 jam | 03, 04 |
+| 06 | Cleaning dan validasi *(menyusul)* | TRIM/CLEAN/SUBSTITUTE, teks, konversi angka, duplikat, outlier IQR, Data Validation, Conditional Formatting | 6 jam | 02, 05 |
+| 07 | Tanggal dan laporan berkala *(menyusul)* | fungsi tanggal, NETWORKDAYS, kunci periode YYYY-MM, MoM/YoY, laporan bulanan SUMIFS | 5 jam | 04 |
+| 08 | PivotTable dan PivotChart *(menyusul)* | Rows/Columns/Values/Filters, Show Values As, Group tanggal, Slicer, Timeline, Refresh | 5 jam | 02, 04 |
+| 09 | Visualisasi dan dashboard *(menyusul)* | pemilihan KPI, chart line/bar/scatter/histogram, target, dashboard satu layar, anti-pola | 6 jam | 07, 08 |
+| 10 | Power Query *(menyusul)* | Get Data, cleaning, Append, Merge (join), Unpivot, impor folder, parameter, Refresh, skrip M | 6 jam | 02, 06 |
+| 11 | Data Model dan Power Pivot *(menyusul)* | fakta/dimensi, relasi, kalender, calculated column vs measure, DAX dasar | 6 jam | 08, 10 |
+| 12 | Statistika terapan *(menyusul)* | deskriptif, distribusi, CI, korelasi, regresi LINEST, uji t, peramalan, ukuran efek, keterbatasan | 8 jam | 03, 09 |
+| 13 | What-if dan optimasi *(menyusul)* | Goal Seek, Data Table 1 dan 2 variabel, Scenario Manager, Solver (program linear) | 5 jam | 03, 04 |
+| 14 | Otomasi lanjutan *(menyusul)* | VBA (.bas), Office Scripts (.ts), Power Automate, keamanan makro; materi lanjutan | 5 jam | 05, 09 (opsional) |
+| 15 | Praktik kerja profesional *(menyusul)* | rekonsiliasi, audit formula, dokumentasi KPI, Input-Proses-Output, proteksi, keamanan data, handover | 6 jam | 01 sampai 09 |
 
 Total sekitar 78 jam belajar efektif, dijadwalkan dalam 10 minggu di `ROADMAP.md`.
 
