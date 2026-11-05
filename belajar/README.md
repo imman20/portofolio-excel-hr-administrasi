@@ -32,7 +32,7 @@ Konvensi warna sel di semua workbook: font biru = input/data mentah, font hitam 
 | 05 | [Lookup dan penggabungan referensi](05_lookup-dan-penggabungan-referensi/) | XLOOKUP, VLOOKUP, INDEX-MATCH, kunci unik, IFNA vs IFERROR | 5 jam | 03, 04 |
 | 06 | [Cleaning dan validasi](06_cleaning-dan-validasi/) | TRIM/CLEAN/SUBSTITUTE, teks, konversi angka, duplikat, outlier IQR, Data Validation, Conditional Formatting | 6 jam | 02, 05 |
 | 07 | [Tanggal dan laporan berkala](07_tanggal-dan-laporan-berkala/) | fungsi tanggal, NETWORKDAYS, kunci periode YYYY-MM, MoM/YoY, laporan bulanan SUMIFS | 5 jam | 04 |
-| 08 | PivotTable dan PivotChart *(menyusul)* | Rows/Columns/Values/Filters, Show Values As, Group tanggal, Slicer, Timeline, Refresh | 5 jam | 02, 04 |
+| 08 | [PivotTable dan PivotChart](08_pivottable-dan-pivotchart/) | Rows/Columns/Values/Filters, Show Values As, Group tanggal, Slicer, Timeline, Refresh | 5 jam | 02, 04 |
 | 09 | Visualisasi dan dashboard *(menyusul)* | pemilihan KPI, chart line/bar/scatter/histogram, target, dashboard satu layar, anti-pola | 6 jam | 07, 08 |
 | 10 | Power Query *(menyusul)* | Get Data, cleaning, Append, Merge (join), Unpivot, impor folder, parameter, Refresh, skrip M | 6 jam | 02, 06 |
 | 11 | Data Model dan Power Pivot *(menyusul)* | fakta/dimensi, relasi, kalender, calculated column vs measure, DAX dasar | 6 jam | 08, 10 |

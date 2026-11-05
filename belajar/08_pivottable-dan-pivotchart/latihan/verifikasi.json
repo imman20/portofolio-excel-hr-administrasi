@@ -1,0 +1,218 @@
+{
+  "module": "08_pivottable-dan-pivotchart",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_08.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Hasil_Pivot_Diharapkan"
+      ],
+      "formulas": 286,
+      "errors": 0,
+      "size_kb": 24.6,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_08.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Hasil_Pivot_Diharapkan"
+      ],
+      "formulas": 294,
+      "errors": 0,
+      "size_kb": 24.7,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Ringkasan 4",
+      "location": "solusi_08.xlsx:Latihan!C4",
+      "expected": "63802000.0",
+      "actual": "63802000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "solusi_08.xlsx:Latihan!C5",
+      "expected": "0.39077144917087236",
+      "actual": "0.390771449170872",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "solusi_08.xlsx:Latihan!C6",
+      "expected": "6672000.0",
+      "actual": "6672000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "solusi_08.xlsx:Latihan!C7",
+      "expected": "238.0",
+      "actual": "238",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "solusi_08.xlsx:Latihan!C8",
+      "expected": "86.0",
+      "actual": "86",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "solusi_08.xlsx:Latihan!C9",
+      "expected": "10095000.0",
+      "actual": "10095000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "solusi_08.xlsx:Latihan!C10",
+      "expected": "1.0",
+      "actual": "1",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 11",
+      "location": "solusi_08.xlsx:Latihan!C11",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Jawa ATK",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!B5",
+      "expected": "6672000",
+      "actual": "6672000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Jawa Kemasan",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!C5",
+      "expected": "10399000",
+      "actual": "10399000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Jawa Peralatan",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!D5",
+      "expected": "7861000",
+      "actual": "7861000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sumatra ATK",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!B6",
+      "expected": "4917000",
+      "actual": "4917000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sumatra Kemasan",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!C6",
+      "expected": "7056000",
+      "actual": "7056000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sumatra Peralatan",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!D6",
+      "expected": "8457000",
+      "actual": "8457000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bali ATK",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!B7",
+      "expected": "5288000",
+      "actual": "5288000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bali Kemasan",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!C7",
+      "expected": "4640000",
+      "actual": "4640000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bali Peralatan",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!D7",
+      "expected": "8512000",
+      "actual": "8512000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 1",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!B19",
+      "expected": "10095000",
+      "actual": "10095000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 2",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!B20",
+      "expected": "11400000",
+      "actual": "11400000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 3",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!B21",
+      "expected": "10197000",
+      "actual": "10197000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 4",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!B22",
+      "expected": "12328000",
+      "actual": "12328000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 5",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!B23",
+      "expected": "8823000",
+      "actual": "8823000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bulan 6",
+      "location": "solusi_08.xlsx:Hasil_Pivot_Diharapkan!B24",
+      "expected": "10959000",
+      "actual": "10959000",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}
