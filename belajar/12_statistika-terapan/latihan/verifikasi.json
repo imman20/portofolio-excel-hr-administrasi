@@ -1,0 +1,476 @@
+{
+  "module": "12_statistika-terapan",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_12.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Tren",
+        "Histogram"
+      ],
+      "formulas": 34,
+      "errors": 0,
+      "size_kb": 16.5,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_12.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Tren",
+        "Histogram"
+      ],
+      "formulas": 57,
+      "errors": 0,
+      "size_kb": 21.1,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "n",
+      "location": "solusi_12.xlsx:Latihan!C4",
+      "expected": "60.0",
+      "actual": "60",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Mean",
+      "location": "solusi_12.xlsx:Latihan!C5",
+      "expected": "70.82633333333334",
+      "actual": "70.8263333333333",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Median",
+      "location": "solusi_12.xlsx:Latihan!C6",
+      "expected": "71.72",
+      "actual": "71.72",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "SD sampel",
+      "location": "solusi_12.xlsx:Latihan!C7",
+      "expected": "6.797683046616685",
+      "actual": "6.79768304661669",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Varians sampel",
+      "location": "solusi_12.xlsx:Latihan!C8",
+      "expected": "46.2084948022599",
+      "actual": "46.2084948022599",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Minimum",
+      "location": "solusi_12.xlsx:Latihan!C9",
+      "expected": "54.55",
+      "actual": "54.55",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Maksimum",
+      "location": "solusi_12.xlsx:Latihan!C10",
+      "expected": "85.98",
+      "actual": "85.98",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Margin CI",
+      "location": "solusi_12.xlsx:Latihan!C11",
+      "expected": "1.7560277365133417",
+      "actual": "1.75602773651334",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "CI bawah",
+      "location": "solusi_12.xlsx:Latihan!C12",
+      "expected": "69.07030559681999",
+      "actual": "69.07030559682",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "CI atas",
+      "location": "solusi_12.xlsx:Latihan!C13",
+      "expected": "72.58236106984668",
+      "actual": "72.5823610698467",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pearson r",
+      "location": "solusi_12.xlsx:Latihan!C14",
+      "expected": "0.8013895905942389",
+      "actual": "0.801389590594239",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Slope OLS",
+      "location": "solusi_12.xlsx:Latihan!C15",
+      "expected": "2.3311880505283344",
+      "actual": "2.33118805052834",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Intercept OLS",
+      "location": "solusi_12.xlsx:Latihan!C16",
+      "expected": "56.517501079190424",
+      "actual": "56.5175010791904",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "R kuadrat",
+      "location": "solusi_12.xlsx:Latihan!C17",
+      "expected": "0.642225275912802",
+      "actual": "0.642225275912803",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "p Welch",
+      "location": "solusi_12.xlsx:Latihan!C18",
+      "expected": "0.0011528540254506655",
+      "actual": "0.00115285402545054",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "p paired",
+      "location": "solusi_12.xlsx:Latihan!C19",
+      "expected": "1.3743300264479845e-24",
+      "actual": "1.37433002644808e-24",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Cohen d",
+      "location": "solusi_12.xlsx:Latihan!C20",
+      "expected": "0.8851863034599317",
+      "actual": "0.885186303459934",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "p equal variance",
+      "location": "solusi_12.xlsx:Latihan!C21",
+      "expected": "0.001123660685938495",
+      "actual": "0.00112366068593837",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "FORECAST",
+      "location": "solusi_12.xlsx:Latihan!C22",
+      "expected": "75.1670054834171",
+      "actual": "75.1670054834171",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "TREND",
+      "location": "solusi_12.xlsx:Latihan!C23",
+      "expected": "75.1670054834171",
+      "actual": "75.1670054834171",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Selisih prediksi",
+      "location": "solusi_12.xlsx:Latihan!C24",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ramalan periode 25",
+      "location": "solusi_12.xlsx:Latihan!C26",
+      "expected": "396.78985507246375",
+      "actual": "396.789855072464",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average terakhir",
+      "location": "solusi_12.xlsx:Latihan!C27",
+      "expected": "384.0",
+      "actual": "384",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 0",
+      "location": "solusi_12.xlsx:Histogram!D2",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 10",
+      "location": "solusi_12.xlsx:Histogram!D3",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 20",
+      "location": "solusi_12.xlsx:Histogram!D4",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 30",
+      "location": "solusi_12.xlsx:Histogram!D5",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 40",
+      "location": "solusi_12.xlsx:Histogram!D6",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 50",
+      "location": "solusi_12.xlsx:Histogram!D7",
+      "expected": "5",
+      "actual": "5",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 60",
+      "location": "solusi_12.xlsx:Histogram!D8",
+      "expected": "19",
+      "actual": "19",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 70",
+      "location": "solusi_12.xlsx:Histogram!D9",
+      "expected": "33",
+      "actual": "33",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 80",
+      "location": "solusi_12.xlsx:Histogram!D10",
+      "expected": "3",
+      "actual": "3",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Bin 90",
+      "location": "solusi_12.xlsx:Histogram!D11",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 4",
+      "location": "solusi_12.xlsx:Tren!D4",
+      "expected": "220.66666666666666",
+      "actual": "220.666666666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 5",
+      "location": "solusi_12.xlsx:Tren!D5",
+      "expected": "232.0",
+      "actual": "232",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 6",
+      "location": "solusi_12.xlsx:Tren!D6",
+      "expected": "237.33333333333334",
+      "actual": "237.333333333333",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 7",
+      "location": "solusi_12.xlsx:Tren!D7",
+      "expected": "246.0",
+      "actual": "246",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 8",
+      "location": "solusi_12.xlsx:Tren!D8",
+      "expected": "250.33333333333334",
+      "actual": "250.333333333333",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 9",
+      "location": "solusi_12.xlsx:Tren!D9",
+      "expected": "254.33333333333334",
+      "actual": "254.333333333333",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 10",
+      "location": "solusi_12.xlsx:Tren!D10",
+      "expected": "256.0",
+      "actual": "256",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 11",
+      "location": "solusi_12.xlsx:Tren!D11",
+      "expected": "263.3333333333333",
+      "actual": "263.333333333333",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 12",
+      "location": "solusi_12.xlsx:Tren!D12",
+      "expected": "273.0",
+      "actual": "273",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 13",
+      "location": "solusi_12.xlsx:Tren!D13",
+      "expected": "287.3333333333333",
+      "actual": "287.333333333333",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 14",
+      "location": "solusi_12.xlsx:Tren!D14",
+      "expected": "299.6666666666667",
+      "actual": "299.666666666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 15",
+      "location": "solusi_12.xlsx:Tren!D15",
+      "expected": "310.0",
+      "actual": "310",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 16",
+      "location": "solusi_12.xlsx:Tren!D16",
+      "expected": "318.0",
+      "actual": "318",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 17",
+      "location": "solusi_12.xlsx:Tren!D17",
+      "expected": "327.0",
+      "actual": "327",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 18",
+      "location": "solusi_12.xlsx:Tren!D18",
+      "expected": "333.6666666666667",
+      "actual": "333.666666666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 19",
+      "location": "solusi_12.xlsx:Tren!D19",
+      "expected": "338.3333333333333",
+      "actual": "338.333333333333",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 20",
+      "location": "solusi_12.xlsx:Tren!D20",
+      "expected": "341.0",
+      "actual": "341",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 21",
+      "location": "solusi_12.xlsx:Tren!D21",
+      "expected": "345.0",
+      "actual": "345",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 22",
+      "location": "solusi_12.xlsx:Tren!D22",
+      "expected": "350.3333333333333",
+      "actual": "350.333333333333",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 23",
+      "location": "solusi_12.xlsx:Tren!D23",
+      "expected": "362.0",
+      "actual": "362",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 24",
+      "location": "solusi_12.xlsx:Tren!D24",
+      "expected": "370.6666666666667",
+      "actual": "370.666666666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Moving average baris 25",
+      "location": "solusi_12.xlsx:Tren!D25",
+      "expected": "384.0",
+      "actual": "384",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

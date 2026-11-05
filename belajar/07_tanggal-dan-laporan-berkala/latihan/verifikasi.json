@@ -1,0 +1,614 @@
+{
+  "module": "07_tanggal-dan-laporan-berkala",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_07.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Libur",
+        "Master",
+        "Laporan_Bulanan"
+      ],
+      "formulas": 240,
+      "errors": 0,
+      "size_kb": 29.8,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_07.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Libur",
+        "Master",
+        "Laporan_Bulanan"
+      ],
+      "formulas": 253,
+      "errors": 0,
+      "size_kb": 30.1,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Ringkasan 4",
+      "location": "solusi_07.xlsx:Latihan!C4",
+      "expected": "121630000",
+      "actual": "121630000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "solusi_07.xlsx:Latihan!C5",
+      "expected": "136220000",
+      "actual": "136220000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "solusi_07.xlsx:Latihan!C6",
+      "expected": "0.11995395872728767",
+      "actual": "0.119953958727288",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "solusi_07.xlsx:Latihan!C7",
+      "expected": "22",
+      "actual": "22",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "solusi_07.xlsx:Latihan!C8",
+      "expected": "2024-02-29",
+      "actual": "2024-02-29 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "solusi_07.xlsx:Latihan!C9",
+      "expected": "2024-02-29",
+      "actual": "2024-02-29 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "solusi_07.xlsx:Latihan!C10",
+      "expected": "2024",
+      "actual": "2024",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 11",
+      "location": "solusi_07.xlsx:Latihan!C11",
+      "expected": "12",
+      "actual": "12",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 12",
+      "location": "solusi_07.xlsx:Latihan!C12",
+      "expected": "31",
+      "actual": "31",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 13",
+      "location": "solusi_07.xlsx:Latihan!C13",
+      "expected": "2026-11-05",
+      "actual": "2026-11-05 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 14",
+      "location": "solusi_07.xlsx:Latihan!C14",
+      "expected": "22",
+      "actual": "22",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 15",
+      "location": "solusi_07.xlsx:Latihan!C15",
+      "expected": "11",
+      "actual": "11",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 16",
+      "location": "solusi_07.xlsx:Latihan!C16",
+      "expected": "PEMBANDING NOL",
+      "actual": "PEMBANDING NOL",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-01",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C2",
+      "expected": "10290000",
+      "actual": "10290000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-02",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C3",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-02",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D3",
+      "expected": "-1.0",
+      "actual": "-1",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-03",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C4",
+      "expected": "10820000",
+      "actual": "10820000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-03",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D4",
+      "expected": "PEMBANDING NOL",
+      "actual": "PEMBANDING NOL",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-04",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C5",
+      "expected": "12170000",
+      "actual": "12170000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-04",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D5",
+      "expected": "0.12476894639556377",
+      "actual": "0.124768946395564",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-05",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C6",
+      "expected": "9020000",
+      "actual": "9020000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-05",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D6",
+      "expected": "-0.25883319638455216",
+      "actual": "-0.258833196384552",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-06",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C7",
+      "expected": "13070000",
+      "actual": "13070000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-06",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D7",
+      "expected": "0.4490022172949002",
+      "actual": "0.4490022172949",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-07",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C8",
+      "expected": "11520000",
+      "actual": "11520000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-07",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D8",
+      "expected": "-0.11859219586840092",
+      "actual": "-0.118592195868401",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-08",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C9",
+      "expected": "10440000",
+      "actual": "10440000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-08",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D9",
+      "expected": "-0.09375",
+      "actual": "-0.09375",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-09",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C10",
+      "expected": "10930000",
+      "actual": "10930000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-09",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D10",
+      "expected": "0.04693486590038314",
+      "actual": "0.0469348659003831",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-10",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C11",
+      "expected": "11060000",
+      "actual": "11060000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-10",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D11",
+      "expected": "0.011893870082342177",
+      "actual": "0.0118938700823422",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-11",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C12",
+      "expected": "10200000",
+      "actual": "10200000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-11",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D12",
+      "expected": "-0.07775768535262206",
+      "actual": "-0.0777576853526221",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2023-12",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C13",
+      "expected": "12110000",
+      "actual": "12110000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2023-12",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D13",
+      "expected": "0.18725490196078431",
+      "actual": "0.187254901960784",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-01",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C14",
+      "expected": "9840000",
+      "actual": "9840000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-01",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D14",
+      "expected": "-0.1874483897605285",
+      "actual": "-0.187448389760529",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-01",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E14",
+      "expected": "-0.043731778425655975",
+      "actual": "-0.043731778425656",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-02",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C15",
+      "expected": "10750000",
+      "actual": "10750000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-02",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D15",
+      "expected": "0.09247967479674797",
+      "actual": "0.092479674796748",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-02",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E15",
+      "expected": "PEMBANDING NOL",
+      "actual": "PEMBANDING NOL",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-03",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C16",
+      "expected": "11840000",
+      "actual": "11840000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-03",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D16",
+      "expected": "0.1013953488372093",
+      "actual": "0.101395348837209",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-03",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E16",
+      "expected": "0.09426987060998152",
+      "actual": "0.0942698706099815",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-04",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C17",
+      "expected": "12520000",
+      "actual": "12520000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-04",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D17",
+      "expected": "0.057432432432432436",
+      "actual": "0.0574324324324324",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-04",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E17",
+      "expected": "0.02875924404272802",
+      "actual": "0.028759244042728",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-05",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C18",
+      "expected": "11320000",
+      "actual": "11320000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-05",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D18",
+      "expected": "-0.09584664536741214",
+      "actual": "-0.0958466453674121",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-05",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E18",
+      "expected": "0.2549889135254989",
+      "actual": "0.254988913525499",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-06",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C19",
+      "expected": "12660000",
+      "actual": "12660000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-06",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D19",
+      "expected": "0.11837455830388692",
+      "actual": "0.118374558303887",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-06",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E19",
+      "expected": "-0.03136954858454476",
+      "actual": "-0.0313695485845448",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-07",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C20",
+      "expected": "10540000",
+      "actual": "10540000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-07",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D20",
+      "expected": "-0.1674565560821485",
+      "actual": "-0.167456556082149",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-07",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E20",
+      "expected": "-0.08506944444444445",
+      "actual": "-0.0850694444444445",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-08",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C21",
+      "expected": "10630000",
+      "actual": "10630000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-08",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D21",
+      "expected": "0.008538899430740038",
+      "actual": "0.00853889943074004",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-08",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E21",
+      "expected": "0.018199233716475097",
+      "actual": "0.0181992337164751",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-09",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C22",
+      "expected": "10710000",
+      "actual": "10710000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-09",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D22",
+      "expected": "0.007525870178739417",
+      "actual": "0.00752587017873942",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-09",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E22",
+      "expected": "-0.020128087831655993",
+      "actual": "-0.020128087831656",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-10",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C23",
+      "expected": "12000000",
+      "actual": "12000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-10",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D23",
+      "expected": "0.12044817927170869",
+      "actual": "0.120448179271709",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-10",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E23",
+      "expected": "0.08499095840867993",
+      "actual": "0.0849909584086799",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-11",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C24",
+      "expected": "12890000",
+      "actual": "12890000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-11",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D24",
+      "expected": "0.07416666666666667",
+      "actual": "0.0741666666666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-11",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E24",
+      "expected": "0.26372549019607844",
+      "actual": "0.263725490196078",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2024-12",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!C25",
+      "expected": "10520000",
+      "actual": "10520000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "MoM 2024-12",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!D25",
+      "expected": "-0.18386346004654772",
+      "actual": "-0.183863460046548",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "YoY 2024-12",
+      "location": "solusi_07.xlsx:Laporan_Bulanan!E25",
+      "expected": "-0.13129644921552436",
+      "actual": "-0.131296449215524",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

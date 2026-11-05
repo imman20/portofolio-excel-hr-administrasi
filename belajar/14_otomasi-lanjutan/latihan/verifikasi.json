@@ -1,0 +1,138 @@
+{
+  "module": "14_otomasi-lanjutan",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_14.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Ringkasan"
+      ],
+      "formulas": 246,
+      "errors": 0,
+      "size_kb": 19.2,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_14.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Ringkasan"
+      ],
+      "formulas": 253,
+      "errors": 0,
+      "size_kb": 19.4,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Ringkasan 4",
+      "location": "solusi_14.xlsx:Latihan!C4",
+      "expected": "80",
+      "actual": "80",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "solusi_14.xlsx:Latihan!C5",
+      "expected": "18106000",
+      "actual": "18106000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "solusi_14.xlsx:Latihan!C6",
+      "expected": "28",
+      "actual": "28",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "solusi_14.xlsx:Latihan!C7",
+      "expected": "7511000",
+      "actual": "7511000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "solusi_14.xlsx:Latihan!C8",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "solusi_14.xlsx:Latihan!C9",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "solusi_14.xlsx:Latihan!C10",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Jumlah BARU",
+      "location": "solusi_14.xlsx:Ringkasan!B4",
+      "expected": "28",
+      "actual": "28",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai BARU",
+      "location": "solusi_14.xlsx:Ringkasan!C4",
+      "expected": "7511000",
+      "actual": "7511000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Jumlah DIPROSES",
+      "location": "solusi_14.xlsx:Ringkasan!B5",
+      "expected": "20",
+      "actual": "20",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai DIPROSES",
+      "location": "solusi_14.xlsx:Ringkasan!C5",
+      "expected": "4307000",
+      "actual": "4307000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Jumlah SELESAI",
+      "location": "solusi_14.xlsx:Ringkasan!B6",
+      "expected": "32",
+      "actual": "32",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai SELESAI",
+      "location": "solusi_14.xlsx:Ringkasan!C6",
+      "expected": "6288000",
+      "actual": "6288000",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

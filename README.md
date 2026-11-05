@@ -37,13 +37,27 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 |---|---|
 | Jalur belajar: README, roadmap 10 minggu, pemetaan karier | Selesai |
 | Modul belajar 01 Dasar Excel | Selesai: README, dataset, workbook latihan dan solusi, kunci jawaban, verifikasi |
-| Modul belajar 02 sampai 15 | Menyusul. Cakupan tiap modul sudah tercantum di peta belajar di bawah |
+| Modul belajar 02 sampai 15 | Selesai: 14 modul, dataset, latihan dan solusi, dokumentasi, preview, serta verifikasi |
+| Modul belajar 02 | Selesai: [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) |
+| Modul belajar 03 | Selesai: [Formula dasar](belajar/03_formula-dasar/) |
+| Modul belajar 04 | Selesai: [Logika dan agregasi bersyarat](belajar/04_logika-dan-agregasi-bersyarat/) |
+| Modul belajar 05 | Selesai: [Lookup dan penggabungan referensi](belajar/05_lookup-dan-penggabungan-referensi/) |
+| Modul belajar 06 | Selesai: [Cleaning dan validasi](belajar/06_cleaning-dan-validasi/) |
+| Modul belajar 07 | Selesai: [Tanggal dan laporan berkala](belajar/07_tanggal-dan-laporan-berkala/) |
+| Modul belajar 08 | Selesai: [PivotTable dan PivotChart](belajar/08_pivottable-dan-pivotchart/) |
+| Modul belajar 09 | Selesai: [Visualisasi dan dashboard](belajar/09_visualisasi-dan-dashboard/) |
+| Modul belajar 10 | Selesai: [Power Query](belajar/10_power-query/) |
+| Modul belajar 11 | Selesai: [Data Model dan Power Pivot](belajar/11_data-model-dan-power-pivot/) |
+| Modul belajar 12 | Selesai: [Statistika terapan](belajar/12_statistika-terapan/) |
+| Modul belajar 13 | Selesai: [What-if dan optimasi](belajar/13_what-if-dan-optimasi/) |
+| Modul belajar 14 | Selesai: [Otomasi lanjutan](belajar/14_otomasi-lanjutan/) |
+| Modul belajar 15 | Selesai: [Praktik kerja profesional](belajar/15_praktik-kerja-profesional/) |
 | Proyek HR dan administrasi 01 sampai 10 | Selesai: 10 workbook, tutorial, latihan, preview, verifikasi |
 | Proyek portofolio analisis 01 Sales & Profitability | Selesai: data, latihan dan solusi, dokumentasi, preview, verifikasi |
 | Proyek portofolio analisis 02 Survei Kepuasan Pelanggan | Selesai: audit data, latihan dan solusi, statistik, dokumentasi, preview, verifikasi |
 | Proyek portofolio analisis 03 Inventory & Operations | Selesai: data, stok harian, latihan dan solusi, dokumentasi, preview, verifikasi |
 
-Bagian bertanda "menyusul" belum ada di repositori dan akan ditambahkan dengan standar yang sama. Saya sengaja tidak memasang file kosong atau setengah jadi.
+Semua unit pada tabel status sudah tersedia. Materi belajar dan proyek tetap merupakan latihan serta simulasi dengan batas pengujian yang dijelaskan pada setiap unit.
 
 ## Tiga bagian repositori
 
@@ -75,20 +89,20 @@ Lihat tabel lengkap di [`belajar/README.md`](belajar/README.md) dan pemetaan ke 
 | No | Modul | Inti |
 |---|---|---|
 | 01 | Dasar Excel | Workbook, sel, range, format, Sort, Filter, Freeze Panes, nilai vs tampilan |
-| 02 | Struktur data yang benar | Tidy data, Excel Table, structured references, ID dengan nol di depan |
-| 03 | Formula dasar | Referensi relatif/absolut, SUM, AVERAGE, COUNT, ROUND |
-| 04 | Logika dan agregasi bersyarat | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS |
-| 05 | Lookup | XLOOKUP, VLOOKUP, INDEX-MATCH, IFNA vs IFERROR |
-| 06 | Cleaning dan validasi | TRIM, SUBSTITUTE, teks ke angka, duplikasi, outlier, Data Validation, Conditional Formatting |
-| 07 | Tanggal dan laporan berkala | EOMONTH, NETWORKDAYS, periode, MoM/YoY, pembagi nol |
-| 08 | PivotTable dan PivotChart | Agregasi, % of total, Group tanggal, Slicer, Timeline |
-| 09 | Visualisasi dan dashboard | KPI, chart yang tepat, target, insight |
-| 10 | Power Query | Impor, cleaning, Append, Merge, Unpivot, folder, Refresh |
-| 11 | Data Model dan Power Pivot | Fakta/dimensi, relasi, kalender, DAX dasar |
-| 12 | Statistika terapan | Deskriptif, CI, korelasi, regresi, uji beda, peramalan, ukuran efek |
-| 13 | What-if dan optimasi | Goal Seek, Data Table, Scenario Manager, Solver |
-| 14 | Otomasi lanjutan | VBA, Office Scripts, Power Automate |
-| 15 | Praktik kerja profesional | Rekonsiliasi, audit formula, proteksi, serah terima |
+| 02 | [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) | Tidy data, Excel Table, structured references, ID dengan nol di depan |
+| 03 | [Formula dasar](belajar/03_formula-dasar/) | Referensi relatif/absolut, SUM, AVERAGE, COUNT, ROUND |
+| 04 | [Logika dan agregasi bersyarat](belajar/04_logika-dan-agregasi-bersyarat/) | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS |
+| 05 | [Lookup dan penggabungan referensi](belajar/05_lookup-dan-penggabungan-referensi/) | XLOOKUP, VLOOKUP, INDEX-MATCH, IFNA vs IFERROR |
+| 06 | [Cleaning dan validasi](belajar/06_cleaning-dan-validasi/) | TRIM, SUBSTITUTE, teks ke angka, duplikasi, outlier, Data Validation, Conditional Formatting |
+| 07 | [Tanggal dan laporan berkala](belajar/07_tanggal-dan-laporan-berkala/) | EOMONTH, NETWORKDAYS, periode, MoM/YoY, pembagi nol |
+| 08 | [PivotTable dan PivotChart](belajar/08_pivottable-dan-pivotchart/) | Agregasi, % of total, Group tanggal, Slicer, Timeline |
+| 09 | [Visualisasi dan dashboard](belajar/09_visualisasi-dan-dashboard/) | KPI, chart yang tepat, target, insight |
+| 10 | [Power Query](belajar/10_power-query/) | Impor, cleaning, Append, Merge, Unpivot, folder, Refresh |
+| 11 | [Data Model dan Power Pivot](belajar/11_data-model-dan-power-pivot/) | Fakta/dimensi, relasi, kalender, DAX dasar |
+| 12 | [Statistika terapan](belajar/12_statistika-terapan/) | Deskriptif, CI, korelasi, regresi, uji beda, peramalan, ukuran efek |
+| 13 | [What-if dan optimasi](belajar/13_what-if-dan-optimasi/) | Goal Seek, Data Table, Scenario Manager, Solver |
+| 14 | [Otomasi lanjutan](belajar/14_otomasi-lanjutan/) | VBA, Office Scripts, Power Automate |
+| 15 | [Praktik kerja profesional](belajar/15_praktik-kerja-profesional/) | Rekonsiliasi, audit formula, proteksi, serah terima |
 
 ## Proyek portofolio
 
@@ -109,6 +123,8 @@ Sepuluh proyek bertingkat (pemula sampai lanjut) dengan tutorial langkah demi la
 - Setiap file di-recalculate dengan LibreOffice headless dan diperiksa: nol error (`#REF!`, `#NAME?`, `#DIV/0!`, `#VALUE!`, `#N/A` yang tidak disengaja). Total kunci dicocokkan dengan perhitungan pandas. Hasil dicatat di `VERIFIKASI.md` tiap unit.
 - Preview PNG berasal dari render nyata file (LibreOffice ke PDF ke PNG), bukan gambar buatan.
 - Untuk membangun ulang semuanya dibutuhkan Python 3.10+, `openpyxl`, `pandas`, `numpy`, `scipy`, serta LibreOffice headless dan pdftoppm untuk verifikasi dan preview.
+
+Bukti penutup tersedia pada [verifikasi menyeluruh repositori](belajar/VERIFIKASI_REPO.md), termasuk jumlah rumus, hasil recalc, rekonsiliasi, tautan, dan batas audit.
 
 ## Batasan tool dan langkah manual
 

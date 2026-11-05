@@ -1,0 +1,12 @@
+{
+  "metode": "scipy.optimize.linprog, HiGHS",
+  "produk_a": 26.66666666666667,
+  "produk_b": 46.666666666666664,
+  "laba_maksimum": 2466666.666666667,
+  "slack": [
+    0.0,
+    0.0
+  ],
+  "status": 0,
+  "keterangan": "Solusi optimal ditemukan"
+}

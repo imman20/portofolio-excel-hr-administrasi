@@ -1,0 +1,2668 @@
+{
+  "module": "05_lookup-dan-penggabungan-referensi",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_05.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Audit_Master"
+      ],
+      "formulas": 805,
+      "errors": 0,
+      "size_kb": 26.0,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_05.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Audit_Master"
+      ],
+      "formulas": 814,
+      "errors": 0,
+      "size_kb": 26.2,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Ringkasan 4",
+      "location": "solusi_05.xlsx:Latihan!C4",
+      "expected": "67858000.0",
+      "actual": "67858000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "solusi_05.xlsx:Latihan!C5",
+      "expected": "157",
+      "actual": "157",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "solusi_05.xlsx:Latihan!C6",
+      "expected": "3",
+      "actual": "3",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "solusi_05.xlsx:Latihan!C7",
+      "expected": "22",
+      "actual": "22",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "solusi_05.xlsx:Latihan!C8",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "solusi_05.xlsx:Latihan!C9",
+      "expected": "1",
+      "actual": "1",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "solusi_05.xlsx:Latihan!C10",
+      "expected": "2",
+      "actual": "2",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 11",
+      "location": "solusi_05.xlsx:Latihan!C11",
+      "expected": "KUNCI TIDAK ADA",
+      "actual": "KUNCI TIDAK ADA",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 12",
+      "location": "solusi_05.xlsx:Latihan!C12",
+      "expected": "GALAT DITUTUP",
+      "actual": "GALAT DITUTUP",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 2",
+      "location": "solusi_05.xlsx:Data!E2",
+      "expected": "TIDAK ADA",
+      "actual": "TIDAK ADA",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2",
+      "location": "solusi_05.xlsx:Data!F2",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 3",
+      "location": "solusi_05.xlsx:Data!E3",
+      "expected": "TIDAK ADA",
+      "actual": "TIDAK ADA",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 3",
+      "location": "solusi_05.xlsx:Data!F3",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 4",
+      "location": "solusi_05.xlsx:Data!E4",
+      "expected": "TIDAK ADA",
+      "actual": "TIDAK ADA",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 4",
+      "location": "solusi_05.xlsx:Data!F4",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 5",
+      "location": "solusi_05.xlsx:Data!E5",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 5",
+      "location": "solusi_05.xlsx:Data!F5",
+      "expected": "280000",
+      "actual": "280000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 6",
+      "location": "solusi_05.xlsx:Data!E6",
+      "expected": "69000",
+      "actual": "69000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 6",
+      "location": "solusi_05.xlsx:Data!F6",
+      "expected": "414000",
+      "actual": "414000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 7",
+      "location": "solusi_05.xlsx:Data!E7",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 7",
+      "location": "solusi_05.xlsx:Data!F7",
+      "expected": "1235000",
+      "actual": "1235000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 8",
+      "location": "solusi_05.xlsx:Data!E8",
+      "expected": "69000",
+      "actual": "69000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 8",
+      "location": "solusi_05.xlsx:Data!F8",
+      "expected": "483000",
+      "actual": "483000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 9",
+      "location": "solusi_05.xlsx:Data!E9",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 9",
+      "location": "solusi_05.xlsx:Data!F9",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 10",
+      "location": "solusi_05.xlsx:Data!E10",
+      "expected": "55000",
+      "actual": "55000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 10",
+      "location": "solusi_05.xlsx:Data!F10",
+      "expected": "495000",
+      "actual": "495000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 11",
+      "location": "solusi_05.xlsx:Data!E11",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 11",
+      "location": "solusi_05.xlsx:Data!F11",
+      "expected": "128000",
+      "actual": "128000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 12",
+      "location": "solusi_05.xlsx:Data!E12",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 12",
+      "location": "solusi_05.xlsx:Data!F12",
+      "expected": "80000",
+      "actual": "80000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 13",
+      "location": "solusi_05.xlsx:Data!E13",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 13",
+      "location": "solusi_05.xlsx:Data!F13",
+      "expected": "465000",
+      "actual": "465000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 14",
+      "location": "solusi_05.xlsx:Data!E14",
+      "expected": "55000",
+      "actual": "55000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 14",
+      "location": "solusi_05.xlsx:Data!F14",
+      "expected": "770000",
+      "actual": "770000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 15",
+      "location": "solusi_05.xlsx:Data!E15",
+      "expected": "42000",
+      "actual": "42000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 15",
+      "location": "solusi_05.xlsx:Data!F15",
+      "expected": "294000",
+      "actual": "294000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 16",
+      "location": "solusi_05.xlsx:Data!E16",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 16",
+      "location": "solusi_05.xlsx:Data!F16",
+      "expected": "320000",
+      "actual": "320000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 17",
+      "location": "solusi_05.xlsx:Data!E17",
+      "expected": "42000",
+      "actual": "42000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 17",
+      "location": "solusi_05.xlsx:Data!F17",
+      "expected": "504000",
+      "actual": "504000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 18",
+      "location": "solusi_05.xlsx:Data!E18",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 18",
+      "location": "solusi_05.xlsx:Data!F18",
+      "expected": "104000",
+      "actual": "104000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 19",
+      "location": "solusi_05.xlsx:Data!E19",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 19",
+      "location": "solusi_05.xlsx:Data!F19",
+      "expected": "1020000",
+      "actual": "1020000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 20",
+      "location": "solusi_05.xlsx:Data!E20",
+      "expected": "29000",
+      "actual": "29000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 20",
+      "location": "solusi_05.xlsx:Data!F20",
+      "expected": "406000",
+      "actual": "406000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 21",
+      "location": "solusi_05.xlsx:Data!E21",
+      "expected": "55000",
+      "actual": "55000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 21",
+      "location": "solusi_05.xlsx:Data!F21",
+      "expected": "220000",
+      "actual": "220000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 22",
+      "location": "solusi_05.xlsx:Data!E22",
+      "expected": "85000",
+      "actual": "85000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 22",
+      "location": "solusi_05.xlsx:Data!F22",
+      "expected": "1275000",
+      "actual": "1275000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 23",
+      "location": "solusi_05.xlsx:Data!E23",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 23",
+      "location": "solusi_05.xlsx:Data!F23",
+      "expected": "300000",
+      "actual": "300000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 24",
+      "location": "solusi_05.xlsx:Data!E24",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 24",
+      "location": "solusi_05.xlsx:Data!F24",
+      "expected": "728000",
+      "actual": "728000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 25",
+      "location": "solusi_05.xlsx:Data!E25",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 25",
+      "location": "solusi_05.xlsx:Data!F25",
+      "expected": "408000",
+      "actual": "408000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 26",
+      "location": "solusi_05.xlsx:Data!E26",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 26",
+      "location": "solusi_05.xlsx:Data!F26",
+      "expected": "704000",
+      "actual": "704000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 27",
+      "location": "solusi_05.xlsx:Data!E27",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 27",
+      "location": "solusi_05.xlsx:Data!F27",
+      "expected": "570000",
+      "actual": "570000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 28",
+      "location": "solusi_05.xlsx:Data!E28",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 28",
+      "location": "solusi_05.xlsx:Data!F28",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 29",
+      "location": "solusi_05.xlsx:Data!E29",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 29",
+      "location": "solusi_05.xlsx:Data!F29",
+      "expected": "624000",
+      "actual": "624000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 30",
+      "location": "solusi_05.xlsx:Data!E30",
+      "expected": "42000",
+      "actual": "42000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 30",
+      "location": "solusi_05.xlsx:Data!F30",
+      "expected": "84000",
+      "actual": "84000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 31",
+      "location": "solusi_05.xlsx:Data!E31",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 31",
+      "location": "solusi_05.xlsx:Data!F31",
+      "expected": "468000",
+      "actual": "468000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 32",
+      "location": "solusi_05.xlsx:Data!E32",
+      "expected": "50000",
+      "actual": "50000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 32",
+      "location": "solusi_05.xlsx:Data!F32",
+      "expected": "550000",
+      "actual": "550000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 33",
+      "location": "solusi_05.xlsx:Data!E33",
+      "expected": "69000",
+      "actual": "69000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 33",
+      "location": "solusi_05.xlsx:Data!F33",
+      "expected": "759000",
+      "actual": "759000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 34",
+      "location": "solusi_05.xlsx:Data!E34",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 34",
+      "location": "solusi_05.xlsx:Data!F34",
+      "expected": "798000",
+      "actual": "798000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 35",
+      "location": "solusi_05.xlsx:Data!E35",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 35",
+      "location": "solusi_05.xlsx:Data!F35",
+      "expected": "280000",
+      "actual": "280000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 36",
+      "location": "solusi_05.xlsx:Data!E36",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 36",
+      "location": "solusi_05.xlsx:Data!F36",
+      "expected": "1140000",
+      "actual": "1140000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 37",
+      "location": "solusi_05.xlsx:Data!E37",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 37",
+      "location": "solusi_05.xlsx:Data!F37",
+      "expected": "728000",
+      "actual": "728000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 38",
+      "location": "solusi_05.xlsx:Data!E38",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 38",
+      "location": "solusi_05.xlsx:Data!F38",
+      "expected": "1020000",
+      "actual": "1020000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 39",
+      "location": "solusi_05.xlsx:Data!E39",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 39",
+      "location": "solusi_05.xlsx:Data!F39",
+      "expected": "364000",
+      "actual": "364000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 40",
+      "location": "solusi_05.xlsx:Data!E40",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 40",
+      "location": "solusi_05.xlsx:Data!F40",
+      "expected": "372000",
+      "actual": "372000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 41",
+      "location": "solusi_05.xlsx:Data!E41",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 41",
+      "location": "solusi_05.xlsx:Data!F41",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 42",
+      "location": "solusi_05.xlsx:Data!E42",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 42",
+      "location": "solusi_05.xlsx:Data!F42",
+      "expected": "300000",
+      "actual": "300000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 43",
+      "location": "solusi_05.xlsx:Data!E43",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 43",
+      "location": "solusi_05.xlsx:Data!F43",
+      "expected": "448000",
+      "actual": "448000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 44",
+      "location": "solusi_05.xlsx:Data!E44",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 44",
+      "location": "solusi_05.xlsx:Data!F44",
+      "expected": "448000",
+      "actual": "448000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 45",
+      "location": "solusi_05.xlsx:Data!E45",
+      "expected": "85000",
+      "actual": "85000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 45",
+      "location": "solusi_05.xlsx:Data!F45",
+      "expected": "1190000",
+      "actual": "1190000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 46",
+      "location": "solusi_05.xlsx:Data!E46",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 46",
+      "location": "solusi_05.xlsx:Data!F46",
+      "expected": "312000",
+      "actual": "312000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 47",
+      "location": "solusi_05.xlsx:Data!E47",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 47",
+      "location": "solusi_05.xlsx:Data!F47",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 48",
+      "location": "solusi_05.xlsx:Data!E48",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 48",
+      "location": "solusi_05.xlsx:Data!F48",
+      "expected": "399000",
+      "actual": "399000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 49",
+      "location": "solusi_05.xlsx:Data!E49",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 49",
+      "location": "solusi_05.xlsx:Data!F49",
+      "expected": "372000",
+      "actual": "372000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 50",
+      "location": "solusi_05.xlsx:Data!E50",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 50",
+      "location": "solusi_05.xlsx:Data!F50",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 51",
+      "location": "solusi_05.xlsx:Data!E51",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 51",
+      "location": "solusi_05.xlsx:Data!F51",
+      "expected": "340000",
+      "actual": "340000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 52",
+      "location": "solusi_05.xlsx:Data!E52",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 52",
+      "location": "solusi_05.xlsx:Data!F52",
+      "expected": "171000",
+      "actual": "171000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 53",
+      "location": "solusi_05.xlsx:Data!E53",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 53",
+      "location": "solusi_05.xlsx:Data!F53",
+      "expected": "816000",
+      "actual": "816000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 54",
+      "location": "solusi_05.xlsx:Data!E54",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 54",
+      "location": "solusi_05.xlsx:Data!F54",
+      "expected": "576000",
+      "actual": "576000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 55",
+      "location": "solusi_05.xlsx:Data!E55",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 55",
+      "location": "solusi_05.xlsx:Data!F55",
+      "expected": "448000",
+      "actual": "448000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 56",
+      "location": "solusi_05.xlsx:Data!E56",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 56",
+      "location": "solusi_05.xlsx:Data!F56",
+      "expected": "1140000",
+      "actual": "1140000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 57",
+      "location": "solusi_05.xlsx:Data!E57",
+      "expected": "85000",
+      "actual": "85000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 57",
+      "location": "solusi_05.xlsx:Data!F57",
+      "expected": "1020000",
+      "actual": "1020000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 58",
+      "location": "solusi_05.xlsx:Data!E58",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 58",
+      "location": "solusi_05.xlsx:Data!F58",
+      "expected": "640000",
+      "actual": "640000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 59",
+      "location": "solusi_05.xlsx:Data!E59",
+      "expected": "69000",
+      "actual": "69000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 59",
+      "location": "solusi_05.xlsx:Data!F59",
+      "expected": "690000",
+      "actual": "690000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 60",
+      "location": "solusi_05.xlsx:Data!E60",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 60",
+      "location": "solusi_05.xlsx:Data!F60",
+      "expected": "140000",
+      "actual": "140000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 61",
+      "location": "solusi_05.xlsx:Data!E61",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 61",
+      "location": "solusi_05.xlsx:Data!F61",
+      "expected": "48000",
+      "actual": "48000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 62",
+      "location": "solusi_05.xlsx:Data!E62",
+      "expected": "50000",
+      "actual": "50000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 62",
+      "location": "solusi_05.xlsx:Data!F62",
+      "expected": "700000",
+      "actual": "700000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 63",
+      "location": "solusi_05.xlsx:Data!E63",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 63",
+      "location": "solusi_05.xlsx:Data!F63",
+      "expected": "78000",
+      "actual": "78000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 64",
+      "location": "solusi_05.xlsx:Data!E64",
+      "expected": "33000",
+      "actual": "33000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 64",
+      "location": "solusi_05.xlsx:Data!F64",
+      "expected": "231000",
+      "actual": "231000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 65",
+      "location": "solusi_05.xlsx:Data!E65",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 65",
+      "location": "solusi_05.xlsx:Data!F65",
+      "expected": "760000",
+      "actual": "760000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 66",
+      "location": "solusi_05.xlsx:Data!E66",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 66",
+      "location": "solusi_05.xlsx:Data!F66",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 67",
+      "location": "solusi_05.xlsx:Data!E67",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 67",
+      "location": "solusi_05.xlsx:Data!F67",
+      "expected": "312000",
+      "actual": "312000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 68",
+      "location": "solusi_05.xlsx:Data!E68",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 68",
+      "location": "solusi_05.xlsx:Data!F68",
+      "expected": "390000",
+      "actual": "390000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 69",
+      "location": "solusi_05.xlsx:Data!E69",
+      "expected": "61000",
+      "actual": "61000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 69",
+      "location": "solusi_05.xlsx:Data!F69",
+      "expected": "671000",
+      "actual": "671000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 70",
+      "location": "solusi_05.xlsx:Data!E70",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 70",
+      "location": "solusi_05.xlsx:Data!F70",
+      "expected": "156000",
+      "actual": "156000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 71",
+      "location": "solusi_05.xlsx:Data!E71",
+      "expected": "61000",
+      "actual": "61000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 71",
+      "location": "solusi_05.xlsx:Data!F71",
+      "expected": "610000",
+      "actual": "610000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 72",
+      "location": "solusi_05.xlsx:Data!E72",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 72",
+      "location": "solusi_05.xlsx:Data!F72",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 73",
+      "location": "solusi_05.xlsx:Data!E73",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 73",
+      "location": "solusi_05.xlsx:Data!F73",
+      "expected": "448000",
+      "actual": "448000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 74",
+      "location": "solusi_05.xlsx:Data!E74",
+      "expected": "33000",
+      "actual": "33000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 74",
+      "location": "solusi_05.xlsx:Data!F74",
+      "expected": "363000",
+      "actual": "363000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 75",
+      "location": "solusi_05.xlsx:Data!E75",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 75",
+      "location": "solusi_05.xlsx:Data!F75",
+      "expected": "1425000",
+      "actual": "1425000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 76",
+      "location": "solusi_05.xlsx:Data!E76",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 76",
+      "location": "solusi_05.xlsx:Data!F76",
+      "expected": "832000",
+      "actual": "832000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 77",
+      "location": "solusi_05.xlsx:Data!E77",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 77",
+      "location": "solusi_05.xlsx:Data!F77",
+      "expected": "240000",
+      "actual": "240000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 78",
+      "location": "solusi_05.xlsx:Data!E78",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 78",
+      "location": "solusi_05.xlsx:Data!F78",
+      "expected": "741000",
+      "actual": "741000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 79",
+      "location": "solusi_05.xlsx:Data!E79",
+      "expected": "85000",
+      "actual": "85000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 79",
+      "location": "solusi_05.xlsx:Data!F79",
+      "expected": "340000",
+      "actual": "340000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 80",
+      "location": "solusi_05.xlsx:Data!E80",
+      "expected": "85000",
+      "actual": "85000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 80",
+      "location": "solusi_05.xlsx:Data!F80",
+      "expected": "680000",
+      "actual": "680000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 81",
+      "location": "solusi_05.xlsx:Data!E81",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 81",
+      "location": "solusi_05.xlsx:Data!F81",
+      "expected": "156000",
+      "actual": "156000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 82",
+      "location": "solusi_05.xlsx:Data!E82",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 82",
+      "location": "solusi_05.xlsx:Data!F82",
+      "expected": "760000",
+      "actual": "760000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 83",
+      "location": "solusi_05.xlsx:Data!E83",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 83",
+      "location": "solusi_05.xlsx:Data!F83",
+      "expected": "279000",
+      "actual": "279000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 84",
+      "location": "solusi_05.xlsx:Data!E84",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 84",
+      "location": "solusi_05.xlsx:Data!F84",
+      "expected": "950000",
+      "actual": "950000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 85",
+      "location": "solusi_05.xlsx:Data!E85",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 85",
+      "location": "solusi_05.xlsx:Data!F85",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 86",
+      "location": "solusi_05.xlsx:Data!E86",
+      "expected": "85000",
+      "actual": "85000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 86",
+      "location": "solusi_05.xlsx:Data!F86",
+      "expected": "510000",
+      "actual": "510000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 87",
+      "location": "solusi_05.xlsx:Data!E87",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 87",
+      "location": "solusi_05.xlsx:Data!F87",
+      "expected": "320000",
+      "actual": "320000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 88",
+      "location": "solusi_05.xlsx:Data!E88",
+      "expected": "61000",
+      "actual": "61000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 88",
+      "location": "solusi_05.xlsx:Data!F88",
+      "expected": "793000",
+      "actual": "793000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 89",
+      "location": "solusi_05.xlsx:Data!E89",
+      "expected": "61000",
+      "actual": "61000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 89",
+      "location": "solusi_05.xlsx:Data!F89",
+      "expected": "427000",
+      "actual": "427000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 90",
+      "location": "solusi_05.xlsx:Data!E90",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 90",
+      "location": "solusi_05.xlsx:Data!F90",
+      "expected": "176000",
+      "actual": "176000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 91",
+      "location": "solusi_05.xlsx:Data!E91",
+      "expected": "42000",
+      "actual": "42000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 91",
+      "location": "solusi_05.xlsx:Data!F91",
+      "expected": "378000",
+      "actual": "378000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 92",
+      "location": "solusi_05.xlsx:Data!E92",
+      "expected": "42000",
+      "actual": "42000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 92",
+      "location": "solusi_05.xlsx:Data!F92",
+      "expected": "210000",
+      "actual": "210000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 93",
+      "location": "solusi_05.xlsx:Data!E93",
+      "expected": "50000",
+      "actual": "50000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 93",
+      "location": "solusi_05.xlsx:Data!F93",
+      "expected": "150000",
+      "actual": "150000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 94",
+      "location": "solusi_05.xlsx:Data!E94",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 94",
+      "location": "solusi_05.xlsx:Data!F94",
+      "expected": "760000",
+      "actual": "760000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 95",
+      "location": "solusi_05.xlsx:Data!E95",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 95",
+      "location": "solusi_05.xlsx:Data!F95",
+      "expected": "300000",
+      "actual": "300000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 96",
+      "location": "solusi_05.xlsx:Data!E96",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 96",
+      "location": "solusi_05.xlsx:Data!F96",
+      "expected": "186000",
+      "actual": "186000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 97",
+      "location": "solusi_05.xlsx:Data!E97",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 97",
+      "location": "solusi_05.xlsx:Data!F97",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 98",
+      "location": "solusi_05.xlsx:Data!E98",
+      "expected": "69000",
+      "actual": "69000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 98",
+      "location": "solusi_05.xlsx:Data!F98",
+      "expected": "828000",
+      "actual": "828000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 99",
+      "location": "solusi_05.xlsx:Data!E99",
+      "expected": "29000",
+      "actual": "29000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 99",
+      "location": "solusi_05.xlsx:Data!F99",
+      "expected": "406000",
+      "actual": "406000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 100",
+      "location": "solusi_05.xlsx:Data!E100",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 100",
+      "location": "solusi_05.xlsx:Data!F100",
+      "expected": "448000",
+      "actual": "448000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 101",
+      "location": "solusi_05.xlsx:Data!E101",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 101",
+      "location": "solusi_05.xlsx:Data!F101",
+      "expected": "340000",
+      "actual": "340000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 102",
+      "location": "solusi_05.xlsx:Data!E102",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 102",
+      "location": "solusi_05.xlsx:Data!F102",
+      "expected": "312000",
+      "actual": "312000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 103",
+      "location": "solusi_05.xlsx:Data!E103",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 103",
+      "location": "solusi_05.xlsx:Data!F103",
+      "expected": "798000",
+      "actual": "798000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 104",
+      "location": "solusi_05.xlsx:Data!E104",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 104",
+      "location": "solusi_05.xlsx:Data!F104",
+      "expected": "570000",
+      "actual": "570000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 105",
+      "location": "solusi_05.xlsx:Data!E105",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 105",
+      "location": "solusi_05.xlsx:Data!F105",
+      "expected": "960000",
+      "actual": "960000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 106",
+      "location": "solusi_05.xlsx:Data!E106",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 106",
+      "location": "solusi_05.xlsx:Data!F106",
+      "expected": "572000",
+      "actual": "572000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 107",
+      "location": "solusi_05.xlsx:Data!E107",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 107",
+      "location": "solusi_05.xlsx:Data!F107",
+      "expected": "570000",
+      "actual": "570000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 108",
+      "location": "solusi_05.xlsx:Data!E108",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 108",
+      "location": "solusi_05.xlsx:Data!F108",
+      "expected": "570000",
+      "actual": "570000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 109",
+      "location": "solusi_05.xlsx:Data!E109",
+      "expected": "29000",
+      "actual": "29000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 109",
+      "location": "solusi_05.xlsx:Data!F109",
+      "expected": "203000",
+      "actual": "203000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 110",
+      "location": "solusi_05.xlsx:Data!E110",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 110",
+      "location": "solusi_05.xlsx:Data!F110",
+      "expected": "62000",
+      "actual": "62000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 111",
+      "location": "solusi_05.xlsx:Data!E111",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 111",
+      "location": "solusi_05.xlsx:Data!F111",
+      "expected": "832000",
+      "actual": "832000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 112",
+      "location": "solusi_05.xlsx:Data!E112",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 112",
+      "location": "solusi_05.xlsx:Data!F112",
+      "expected": "160000",
+      "actual": "160000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 113",
+      "location": "solusi_05.xlsx:Data!E113",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 113",
+      "location": "solusi_05.xlsx:Data!F113",
+      "expected": "140000",
+      "actual": "140000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 114",
+      "location": "solusi_05.xlsx:Data!E114",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 114",
+      "location": "solusi_05.xlsx:Data!F114",
+      "expected": "448000",
+      "actual": "448000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 115",
+      "location": "solusi_05.xlsx:Data!E115",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 115",
+      "location": "solusi_05.xlsx:Data!F115",
+      "expected": "128000",
+      "actual": "128000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 116",
+      "location": "solusi_05.xlsx:Data!E116",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 116",
+      "location": "solusi_05.xlsx:Data!F116",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 117",
+      "location": "solusi_05.xlsx:Data!E117",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 117",
+      "location": "solusi_05.xlsx:Data!F117",
+      "expected": "48000",
+      "actual": "48000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 118",
+      "location": "solusi_05.xlsx:Data!E118",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 118",
+      "location": "solusi_05.xlsx:Data!F118",
+      "expected": "130000",
+      "actual": "130000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 119",
+      "location": "solusi_05.xlsx:Data!E119",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 119",
+      "location": "solusi_05.xlsx:Data!F119",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 120",
+      "location": "solusi_05.xlsx:Data!E120",
+      "expected": "42000",
+      "actual": "42000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 120",
+      "location": "solusi_05.xlsx:Data!F120",
+      "expected": "252000",
+      "actual": "252000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 121",
+      "location": "solusi_05.xlsx:Data!E121",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 121",
+      "location": "solusi_05.xlsx:Data!F121",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 122",
+      "location": "solusi_05.xlsx:Data!E122",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 122",
+      "location": "solusi_05.xlsx:Data!F122",
+      "expected": "128000",
+      "actual": "128000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 123",
+      "location": "solusi_05.xlsx:Data!E123",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 123",
+      "location": "solusi_05.xlsx:Data!F123",
+      "expected": "576000",
+      "actual": "576000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 124",
+      "location": "solusi_05.xlsx:Data!E124",
+      "expected": "42000",
+      "actual": "42000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 124",
+      "location": "solusi_05.xlsx:Data!F124",
+      "expected": "84000",
+      "actual": "84000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 125",
+      "location": "solusi_05.xlsx:Data!E125",
+      "expected": "69000",
+      "actual": "69000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 125",
+      "location": "solusi_05.xlsx:Data!F125",
+      "expected": "1035000",
+      "actual": "1035000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 126",
+      "location": "solusi_05.xlsx:Data!E126",
+      "expected": "29000",
+      "actual": "29000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 126",
+      "location": "solusi_05.xlsx:Data!F126",
+      "expected": "145000",
+      "actual": "145000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 127",
+      "location": "solusi_05.xlsx:Data!E127",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 127",
+      "location": "solusi_05.xlsx:Data!F127",
+      "expected": "320000",
+      "actual": "320000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 128",
+      "location": "solusi_05.xlsx:Data!E128",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 128",
+      "location": "solusi_05.xlsx:Data!F128",
+      "expected": "272000",
+      "actual": "272000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 129",
+      "location": "solusi_05.xlsx:Data!E129",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 129",
+      "location": "solusi_05.xlsx:Data!F129",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 130",
+      "location": "solusi_05.xlsx:Data!E130",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 130",
+      "location": "solusi_05.xlsx:Data!F130",
+      "expected": "338000",
+      "actual": "338000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 131",
+      "location": "solusi_05.xlsx:Data!E131",
+      "expected": "61000",
+      "actual": "61000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 131",
+      "location": "solusi_05.xlsx:Data!F131",
+      "expected": "732000",
+      "actual": "732000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 132",
+      "location": "solusi_05.xlsx:Data!E132",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 132",
+      "location": "solusi_05.xlsx:Data!F132",
+      "expected": "112000",
+      "actual": "112000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 133",
+      "location": "solusi_05.xlsx:Data!E133",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 133",
+      "location": "solusi_05.xlsx:Data!F133",
+      "expected": "155000",
+      "actual": "155000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 134",
+      "location": "solusi_05.xlsx:Data!E134",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 134",
+      "location": "solusi_05.xlsx:Data!F134",
+      "expected": "204000",
+      "actual": "204000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 135",
+      "location": "solusi_05.xlsx:Data!E135",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 135",
+      "location": "solusi_05.xlsx:Data!F135",
+      "expected": "224000",
+      "actual": "224000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 136",
+      "location": "solusi_05.xlsx:Data!E136",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 136",
+      "location": "solusi_05.xlsx:Data!F136",
+      "expected": "476000",
+      "actual": "476000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 137",
+      "location": "solusi_05.xlsx:Data!E137",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 137",
+      "location": "solusi_05.xlsx:Data!F137",
+      "expected": "704000",
+      "actual": "704000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 138",
+      "location": "solusi_05.xlsx:Data!E138",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 138",
+      "location": "solusi_05.xlsx:Data!F138",
+      "expected": "950000",
+      "actual": "950000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 139",
+      "location": "solusi_05.xlsx:Data!E139",
+      "expected": "16000",
+      "actual": "16000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 139",
+      "location": "solusi_05.xlsx:Data!F139",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 140",
+      "location": "solusi_05.xlsx:Data!E140",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 140",
+      "location": "solusi_05.xlsx:Data!F140",
+      "expected": "1045000",
+      "actual": "1045000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 141",
+      "location": "solusi_05.xlsx:Data!E141",
+      "expected": "55000",
+      "actual": "55000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 141",
+      "location": "solusi_05.xlsx:Data!F141",
+      "expected": "385000",
+      "actual": "385000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 142",
+      "location": "solusi_05.xlsx:Data!E142",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 142",
+      "location": "solusi_05.xlsx:Data!F142",
+      "expected": "372000",
+      "actual": "372000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 143",
+      "location": "solusi_05.xlsx:Data!E143",
+      "expected": "95000",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 143",
+      "location": "solusi_05.xlsx:Data!F143",
+      "expected": "1140000",
+      "actual": "1140000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 144",
+      "location": "solusi_05.xlsx:Data!E144",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 144",
+      "location": "solusi_05.xlsx:Data!F144",
+      "expected": "100000",
+      "actual": "100000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 145",
+      "location": "solusi_05.xlsx:Data!E145",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 145",
+      "location": "solusi_05.xlsx:Data!F145",
+      "expected": "192000",
+      "actual": "192000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 146",
+      "location": "solusi_05.xlsx:Data!E146",
+      "expected": "55000",
+      "actual": "55000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 146",
+      "location": "solusi_05.xlsx:Data!F146",
+      "expected": "330000",
+      "actual": "330000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 147",
+      "location": "solusi_05.xlsx:Data!E147",
+      "expected": "33000",
+      "actual": "33000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 147",
+      "location": "solusi_05.xlsx:Data!F147",
+      "expected": "66000",
+      "actual": "66000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 148",
+      "location": "solusi_05.xlsx:Data!E148",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 148",
+      "location": "solusi_05.xlsx:Data!F148",
+      "expected": "372000",
+      "actual": "372000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 149",
+      "location": "solusi_05.xlsx:Data!E149",
+      "expected": "33000",
+      "actual": "33000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 149",
+      "location": "solusi_05.xlsx:Data!F149",
+      "expected": "462000",
+      "actual": "462000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 150",
+      "location": "solusi_05.xlsx:Data!E150",
+      "expected": "33000",
+      "actual": "33000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 150",
+      "location": "solusi_05.xlsx:Data!F150",
+      "expected": "66000",
+      "actual": "66000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 151",
+      "location": "solusi_05.xlsx:Data!E151",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 151",
+      "location": "solusi_05.xlsx:Data!F151",
+      "expected": "612000",
+      "actual": "612000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 152",
+      "location": "solusi_05.xlsx:Data!E152",
+      "expected": "64000",
+      "actual": "64000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 152",
+      "location": "solusi_05.xlsx:Data!F152",
+      "expected": "832000",
+      "actual": "832000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 153",
+      "location": "solusi_05.xlsx:Data!E153",
+      "expected": "69000",
+      "actual": "69000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 153",
+      "location": "solusi_05.xlsx:Data!F153",
+      "expected": "690000",
+      "actual": "690000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 154",
+      "location": "solusi_05.xlsx:Data!E154",
+      "expected": "52000",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 154",
+      "location": "solusi_05.xlsx:Data!F154",
+      "expected": "104000",
+      "actual": "104000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 155",
+      "location": "solusi_05.xlsx:Data!E155",
+      "expected": "26000",
+      "actual": "26000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 155",
+      "location": "solusi_05.xlsx:Data!F155",
+      "expected": "260000",
+      "actual": "260000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 156",
+      "location": "solusi_05.xlsx:Data!E156",
+      "expected": "31000",
+      "actual": "31000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 156",
+      "location": "solusi_05.xlsx:Data!F156",
+      "expected": "124000",
+      "actual": "124000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 157",
+      "location": "solusi_05.xlsx:Data!E157",
+      "expected": "69000",
+      "actual": "69000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 157",
+      "location": "solusi_05.xlsx:Data!F157",
+      "expected": "69000",
+      "actual": "69000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 158",
+      "location": "solusi_05.xlsx:Data!E158",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 158",
+      "location": "solusi_05.xlsx:Data!F158",
+      "expected": "798000",
+      "actual": "798000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 159",
+      "location": "solusi_05.xlsx:Data!E159",
+      "expected": "85000",
+      "actual": "85000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 159",
+      "location": "solusi_05.xlsx:Data!F159",
+      "expected": "340000",
+      "actual": "340000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 160",
+      "location": "solusi_05.xlsx:Data!E160",
+      "expected": "20000",
+      "actual": "20000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 160",
+      "location": "solusi_05.xlsx:Data!F160",
+      "expected": "200000",
+      "actual": "200000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Harga 161",
+      "location": "solusi_05.xlsx:Data!E161",
+      "expected": "32000",
+      "actual": "32000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 161",
+      "location": "solusi_05.xlsx:Data!F161",
+      "expected": "128000",
+      "actual": "128000",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

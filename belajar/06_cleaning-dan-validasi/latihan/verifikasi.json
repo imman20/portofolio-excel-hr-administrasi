@@ -1,0 +1,2546 @@
+{
+  "module": "06_cleaning-dan-validasi",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_06.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Input_Validasi"
+      ],
+      "formulas": 1005,
+      "errors": 0,
+      "size_kb": 30.3,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_06.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Input_Validasi"
+      ],
+      "formulas": 1015,
+      "errors": 0,
+      "size_kb": 30.5,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Pemeriksaan 4",
+      "location": "solusi_06.xlsx:Latihan!C4",
+      "expected": "119000.0",
+      "actual": "119000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 5",
+      "location": "solusi_06.xlsx:Latihan!C5",
+      "expected": "171000.0",
+      "actual": "171000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 6",
+      "location": "solusi_06.xlsx:Latihan!C6",
+      "expected": "52000.0",
+      "actual": "52000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 7",
+      "location": "solusi_06.xlsx:Latihan!C7",
+      "expected": "41000.0",
+      "actual": "41000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 8",
+      "location": "solusi_06.xlsx:Latihan!C8",
+      "expected": "249000.0",
+      "actual": "249000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 9",
+      "location": "solusi_06.xlsx:Latihan!C9",
+      "expected": "15.0",
+      "actual": "15",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 10",
+      "location": "solusi_06.xlsx:Latihan!C10",
+      "expected": "13498000.0",
+      "actual": "13498000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 11",
+      "location": "solusi_06.xlsx:Latihan!C11",
+      "expected": "85.0",
+      "actual": "85",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 12",
+      "location": "solusi_06.xlsx:Latihan!C12",
+      "expected": "4.0",
+      "actual": "4",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 13",
+      "location": "solusi_06.xlsx:Latihan!C13",
+      "expected": "1.0",
+      "actual": "1",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 14",
+      "location": "solusi_06.xlsx:Latihan!C14",
+      "expected": "100.0",
+      "actual": "100",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 15",
+      "location": "solusi_06.xlsx:Latihan!C15",
+      "expected": "158800.0",
+      "actual": "158800",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pemeriksaan 16",
+      "location": "solusi_06.xlsx:Latihan!C16",
+      "expected": "98.0",
+      "actual": "98",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "DATEVALUE ISO",
+      "location": "solusi_06.xlsx:Latihan!C20",
+      "expected": "2024-01-15",
+      "actual": "2024-01-15 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 2",
+      "location": "solusi_06.xlsx:Data!G2",
+      "expected": "Pegawai 001",
+      "actual": "Pegawai 001",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 2",
+      "location": "solusi_06.xlsx:Data!I2",
+      "expected": "2024-01-01",
+      "actual": "2024-01-01 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 2",
+      "location": "solusi_06.xlsx:Data!H2",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 3",
+      "location": "solusi_06.xlsx:Data!G3",
+      "expected": "Pegawai 002",
+      "actual": "Pegawai 002",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 3",
+      "location": "solusi_06.xlsx:Data!I3",
+      "expected": "2024-01-02",
+      "actual": "2024-01-02 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 3",
+      "location": "solusi_06.xlsx:Data!H3",
+      "expected": "199000.0",
+      "actual": "199000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 4",
+      "location": "solusi_06.xlsx:Data!G4",
+      "expected": "Pegawai 003",
+      "actual": "Pegawai 003",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 4",
+      "location": "solusi_06.xlsx:Data!I4",
+      "expected": "2024-01-03",
+      "actual": "2024-01-03 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 4",
+      "location": "solusi_06.xlsx:Data!H4",
+      "expected": "143000.0",
+      "actual": "143000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 5",
+      "location": "solusi_06.xlsx:Data!G5",
+      "expected": "Pegawai 004",
+      "actual": "Pegawai 004",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 5",
+      "location": "solusi_06.xlsx:Data!I5",
+      "expected": "2024-01-04",
+      "actual": "2024-01-04 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 5",
+      "location": "solusi_06.xlsx:Data!H5",
+      "expected": "104000.0",
+      "actual": "104000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 6",
+      "location": "solusi_06.xlsx:Data!G6",
+      "expected": "Pegawai 005",
+      "actual": "Pegawai 005",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 6",
+      "location": "solusi_06.xlsx:Data!I6",
+      "expected": "2024-01-05",
+      "actual": "2024-01-05 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 6",
+      "location": "solusi_06.xlsx:Data!H6",
+      "expected": "121000.0",
+      "actual": "121000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 7",
+      "location": "solusi_06.xlsx:Data!G7",
+      "expected": "Pegawai 006",
+      "actual": "Pegawai 006",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 7",
+      "location": "solusi_06.xlsx:Data!I7",
+      "expected": "2024-01-06",
+      "actual": "2024-01-06 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 7",
+      "location": "solusi_06.xlsx:Data!H7",
+      "expected": "1500000.0",
+      "actual": "1500000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 8",
+      "location": "solusi_06.xlsx:Data!G8",
+      "expected": "Pegawai 007",
+      "actual": "Pegawai 007",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 8",
+      "location": "solusi_06.xlsx:Data!I8",
+      "expected": "2024-01-07",
+      "actual": "2024-01-07 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 8",
+      "location": "solusi_06.xlsx:Data!H8",
+      "expected": "180000.0",
+      "actual": "180000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 9",
+      "location": "solusi_06.xlsx:Data!G9",
+      "expected": "Pegawai 008",
+      "actual": "Pegawai 008",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 9",
+      "location": "solusi_06.xlsx:Data!I9",
+      "expected": "2024-01-08",
+      "actual": "2024-01-08 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 9",
+      "location": "solusi_06.xlsx:Data!H9",
+      "expected": "146000.0",
+      "actual": "146000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 10",
+      "location": "solusi_06.xlsx:Data!G10",
+      "expected": "Pegawai 009",
+      "actual": "Pegawai 009",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 10",
+      "location": "solusi_06.xlsx:Data!I10",
+      "expected": "2024-01-09",
+      "actual": "2024-01-09 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 10",
+      "location": "solusi_06.xlsx:Data!H10",
+      "expected": "120000.0",
+      "actual": "120000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 11",
+      "location": "solusi_06.xlsx:Data!G11",
+      "expected": "Pegawai 010",
+      "actual": "Pegawai 010",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 11",
+      "location": "solusi_06.xlsx:Data!I11",
+      "expected": "2024-01-10",
+      "actual": "2024-01-10 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 11",
+      "location": "solusi_06.xlsx:Data!H11",
+      "expected": "197000.0",
+      "actual": "197000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 12",
+      "location": "solusi_06.xlsx:Data!G12",
+      "expected": "Pegawai 011",
+      "actual": "Pegawai 011",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 12",
+      "location": "solusi_06.xlsx:Data!I12",
+      "expected": "2024-01-11",
+      "actual": "2024-01-11 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 12",
+      "location": "solusi_06.xlsx:Data!H12",
+      "expected": "124000.0",
+      "actual": "124000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 13",
+      "location": "solusi_06.xlsx:Data!G13",
+      "expected": "Pegawai 012",
+      "actual": "Pegawai 012",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 13",
+      "location": "solusi_06.xlsx:Data!I13",
+      "expected": "2024-01-12",
+      "actual": "2024-01-12 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 13",
+      "location": "solusi_06.xlsx:Data!H13",
+      "expected": "114000.0",
+      "actual": "114000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 14",
+      "location": "solusi_06.xlsx:Data!G14",
+      "expected": "Pegawai 013",
+      "actual": "Pegawai 013",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 14",
+      "location": "solusi_06.xlsx:Data!I14",
+      "expected": "2024-01-13",
+      "actual": "2024-01-13 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 14",
+      "location": "solusi_06.xlsx:Data!H14",
+      "expected": "109000.0",
+      "actual": "109000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 15",
+      "location": "solusi_06.xlsx:Data!G15",
+      "expected": "Pegawai 014",
+      "actual": "Pegawai 014",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 15",
+      "location": "solusi_06.xlsx:Data!I15",
+      "expected": "2024-01-14",
+      "actual": "2024-01-14 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 15",
+      "location": "solusi_06.xlsx:Data!H15",
+      "expected": "132000.0",
+      "actual": "132000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 16",
+      "location": "solusi_06.xlsx:Data!G16",
+      "expected": "Pegawai 015",
+      "actual": "Pegawai 015",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 16",
+      "location": "solusi_06.xlsx:Data!I16",
+      "expected": "2024-01-15",
+      "actual": "2024-01-15 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 16",
+      "location": "solusi_06.xlsx:Data!H16",
+      "expected": "126000.0",
+      "actual": "126000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 17",
+      "location": "solusi_06.xlsx:Data!G17",
+      "expected": "Pegawai 016",
+      "actual": "Pegawai 016",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 17",
+      "location": "solusi_06.xlsx:Data!I17",
+      "expected": "2024-01-16",
+      "actual": "2024-01-16 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 17",
+      "location": "solusi_06.xlsx:Data!H17",
+      "expected": "119000.0",
+      "actual": "119000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 18",
+      "location": "solusi_06.xlsx:Data!G18",
+      "expected": "Pegawai 017",
+      "actual": "Pegawai 017",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 18",
+      "location": "solusi_06.xlsx:Data!I18",
+      "expected": "2024-01-17",
+      "actual": "2024-01-17 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 18",
+      "location": "solusi_06.xlsx:Data!H18",
+      "expected": "171000.0",
+      "actual": "171000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 19",
+      "location": "solusi_06.xlsx:Data!G19",
+      "expected": "Pegawai 018",
+      "actual": "Pegawai 018",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 19",
+      "location": "solusi_06.xlsx:Data!I19",
+      "expected": "2024-01-18",
+      "actual": "2024-01-18 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 19",
+      "location": "solusi_06.xlsx:Data!H19",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 20",
+      "location": "solusi_06.xlsx:Data!G20",
+      "expected": "Pegawai 019",
+      "actual": "Pegawai 019",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 20",
+      "location": "solusi_06.xlsx:Data!I20",
+      "expected": "2024-01-19",
+      "actual": "2024-01-19 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 20",
+      "location": "solusi_06.xlsx:Data!H20",
+      "expected": "174000.0",
+      "actual": "174000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 21",
+      "location": "solusi_06.xlsx:Data!G21",
+      "expected": "Pegawai 020",
+      "actual": "Pegawai 020",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 21",
+      "location": "solusi_06.xlsx:Data!I21",
+      "expected": "2024-01-20",
+      "actual": "2024-01-20 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 21",
+      "location": "solusi_06.xlsx:Data!H21",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 22",
+      "location": "solusi_06.xlsx:Data!G22",
+      "expected": "Pegawai 021",
+      "actual": "Pegawai 021",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 22",
+      "location": "solusi_06.xlsx:Data!I22",
+      "expected": "2024-01-21",
+      "actual": "2024-01-21 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 22",
+      "location": "solusi_06.xlsx:Data!H22",
+      "expected": "197000.0",
+      "actual": "197000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 23",
+      "location": "solusi_06.xlsx:Data!G23",
+      "expected": "Pegawai 022",
+      "actual": "Pegawai 022",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 23",
+      "location": "solusi_06.xlsx:Data!I23",
+      "expected": "2024-01-22",
+      "actual": "2024-01-22 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 23",
+      "location": "solusi_06.xlsx:Data!H23",
+      "expected": "164000.0",
+      "actual": "164000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 24",
+      "location": "solusi_06.xlsx:Data!G24",
+      "expected": "Pegawai 023",
+      "actual": "Pegawai 023",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 24",
+      "location": "solusi_06.xlsx:Data!I24",
+      "expected": "2024-01-23",
+      "actual": "2024-01-23 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 24",
+      "location": "solusi_06.xlsx:Data!H24",
+      "expected": "124000.0",
+      "actual": "124000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 25",
+      "location": "solusi_06.xlsx:Data!G25",
+      "expected": "Pegawai 024",
+      "actual": "Pegawai 024",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 25",
+      "location": "solusi_06.xlsx:Data!I25",
+      "expected": "2024-01-24",
+      "actual": "2024-01-24 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 25",
+      "location": "solusi_06.xlsx:Data!H25",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 26",
+      "location": "solusi_06.xlsx:Data!G26",
+      "expected": "Pegawai 025",
+      "actual": "Pegawai 025",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 26",
+      "location": "solusi_06.xlsx:Data!I26",
+      "expected": "2024-01-25",
+      "actual": "2024-01-25 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 26",
+      "location": "solusi_06.xlsx:Data!H26",
+      "expected": "120000.0",
+      "actual": "120000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 27",
+      "location": "solusi_06.xlsx:Data!G27",
+      "expected": "Pegawai 026",
+      "actual": "Pegawai 026",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 27",
+      "location": "solusi_06.xlsx:Data!I27",
+      "expected": "2024-01-26",
+      "actual": "2024-01-26 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 27",
+      "location": "solusi_06.xlsx:Data!H27",
+      "expected": "198000.0",
+      "actual": "198000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 28",
+      "location": "solusi_06.xlsx:Data!G28",
+      "expected": "Pegawai 027",
+      "actual": "Pegawai 027",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 28",
+      "location": "solusi_06.xlsx:Data!I28",
+      "expected": "2024-01-27",
+      "actual": "2024-01-27 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 28",
+      "location": "solusi_06.xlsx:Data!H28",
+      "expected": "122000.0",
+      "actual": "122000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 29",
+      "location": "solusi_06.xlsx:Data!G29",
+      "expected": "Pegawai 028",
+      "actual": "Pegawai 028",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 29",
+      "location": "solusi_06.xlsx:Data!I29",
+      "expected": "2024-01-28",
+      "actual": "2024-01-28 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 29",
+      "location": "solusi_06.xlsx:Data!H29",
+      "expected": "115000.0",
+      "actual": "115000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 30",
+      "location": "solusi_06.xlsx:Data!G30",
+      "expected": "Pegawai 029",
+      "actual": "Pegawai 029",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 30",
+      "location": "solusi_06.xlsx:Data!I30",
+      "expected": "2024-01-29",
+      "actual": "2024-01-29 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 30",
+      "location": "solusi_06.xlsx:Data!H30",
+      "expected": "126000.0",
+      "actual": "126000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 31",
+      "location": "solusi_06.xlsx:Data!G31",
+      "expected": "Pegawai 030",
+      "actual": "Pegawai 030",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 31",
+      "location": "solusi_06.xlsx:Data!I31",
+      "expected": "2024-01-30",
+      "actual": "2024-01-30 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 31",
+      "location": "solusi_06.xlsx:Data!H31",
+      "expected": "129000.0",
+      "actual": "129000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 32",
+      "location": "solusi_06.xlsx:Data!G32",
+      "expected": "Pegawai 031",
+      "actual": "Pegawai 031",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 32",
+      "location": "solusi_06.xlsx:Data!I32",
+      "expected": "2024-01-31",
+      "actual": "2024-01-31 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 32",
+      "location": "solusi_06.xlsx:Data!H32",
+      "expected": "165000.0",
+      "actual": "165000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 33",
+      "location": "solusi_06.xlsx:Data!G33",
+      "expected": "Pegawai 032",
+      "actual": "Pegawai 032",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 33",
+      "location": "solusi_06.xlsx:Data!I33",
+      "expected": "2024-02-01",
+      "actual": "2024-02-01 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 33",
+      "location": "solusi_06.xlsx:Data!H33",
+      "expected": "105000.0",
+      "actual": "105000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 34",
+      "location": "solusi_06.xlsx:Data!G34",
+      "expected": "Pegawai 033",
+      "actual": "Pegawai 033",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 34",
+      "location": "solusi_06.xlsx:Data!I34",
+      "expected": "2024-02-02",
+      "actual": "2024-02-02 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 34",
+      "location": "solusi_06.xlsx:Data!H34",
+      "expected": "176000.0",
+      "actual": "176000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 35",
+      "location": "solusi_06.xlsx:Data!G35",
+      "expected": "Pegawai 034",
+      "actual": "Pegawai 034",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 35",
+      "location": "solusi_06.xlsx:Data!I35",
+      "expected": "2024-02-03",
+      "actual": "2024-02-03 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 35",
+      "location": "solusi_06.xlsx:Data!H35",
+      "expected": "172000.0",
+      "actual": "172000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 36",
+      "location": "solusi_06.xlsx:Data!G36",
+      "expected": "Pegawai 035",
+      "actual": "Pegawai 035",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 36",
+      "location": "solusi_06.xlsx:Data!I36",
+      "expected": "2024-02-04",
+      "actual": "2024-02-04 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 36",
+      "location": "solusi_06.xlsx:Data!H36",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 37",
+      "location": "solusi_06.xlsx:Data!G37",
+      "expected": "Pegawai 036",
+      "actual": "Pegawai 036",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 37",
+      "location": "solusi_06.xlsx:Data!I37",
+      "expected": "2024-02-05",
+      "actual": "2024-02-05 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 37",
+      "location": "solusi_06.xlsx:Data!H37",
+      "expected": "140000.0",
+      "actual": "140000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 38",
+      "location": "solusi_06.xlsx:Data!G38",
+      "expected": "Pegawai 037",
+      "actual": "Pegawai 037",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 38",
+      "location": "solusi_06.xlsx:Data!I38",
+      "expected": "2024-02-06",
+      "actual": "2024-02-06 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 38",
+      "location": "solusi_06.xlsx:Data!H38",
+      "expected": "109000.0",
+      "actual": "109000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 39",
+      "location": "solusi_06.xlsx:Data!G39",
+      "expected": "Pegawai 038",
+      "actual": "Pegawai 038",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 39",
+      "location": "solusi_06.xlsx:Data!I39",
+      "expected": "2024-02-07",
+      "actual": "2024-02-07 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 39",
+      "location": "solusi_06.xlsx:Data!H39",
+      "expected": "152000.0",
+      "actual": "152000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 40",
+      "location": "solusi_06.xlsx:Data!G40",
+      "expected": "Pegawai 039",
+      "actual": "Pegawai 039",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 40",
+      "location": "solusi_06.xlsx:Data!I40",
+      "expected": "2024-02-08",
+      "actual": "2024-02-08 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 40",
+      "location": "solusi_06.xlsx:Data!H40",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 41",
+      "location": "solusi_06.xlsx:Data!G41",
+      "expected": "Pegawai 040",
+      "actual": "Pegawai 040",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 41",
+      "location": "solusi_06.xlsx:Data!I41",
+      "expected": "2024-02-09",
+      "actual": "2024-02-09 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 41",
+      "location": "solusi_06.xlsx:Data!H41",
+      "expected": "169000.0",
+      "actual": "169000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 42",
+      "location": "solusi_06.xlsx:Data!G42",
+      "expected": "Pegawai 041",
+      "actual": "Pegawai 041",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 42",
+      "location": "solusi_06.xlsx:Data!I42",
+      "expected": "2024-02-10",
+      "actual": "2024-02-10 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 42",
+      "location": "solusi_06.xlsx:Data!H42",
+      "expected": "101000.0",
+      "actual": "101000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 43",
+      "location": "solusi_06.xlsx:Data!G43",
+      "expected": "Pegawai 042",
+      "actual": "Pegawai 042",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 43",
+      "location": "solusi_06.xlsx:Data!I43",
+      "expected": "2024-02-11",
+      "actual": "2024-02-11 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 43",
+      "location": "solusi_06.xlsx:Data!H43",
+      "expected": "104000.0",
+      "actual": "104000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 44",
+      "location": "solusi_06.xlsx:Data!G44",
+      "expected": "Pegawai 043",
+      "actual": "Pegawai 043",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 44",
+      "location": "solusi_06.xlsx:Data!I44",
+      "expected": "2024-02-12",
+      "actual": "2024-02-12 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 44",
+      "location": "solusi_06.xlsx:Data!H44",
+      "expected": "138000.0",
+      "actual": "138000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 45",
+      "location": "solusi_06.xlsx:Data!G45",
+      "expected": "Pegawai 044",
+      "actual": "Pegawai 044",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 45",
+      "location": "solusi_06.xlsx:Data!I45",
+      "expected": "2024-02-13",
+      "actual": "2024-02-13 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 45",
+      "location": "solusi_06.xlsx:Data!H45",
+      "expected": "126000.0",
+      "actual": "126000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 46",
+      "location": "solusi_06.xlsx:Data!G46",
+      "expected": "Pegawai 045",
+      "actual": "Pegawai 045",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 46",
+      "location": "solusi_06.xlsx:Data!I46",
+      "expected": "2024-02-14",
+      "actual": "2024-02-14 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 46",
+      "location": "solusi_06.xlsx:Data!H46",
+      "expected": "111000.0",
+      "actual": "111000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 47",
+      "location": "solusi_06.xlsx:Data!G47",
+      "expected": "Pegawai 046",
+      "actual": "Pegawai 046",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 47",
+      "location": "solusi_06.xlsx:Data!I47",
+      "expected": "2024-02-15",
+      "actual": "2024-02-15 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 47",
+      "location": "solusi_06.xlsx:Data!H47",
+      "expected": "142000.0",
+      "actual": "142000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 48",
+      "location": "solusi_06.xlsx:Data!G48",
+      "expected": "Pegawai 047",
+      "actual": "Pegawai 047",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 48",
+      "location": "solusi_06.xlsx:Data!I48",
+      "expected": "2024-02-16",
+      "actual": "2024-02-16 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 48",
+      "location": "solusi_06.xlsx:Data!H48",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 49",
+      "location": "solusi_06.xlsx:Data!G49",
+      "expected": "Pegawai 048",
+      "actual": "Pegawai 048",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 49",
+      "location": "solusi_06.xlsx:Data!I49",
+      "expected": "2024-02-17",
+      "actual": "2024-02-17 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 49",
+      "location": "solusi_06.xlsx:Data!H49",
+      "expected": "109000.0",
+      "actual": "109000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 50",
+      "location": "solusi_06.xlsx:Data!G50",
+      "expected": "Pegawai 049",
+      "actual": "Pegawai 049",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 50",
+      "location": "solusi_06.xlsx:Data!I50",
+      "expected": "2024-02-18",
+      "actual": "2024-02-18 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 50",
+      "location": "solusi_06.xlsx:Data!H50",
+      "expected": "170000.0",
+      "actual": "170000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 51",
+      "location": "solusi_06.xlsx:Data!G51",
+      "expected": "Pegawai 050",
+      "actual": "Pegawai 050",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 51",
+      "location": "solusi_06.xlsx:Data!I51",
+      "expected": "2024-02-19",
+      "actual": "2024-02-19 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 51",
+      "location": "solusi_06.xlsx:Data!H51",
+      "expected": "108000.0",
+      "actual": "108000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 52",
+      "location": "solusi_06.xlsx:Data!G52",
+      "expected": "Pegawai 051",
+      "actual": "Pegawai 051",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 52",
+      "location": "solusi_06.xlsx:Data!I52",
+      "expected": "2024-02-20",
+      "actual": "2024-02-20 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 52",
+      "location": "solusi_06.xlsx:Data!H52",
+      "expected": "188000.0",
+      "actual": "188000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 53",
+      "location": "solusi_06.xlsx:Data!G53",
+      "expected": "Pegawai 052",
+      "actual": "Pegawai 052",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 53",
+      "location": "solusi_06.xlsx:Data!I53",
+      "expected": "2024-02-21",
+      "actual": "2024-02-21 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 53",
+      "location": "solusi_06.xlsx:Data!H53",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 54",
+      "location": "solusi_06.xlsx:Data!G54",
+      "expected": "Pegawai 053",
+      "actual": "Pegawai 053",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 54",
+      "location": "solusi_06.xlsx:Data!I54",
+      "expected": "2024-02-22",
+      "actual": "2024-02-22 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 54",
+      "location": "solusi_06.xlsx:Data!H54",
+      "expected": "116000.0",
+      "actual": "116000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 55",
+      "location": "solusi_06.xlsx:Data!G55",
+      "expected": "Pegawai 054",
+      "actual": "Pegawai 054",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 55",
+      "location": "solusi_06.xlsx:Data!I55",
+      "expected": "2024-02-23",
+      "actual": "2024-02-23 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 55",
+      "location": "solusi_06.xlsx:Data!H55",
+      "expected": "170000.0",
+      "actual": "170000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 56",
+      "location": "solusi_06.xlsx:Data!G56",
+      "expected": "Pegawai 055",
+      "actual": "Pegawai 055",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 56",
+      "location": "solusi_06.xlsx:Data!I56",
+      "expected": "2024-02-24",
+      "actual": "2024-02-24 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 56",
+      "location": "solusi_06.xlsx:Data!H56",
+      "expected": "104000.0",
+      "actual": "104000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 57",
+      "location": "solusi_06.xlsx:Data!G57",
+      "expected": "Pegawai 056",
+      "actual": "Pegawai 056",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 57",
+      "location": "solusi_06.xlsx:Data!I57",
+      "expected": "2024-02-25",
+      "actual": "2024-02-25 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 57",
+      "location": "solusi_06.xlsx:Data!H57",
+      "expected": "143000.0",
+      "actual": "143000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 58",
+      "location": "solusi_06.xlsx:Data!G58",
+      "expected": "Pegawai 057",
+      "actual": "Pegawai 057",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 58",
+      "location": "solusi_06.xlsx:Data!I58",
+      "expected": "2024-02-26",
+      "actual": "2024-02-26 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 58",
+      "location": "solusi_06.xlsx:Data!H58",
+      "expected": "189000.0",
+      "actual": "189000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 59",
+      "location": "solusi_06.xlsx:Data!G59",
+      "expected": "Pegawai 058",
+      "actual": "Pegawai 058",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 59",
+      "location": "solusi_06.xlsx:Data!I59",
+      "expected": "2024-02-27",
+      "actual": "2024-02-27 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 59",
+      "location": "solusi_06.xlsx:Data!H59",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 60",
+      "location": "solusi_06.xlsx:Data!G60",
+      "expected": "Pegawai 059",
+      "actual": "Pegawai 059",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 60",
+      "location": "solusi_06.xlsx:Data!I60",
+      "expected": "2024-02-28",
+      "actual": "2024-02-28 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 60",
+      "location": "solusi_06.xlsx:Data!H60",
+      "expected": "106000.0",
+      "actual": "106000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 61",
+      "location": "solusi_06.xlsx:Data!G61",
+      "expected": "Pegawai 060",
+      "actual": "Pegawai 060",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 61",
+      "location": "solusi_06.xlsx:Data!I61",
+      "expected": "2024-02-29",
+      "actual": "2024-02-29 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 61",
+      "location": "solusi_06.xlsx:Data!H61",
+      "expected": "114000.0",
+      "actual": "114000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 62",
+      "location": "solusi_06.xlsx:Data!G62",
+      "expected": "Pegawai 061",
+      "actual": "Pegawai 061",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 62",
+      "location": "solusi_06.xlsx:Data!I62",
+      "expected": "2024-03-01",
+      "actual": "2024-03-01 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 62",
+      "location": "solusi_06.xlsx:Data!H62",
+      "expected": "200000.0",
+      "actual": "200000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 63",
+      "location": "solusi_06.xlsx:Data!G63",
+      "expected": "Pegawai 062",
+      "actual": "Pegawai 062",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 63",
+      "location": "solusi_06.xlsx:Data!I63",
+      "expected": "2024-03-02",
+      "actual": "2024-03-02 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 63",
+      "location": "solusi_06.xlsx:Data!H63",
+      "expected": "139000.0",
+      "actual": "139000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 64",
+      "location": "solusi_06.xlsx:Data!G64",
+      "expected": "Pegawai 063",
+      "actual": "Pegawai 063",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 64",
+      "location": "solusi_06.xlsx:Data!I64",
+      "expected": "2024-03-03",
+      "actual": "2024-03-03 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 64",
+      "location": "solusi_06.xlsx:Data!H64",
+      "expected": "115000.0",
+      "actual": "115000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 65",
+      "location": "solusi_06.xlsx:Data!G65",
+      "expected": "Pegawai 064",
+      "actual": "Pegawai 064",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 65",
+      "location": "solusi_06.xlsx:Data!I65",
+      "expected": "2024-03-04",
+      "actual": "2024-03-04 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 65",
+      "location": "solusi_06.xlsx:Data!H65",
+      "expected": "199000.0",
+      "actual": "199000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 66",
+      "location": "solusi_06.xlsx:Data!G66",
+      "expected": "Pegawai 065",
+      "actual": "Pegawai 065",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 66",
+      "location": "solusi_06.xlsx:Data!I66",
+      "expected": "2024-03-05",
+      "actual": "2024-03-05 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 66",
+      "location": "solusi_06.xlsx:Data!H66",
+      "expected": "133000.0",
+      "actual": "133000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 67",
+      "location": "solusi_06.xlsx:Data!G67",
+      "expected": "Pegawai 066",
+      "actual": "Pegawai 066",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 67",
+      "location": "solusi_06.xlsx:Data!I67",
+      "expected": "2024-03-06",
+      "actual": "2024-03-06 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 67",
+      "location": "solusi_06.xlsx:Data!H67",
+      "expected": "119000.0",
+      "actual": "119000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 68",
+      "location": "solusi_06.xlsx:Data!G68",
+      "expected": "Pegawai 067",
+      "actual": "Pegawai 067",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 68",
+      "location": "solusi_06.xlsx:Data!I68",
+      "expected": "2024-03-07",
+      "actual": "2024-03-07 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 68",
+      "location": "solusi_06.xlsx:Data!H68",
+      "expected": "130000.0",
+      "actual": "130000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 69",
+      "location": "solusi_06.xlsx:Data!G69",
+      "expected": "Pegawai 068",
+      "actual": "Pegawai 068",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 69",
+      "location": "solusi_06.xlsx:Data!I69",
+      "expected": "2024-03-08",
+      "actual": "2024-03-08 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 69",
+      "location": "solusi_06.xlsx:Data!H69",
+      "expected": "132000.0",
+      "actual": "132000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 70",
+      "location": "solusi_06.xlsx:Data!G70",
+      "expected": "Pegawai 069",
+      "actual": "Pegawai 069",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 70",
+      "location": "solusi_06.xlsx:Data!I70",
+      "expected": "2024-03-09",
+      "actual": "2024-03-09 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 70",
+      "location": "solusi_06.xlsx:Data!H70",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 71",
+      "location": "solusi_06.xlsx:Data!G71",
+      "expected": "Pegawai 070",
+      "actual": "Pegawai 070",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 71",
+      "location": "solusi_06.xlsx:Data!I71",
+      "expected": "2024-03-10",
+      "actual": "2024-03-10 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 71",
+      "location": "solusi_06.xlsx:Data!H71",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 72",
+      "location": "solusi_06.xlsx:Data!G72",
+      "expected": "Pegawai 071",
+      "actual": "Pegawai 071",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 72",
+      "location": "solusi_06.xlsx:Data!I72",
+      "expected": "2024-03-11",
+      "actual": "2024-03-11 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 72",
+      "location": "solusi_06.xlsx:Data!H72",
+      "expected": "139000.0",
+      "actual": "139000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 73",
+      "location": "solusi_06.xlsx:Data!G73",
+      "expected": "Pegawai 072",
+      "actual": "Pegawai 072",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 73",
+      "location": "solusi_06.xlsx:Data!I73",
+      "expected": "2024-03-12",
+      "actual": "2024-03-12 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 73",
+      "location": "solusi_06.xlsx:Data!H73",
+      "expected": "189000.0",
+      "actual": "189000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 74",
+      "location": "solusi_06.xlsx:Data!G74",
+      "expected": "Pegawai 073",
+      "actual": "Pegawai 073",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 74",
+      "location": "solusi_06.xlsx:Data!I74",
+      "expected": "2024-03-13",
+      "actual": "2024-03-13 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 74",
+      "location": "solusi_06.xlsx:Data!H74",
+      "expected": "110000.0",
+      "actual": "110000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 75",
+      "location": "solusi_06.xlsx:Data!G75",
+      "expected": "Pegawai 074",
+      "actual": "Pegawai 074",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 75",
+      "location": "solusi_06.xlsx:Data!I75",
+      "expected": "2024-03-14",
+      "actual": "2024-03-14 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 75",
+      "location": "solusi_06.xlsx:Data!H75",
+      "expected": "189000.0",
+      "actual": "189000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 76",
+      "location": "solusi_06.xlsx:Data!G76",
+      "expected": "Pegawai 075",
+      "actual": "Pegawai 075",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 76",
+      "location": "solusi_06.xlsx:Data!I76",
+      "expected": "2024-03-15",
+      "actual": "2024-03-15 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 76",
+      "location": "solusi_06.xlsx:Data!H76",
+      "expected": "179000.0",
+      "actual": "179000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 77",
+      "location": "solusi_06.xlsx:Data!G77",
+      "expected": "Pegawai 076",
+      "actual": "Pegawai 076",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 77",
+      "location": "solusi_06.xlsx:Data!I77",
+      "expected": "2024-03-16",
+      "actual": "2024-03-16 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 77",
+      "location": "solusi_06.xlsx:Data!H77",
+      "expected": "125000.0",
+      "actual": "125000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 78",
+      "location": "solusi_06.xlsx:Data!G78",
+      "expected": "Pegawai 077",
+      "actual": "Pegawai 077",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 78",
+      "location": "solusi_06.xlsx:Data!I78",
+      "expected": "2024-03-17",
+      "actual": "2024-03-17 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 78",
+      "location": "solusi_06.xlsx:Data!H78",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 79",
+      "location": "solusi_06.xlsx:Data!G79",
+      "expected": "Pegawai 078",
+      "actual": "Pegawai 078",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 79",
+      "location": "solusi_06.xlsx:Data!I79",
+      "expected": "2024-03-18",
+      "actual": "2024-03-18 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 79",
+      "location": "solusi_06.xlsx:Data!H79",
+      "expected": "191000.0",
+      "actual": "191000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 80",
+      "location": "solusi_06.xlsx:Data!G80",
+      "expected": "Pegawai 079",
+      "actual": "Pegawai 079",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 80",
+      "location": "solusi_06.xlsx:Data!I80",
+      "expected": "2024-03-19",
+      "actual": "2024-03-19 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 80",
+      "location": "solusi_06.xlsx:Data!H80",
+      "expected": "134000.0",
+      "actual": "134000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 81",
+      "location": "solusi_06.xlsx:Data!G81",
+      "expected": "Pegawai 080",
+      "actual": "Pegawai 080",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 81",
+      "location": "solusi_06.xlsx:Data!I81",
+      "expected": "2024-03-20",
+      "actual": "2024-03-20 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 81",
+      "location": "solusi_06.xlsx:Data!H81",
+      "expected": "127000.0",
+      "actual": "127000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 82",
+      "location": "solusi_06.xlsx:Data!G82",
+      "expected": "Pegawai 081",
+      "actual": "Pegawai 081",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 82",
+      "location": "solusi_06.xlsx:Data!I82",
+      "expected": "2024-03-21",
+      "actual": "2024-03-21 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 82",
+      "location": "solusi_06.xlsx:Data!H82",
+      "expected": "169000.0",
+      "actual": "169000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 83",
+      "location": "solusi_06.xlsx:Data!G83",
+      "expected": "Pegawai 082",
+      "actual": "Pegawai 082",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 83",
+      "location": "solusi_06.xlsx:Data!I83",
+      "expected": "2024-03-22",
+      "actual": "2024-03-22 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 83",
+      "location": "solusi_06.xlsx:Data!H83",
+      "expected": "154000.0",
+      "actual": "154000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 84",
+      "location": "solusi_06.xlsx:Data!G84",
+      "expected": "Pegawai 083",
+      "actual": "Pegawai 083",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 84",
+      "location": "solusi_06.xlsx:Data!I84",
+      "expected": "2024-03-23",
+      "actual": "2024-03-23 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 84",
+      "location": "solusi_06.xlsx:Data!H84",
+      "expected": "142000.0",
+      "actual": "142000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 85",
+      "location": "solusi_06.xlsx:Data!G85",
+      "expected": "Pegawai 084",
+      "actual": "Pegawai 084",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 85",
+      "location": "solusi_06.xlsx:Data!I85",
+      "expected": "2024-03-24",
+      "actual": "2024-03-24 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 85",
+      "location": "solusi_06.xlsx:Data!H85",
+      "expected": "169000.0",
+      "actual": "169000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 86",
+      "location": "solusi_06.xlsx:Data!G86",
+      "expected": "Pegawai 085",
+      "actual": "Pegawai 085",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 86",
+      "location": "solusi_06.xlsx:Data!I86",
+      "expected": "2024-03-25",
+      "actual": "2024-03-25 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 86",
+      "location": "solusi_06.xlsx:Data!H86",
+      "expected": "178000.0",
+      "actual": "178000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 87",
+      "location": "solusi_06.xlsx:Data!G87",
+      "expected": "Pegawai 086",
+      "actual": "Pegawai 086",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 87",
+      "location": "solusi_06.xlsx:Data!I87",
+      "expected": "2024-03-26",
+      "actual": "2024-03-26 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 87",
+      "location": "solusi_06.xlsx:Data!H87",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 88",
+      "location": "solusi_06.xlsx:Data!G88",
+      "expected": "Pegawai 087",
+      "actual": "Pegawai 087",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 88",
+      "location": "solusi_06.xlsx:Data!I88",
+      "expected": "2024-03-27",
+      "actual": "2024-03-27 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 88",
+      "location": "solusi_06.xlsx:Data!H88",
+      "expected": "141000.0",
+      "actual": "141000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 89",
+      "location": "solusi_06.xlsx:Data!G89",
+      "expected": "Pegawai 088",
+      "actual": "Pegawai 088",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 89",
+      "location": "solusi_06.xlsx:Data!I89",
+      "expected": "2024-03-28",
+      "actual": "2024-03-28 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 89",
+      "location": "solusi_06.xlsx:Data!H89",
+      "expected": "115000.0",
+      "actual": "115000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 90",
+      "location": "solusi_06.xlsx:Data!G90",
+      "expected": "Pegawai 089",
+      "actual": "Pegawai 089",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 90",
+      "location": "solusi_06.xlsx:Data!I90",
+      "expected": "2024-03-29",
+      "actual": "2024-03-29 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 90",
+      "location": "solusi_06.xlsx:Data!H90",
+      "expected": "128000.0",
+      "actual": "128000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 91",
+      "location": "solusi_06.xlsx:Data!G91",
+      "expected": "Pegawai 090",
+      "actual": "Pegawai 090",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 91",
+      "location": "solusi_06.xlsx:Data!I91",
+      "expected": "2024-03-30",
+      "actual": "2024-03-30 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 91",
+      "location": "solusi_06.xlsx:Data!H91",
+      "expected": "187000.0",
+      "actual": "187000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 92",
+      "location": "solusi_06.xlsx:Data!G92",
+      "expected": "Pegawai 091",
+      "actual": "Pegawai 091",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 92",
+      "location": "solusi_06.xlsx:Data!I92",
+      "expected": "2024-03-31",
+      "actual": "2024-03-31 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 92",
+      "location": "solusi_06.xlsx:Data!H92",
+      "expected": "131000.0",
+      "actual": "131000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 93",
+      "location": "solusi_06.xlsx:Data!G93",
+      "expected": "Pegawai 092",
+      "actual": "Pegawai 092",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 93",
+      "location": "solusi_06.xlsx:Data!I93",
+      "expected": "2024-04-01",
+      "actual": "2024-04-01 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 93",
+      "location": "solusi_06.xlsx:Data!H93",
+      "expected": "110000.0",
+      "actual": "110000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 94",
+      "location": "solusi_06.xlsx:Data!G94",
+      "expected": "Pegawai 093",
+      "actual": "Pegawai 093",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 94",
+      "location": "solusi_06.xlsx:Data!I94",
+      "expected": "2024-04-02",
+      "actual": "2024-04-02 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 94",
+      "location": "solusi_06.xlsx:Data!H94",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 95",
+      "location": "solusi_06.xlsx:Data!G95",
+      "expected": "Pegawai 094",
+      "actual": "Pegawai 094",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 95",
+      "location": "solusi_06.xlsx:Data!I95",
+      "expected": "2024-04-03",
+      "actual": "2024-04-03 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 95",
+      "location": "solusi_06.xlsx:Data!H95",
+      "expected": "171000.0",
+      "actual": "171000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 96",
+      "location": "solusi_06.xlsx:Data!G96",
+      "expected": "Pegawai 095",
+      "actual": "Pegawai 095",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 96",
+      "location": "solusi_06.xlsx:Data!I96",
+      "expected": "2024-04-04",
+      "actual": "2024-04-04 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 96",
+      "location": "solusi_06.xlsx:Data!H96",
+      "expected": "134000.0",
+      "actual": "134000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 97",
+      "location": "solusi_06.xlsx:Data!G97",
+      "expected": "Pegawai 096",
+      "actual": "Pegawai 096",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 97",
+      "location": "solusi_06.xlsx:Data!I97",
+      "expected": "2024-04-05",
+      "actual": "2024-04-05 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 97",
+      "location": "solusi_06.xlsx:Data!H97",
+      "expected": "KOSONG",
+      "actual": "KOSONG",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 98",
+      "location": "solusi_06.xlsx:Data!G98",
+      "expected": "Pegawai 097",
+      "actual": "Pegawai 097",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 98",
+      "location": "solusi_06.xlsx:Data!I98",
+      "expected": "2024-04-06",
+      "actual": "2024-04-06 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 98",
+      "location": "solusi_06.xlsx:Data!H98",
+      "expected": "101000.0",
+      "actual": "101000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 99",
+      "location": "solusi_06.xlsx:Data!G99",
+      "expected": "Pegawai 098",
+      "actual": "Pegawai 098",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 99",
+      "location": "solusi_06.xlsx:Data!I99",
+      "expected": "2024-04-07",
+      "actual": "2024-04-07 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 99",
+      "location": "solusi_06.xlsx:Data!H99",
+      "expected": "102000.0",
+      "actual": "102000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 100",
+      "location": "solusi_06.xlsx:Data!G100",
+      "expected": "Pegawai 099",
+      "actual": "Pegawai 099",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 100",
+      "location": "solusi_06.xlsx:Data!I100",
+      "expected": "2024-04-08",
+      "actual": "2024-04-08 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 100",
+      "location": "solusi_06.xlsx:Data!H100",
+      "expected": "178000.0",
+      "actual": "178000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nama 101",
+      "location": "solusi_06.xlsx:Data!G101",
+      "expected": "Pegawai 100",
+      "actual": "Pegawai 100",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tanggal 101",
+      "location": "solusi_06.xlsx:Data!I101",
+      "expected": "2024-04-09",
+      "actual": "2024-04-09 00:00:00",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai 101",
+      "location": "solusi_06.xlsx:Data!H101",
+      "expected": "137000.0",
+      "actual": "137000",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

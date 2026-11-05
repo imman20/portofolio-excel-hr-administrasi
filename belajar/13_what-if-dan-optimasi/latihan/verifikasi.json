@@ -1,0 +1,288 @@
+{
+  "module": "13_what-if-dan-optimasi",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_13.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Kandidat",
+        "Model",
+        "What_If"
+      ],
+      "formulas": 47,
+      "errors": 0,
+      "size_kb": 16.2,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_13.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Kandidat",
+        "Model",
+        "What_If"
+      ],
+      "formulas": 57,
+      "errors": 0,
+      "size_kb": 16.4,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Pembanding 4",
+      "location": "solusi_13.xlsx:Latihan!C4",
+      "expected": "26.66666666666667",
+      "actual": "26.6666666666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pembanding 5",
+      "location": "solusi_13.xlsx:Latihan!C5",
+      "expected": "46.666666666666664",
+      "actual": "46.6666666666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pembanding 6",
+      "location": "solusi_13.xlsx:Latihan!C6",
+      "expected": "2466666.666666667",
+      "actual": "2466666.66666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pembanding 7",
+      "location": "solusi_13.xlsx:Latihan!C7",
+      "expected": "70.0",
+      "actual": "70",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pembanding 8",
+      "location": "solusi_13.xlsx:Latihan!C8",
+      "expected": "1500000.0",
+      "actual": "1500000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pembanding 9",
+      "location": "solusi_13.xlsx:Latihan!C9",
+      "expected": "2000000.0",
+      "actual": "2000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pembanding 10",
+      "location": "solusi_13.xlsx:Latihan!C10",
+      "expected": "100.0",
+      "actual": "100",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pembanding 11",
+      "location": "solusi_13.xlsx:Latihan!C11",
+      "expected": "120.0",
+      "actual": "120",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Model produk A",
+      "location": "solusi_13.xlsx:Model!B2",
+      "expected": "26.66666666666667",
+      "actual": "26.6666666666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Model produk B",
+      "location": "solusi_13.xlsx:Model!B3",
+      "expected": "46.666666666666664",
+      "actual": "46.6666666666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Model laba",
+      "location": "solusi_13.xlsx:Model!B4",
+      "expected": "2466666.666666667",
+      "actual": "2466666.66666667",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sisa jam",
+      "location": "solusi_13.xlsx:Model!B7",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sisa bahan",
+      "location": "solusi_13.xlsx:Model!B8",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Laba skenario Dasar",
+      "location": "solusi_13.xlsx:What_If!G12",
+      "expected": "2000000",
+      "actual": "2000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Laba skenario Alternatif Harga",
+      "location": "solusi_13.xlsx:What_If!G13",
+      "expected": "1200000",
+      "actual": "1200000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Laba skenario Alternatif Volume",
+      "location": "solusi_13.xlsx:What_If!G14",
+      "expected": "1000000",
+      "actual": "1000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas qty 20",
+      "location": "solusi_13.xlsx:What_If!E2",
+      "expected": "-1000000",
+      "actual": "-1000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas qty 40",
+      "location": "solusi_13.xlsx:What_If!E3",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas qty 60",
+      "location": "solusi_13.xlsx:What_If!E4",
+      "expected": "1000000",
+      "actual": "1000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas qty 80",
+      "location": "solusi_13.xlsx:What_If!E5",
+      "expected": "2000000",
+      "actual": "2000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas qty 100",
+      "location": "solusi_13.xlsx:What_If!E6",
+      "expected": "3000000",
+      "actual": "3000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas qty 120",
+      "location": "solusi_13.xlsx:What_If!E7",
+      "expected": "4000000",
+      "actual": "4000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas 100000 40",
+      "location": "solusi_13.xlsx:What_If!H3",
+      "expected": "-800000",
+      "actual": "-800000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas 120000 40",
+      "location": "solusi_13.xlsx:What_If!I3",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas 140000 40",
+      "location": "solusi_13.xlsx:What_If!J3",
+      "expected": "800000",
+      "actual": "800000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas 100000 80",
+      "location": "solusi_13.xlsx:What_If!H4",
+      "expected": "400000",
+      "actual": "400000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas 120000 80",
+      "location": "solusi_13.xlsx:What_If!I4",
+      "expected": "2000000",
+      "actual": "2000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas 140000 80",
+      "location": "solusi_13.xlsx:What_If!J4",
+      "expected": "3600000",
+      "actual": "3600000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas 100000 120",
+      "location": "solusi_13.xlsx:What_If!H5",
+      "expected": "1600000",
+      "actual": "1600000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas 120000 120",
+      "location": "solusi_13.xlsx:What_If!I5",
+      "expected": "4000000",
+      "actual": "4000000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Sensitivitas 140000 120",
+      "location": "solusi_13.xlsx:What_If!J5",
+      "expected": "6400000",
+      "actual": "6400000",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

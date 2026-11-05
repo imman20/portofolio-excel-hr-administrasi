@@ -1,0 +1,1594 @@
+{
+  "module": "03_formula-dasar",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_03.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master"
+      ],
+      "formulas": 720,
+      "errors": 0,
+      "size_kb": 27.0,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_03.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master"
+      ],
+      "formulas": 749,
+      "errors": 0,
+      "size_kb": 27.3,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Total bruto",
+      "location": "solusi_03.xlsx:Latihan!C4",
+      "expected": "60540000.0",
+      "actual": "60540000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Total neto",
+      "location": "solusi_03.xlsx:Latihan!C5",
+      "expected": "57416875.0",
+      "actual": "57416875",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Pajak",
+      "location": "solusi_03.xlsx:Latihan!C6",
+      "expected": "6315878.0",
+      "actual": "6315878",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Tagihan",
+      "location": "solusi_03.xlsx:Latihan!C7",
+      "expected": "63732753.0",
+      "actual": "63732753",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Mean neto",
+      "location": "solusi_03.xlsx:Latihan!C8",
+      "expected": "318982.6388888889",
+      "actual": "318982.638888889",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Minimum",
+      "location": "solusi_03.xlsx:Latihan!C9",
+      "expected": "11875.0",
+      "actual": "11875",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Maksimum",
+      "location": "solusi_03.xlsx:Latihan!C10",
+      "expected": "1211250.0",
+      "actual": "1211250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "COUNT",
+      "location": "solusi_03.xlsx:Latihan!C11",
+      "expected": "180.0",
+      "actual": "180",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "COUNTA",
+      "location": "solusi_03.xlsx:Latihan!C12",
+      "expected": "180.0",
+      "actual": "180",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "COUNTBLANK",
+      "location": "solusi_03.xlsx:Latihan!C13",
+      "expected": "144.0",
+      "actual": "144",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "ROUND",
+      "location": "solusi_03.xlsx:Latihan!C14",
+      "expected": "318983.0",
+      "actual": "318983",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Prioritas kali",
+      "location": "solusi_03.xlsx:Latihan!C15",
+      "expected": "14.0",
+      "actual": "14",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Prioritas kurung",
+      "location": "solusi_03.xlsx:Latihan!C16",
+      "expected": "20.0",
+      "actual": "20",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 2",
+      "location": "solusi_03.xlsx:Data!I2",
+      "expected": "45000.0",
+      "actual": "45000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 3",
+      "location": "solusi_03.xlsx:Data!I3",
+      "expected": "330000.0",
+      "actual": "330000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 4",
+      "location": "solusi_03.xlsx:Data!I4",
+      "expected": "306000.0",
+      "actual": "306000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 5",
+      "location": "solusi_03.xlsx:Data!I5",
+      "expected": "630000.0",
+      "actual": "630000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 6",
+      "location": "solusi_03.xlsx:Data!I6",
+      "expected": "154375.0",
+      "actual": "154375",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 7",
+      "location": "solusi_03.xlsx:Data!I7",
+      "expected": "112500.0",
+      "actual": "112500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 8",
+      "location": "solusi_03.xlsx:Data!I8",
+      "expected": "324000.0",
+      "actual": "324000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 9",
+      "location": "solusi_03.xlsx:Data!I9",
+      "expected": "49500.0",
+      "actual": "49500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 10",
+      "location": "solusi_03.xlsx:Data!I10",
+      "expected": "153000.0",
+      "actual": "153000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 11",
+      "location": "solusi_03.xlsx:Data!I11",
+      "expected": "112500.0",
+      "actual": "112500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 12",
+      "location": "solusi_03.xlsx:Data!I12",
+      "expected": "33750.0",
+      "actual": "33750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 13",
+      "location": "solusi_03.xlsx:Data!I13",
+      "expected": "87500.0",
+      "actual": "87500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 14",
+      "location": "solusi_03.xlsx:Data!I14",
+      "expected": "272250.0",
+      "actual": "272250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 15",
+      "location": "solusi_03.xlsx:Data!I15",
+      "expected": "567000.0",
+      "actual": "567000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 16",
+      "location": "solusi_03.xlsx:Data!I16",
+      "expected": "1211250.0",
+      "actual": "1211250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 17",
+      "location": "solusi_03.xlsx:Data!I17",
+      "expected": "484500.0",
+      "actual": "484500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 18",
+      "location": "solusi_03.xlsx:Data!I18",
+      "expected": "360000.0",
+      "actual": "360000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 19",
+      "location": "solusi_03.xlsx:Data!I19",
+      "expected": "850000.0",
+      "actual": "850000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 20",
+      "location": "solusi_03.xlsx:Data!I20",
+      "expected": "22500.0",
+      "actual": "22500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 21",
+      "location": "solusi_03.xlsx:Data!I21",
+      "expected": "384750.0",
+      "actual": "384750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 22",
+      "location": "solusi_03.xlsx:Data!I22",
+      "expected": "459000.0",
+      "actual": "459000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 23",
+      "location": "solusi_03.xlsx:Data!I23",
+      "expected": "52250.0",
+      "actual": "52250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 24",
+      "location": "solusi_03.xlsx:Data!I24",
+      "expected": "161500.0",
+      "actual": "161500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 25",
+      "location": "solusi_03.xlsx:Data!I25",
+      "expected": "137500.0",
+      "actual": "137500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 26",
+      "location": "solusi_03.xlsx:Data!I26",
+      "expected": "56250.0",
+      "actual": "56250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 27",
+      "location": "solusi_03.xlsx:Data!I27",
+      "expected": "535500.0",
+      "actual": "535500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 28",
+      "location": "solusi_03.xlsx:Data!I28",
+      "expected": "384750.0",
+      "actual": "384750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 29",
+      "location": "solusi_03.xlsx:Data!I29",
+      "expected": "324000.0",
+      "actual": "324000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 30",
+      "location": "solusi_03.xlsx:Data!I30",
+      "expected": "153000.0",
+      "actual": "153000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 31",
+      "location": "solusi_03.xlsx:Data!I31",
+      "expected": "283500.0",
+      "actual": "283500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 32",
+      "location": "solusi_03.xlsx:Data!I32",
+      "expected": "74250.0",
+      "actual": "74250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 33",
+      "location": "solusi_03.xlsx:Data!I33",
+      "expected": "11875.0",
+      "actual": "11875",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 34",
+      "location": "solusi_03.xlsx:Data!I34",
+      "expected": "83125.0",
+      "actual": "83125",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 35",
+      "location": "solusi_03.xlsx:Data!I35",
+      "expected": "49500.0",
+      "actual": "49500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 36",
+      "location": "solusi_03.xlsx:Data!I36",
+      "expected": "198000.0",
+      "actual": "198000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 37",
+      "location": "solusi_03.xlsx:Data!I37",
+      "expected": "209000.0",
+      "actual": "209000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 38",
+      "location": "solusi_03.xlsx:Data!I38",
+      "expected": "726750.0",
+      "actual": "726750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 39",
+      "location": "solusi_03.xlsx:Data!I39",
+      "expected": "192500.0",
+      "actual": "192500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 40",
+      "location": "solusi_03.xlsx:Data!I40",
+      "expected": "567000.0",
+      "actual": "567000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 41",
+      "location": "solusi_03.xlsx:Data!I41",
+      "expected": "315000.0",
+      "actual": "315000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 42",
+      "location": "solusi_03.xlsx:Data!I42",
+      "expected": "130625.0",
+      "actual": "130625",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 43",
+      "location": "solusi_03.xlsx:Data!I43",
+      "expected": "171000.0",
+      "actual": "171000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 44",
+      "location": "solusi_03.xlsx:Data!I44",
+      "expected": "45000.0",
+      "actual": "45000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 45",
+      "location": "solusi_03.xlsx:Data!I45",
+      "expected": "235125.0",
+      "actual": "235125",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 46",
+      "location": "solusi_03.xlsx:Data!I46",
+      "expected": "130625.0",
+      "actual": "130625",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 47",
+      "location": "solusi_03.xlsx:Data!I47",
+      "expected": "315000.0",
+      "actual": "315000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 48",
+      "location": "solusi_03.xlsx:Data!I48",
+      "expected": "135000.0",
+      "actual": "135000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 49",
+      "location": "solusi_03.xlsx:Data!I49",
+      "expected": "95000.0",
+      "actual": "95000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 50",
+      "location": "solusi_03.xlsx:Data!I50",
+      "expected": "213750.0",
+      "actual": "213750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 51",
+      "location": "solusi_03.xlsx:Data!I51",
+      "expected": "765000.0",
+      "actual": "765000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 52",
+      "location": "solusi_03.xlsx:Data!I52",
+      "expected": "161500.0",
+      "actual": "161500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 53",
+      "location": "solusi_03.xlsx:Data!I53",
+      "expected": "607500.0",
+      "actual": "607500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 54",
+      "location": "solusi_03.xlsx:Data!I54",
+      "expected": "71250.0",
+      "actual": "71250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 55",
+      "location": "solusi_03.xlsx:Data!I55",
+      "expected": "130625.0",
+      "actual": "130625",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 56",
+      "location": "solusi_03.xlsx:Data!I56",
+      "expected": "78750.0",
+      "actual": "78750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 57",
+      "location": "solusi_03.xlsx:Data!I57",
+      "expected": "275000.0",
+      "actual": "275000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 58",
+      "location": "solusi_03.xlsx:Data!I58",
+      "expected": "49500.0",
+      "actual": "49500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 59",
+      "location": "solusi_03.xlsx:Data!I59",
+      "expected": "302500.0",
+      "actual": "302500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 60",
+      "location": "solusi_03.xlsx:Data!I60",
+      "expected": "313500.0",
+      "actual": "313500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 61",
+      "location": "solusi_03.xlsx:Data!I61",
+      "expected": "130625.0",
+      "actual": "130625",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 62",
+      "location": "solusi_03.xlsx:Data!I62",
+      "expected": "1049750.0",
+      "actual": "1049750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 63",
+      "location": "solusi_03.xlsx:Data!I63",
+      "expected": "513000.0",
+      "actual": "513000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 64",
+      "location": "solusi_03.xlsx:Data!I64",
+      "expected": "1211250.0",
+      "actual": "1211250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 65",
+      "location": "solusi_03.xlsx:Data!I65",
+      "expected": "162000.0",
+      "actual": "162000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 66",
+      "location": "solusi_03.xlsx:Data!I66",
+      "expected": "162500.0",
+      "actual": "162500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 67",
+      "location": "solusi_03.xlsx:Data!I67",
+      "expected": "272250.0",
+      "actual": "272250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 68",
+      "location": "solusi_03.xlsx:Data!I68",
+      "expected": "62500.0",
+      "actual": "62500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 69",
+      "location": "solusi_03.xlsx:Data!I69",
+      "expected": "171000.0",
+      "actual": "171000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 70",
+      "location": "solusi_03.xlsx:Data!I70",
+      "expected": "726750.0",
+      "actual": "726750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 71",
+      "location": "solusi_03.xlsx:Data!I71",
+      "expected": "162500.0",
+      "actual": "162500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 72",
+      "location": "solusi_03.xlsx:Data!I72",
+      "expected": "180000.0",
+      "actual": "180000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 73",
+      "location": "solusi_03.xlsx:Data!I73",
+      "expected": "67500.0",
+      "actual": "67500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 74",
+      "location": "solusi_03.xlsx:Data!I74",
+      "expected": "918000.0",
+      "actual": "918000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 75",
+      "location": "solusi_03.xlsx:Data!I75",
+      "expected": "1190000.0",
+      "actual": "1190000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 76",
+      "location": "solusi_03.xlsx:Data!I76",
+      "expected": "112500.0",
+      "actual": "112500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 77",
+      "location": "solusi_03.xlsx:Data!I77",
+      "expected": "330000.0",
+      "actual": "330000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 78",
+      "location": "solusi_03.xlsx:Data!I78",
+      "expected": "128250.0",
+      "actual": "128250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 79",
+      "location": "solusi_03.xlsx:Data!I79",
+      "expected": "1147500.0",
+      "actual": "1147500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 80",
+      "location": "solusi_03.xlsx:Data!I80",
+      "expected": "67500.0",
+      "actual": "67500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 81",
+      "location": "solusi_03.xlsx:Data!I81",
+      "expected": "918000.0",
+      "actual": "918000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 82",
+      "location": "solusi_03.xlsx:Data!I82",
+      "expected": "242250.0",
+      "actual": "242250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 83",
+      "location": "solusi_03.xlsx:Data!I83",
+      "expected": "510000.0",
+      "actual": "510000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 84",
+      "location": "solusi_03.xlsx:Data!I84",
+      "expected": "24750.0",
+      "actual": "24750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 85",
+      "location": "solusi_03.xlsx:Data!I85",
+      "expected": "37500.0",
+      "actual": "37500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 86",
+      "location": "solusi_03.xlsx:Data!I86",
+      "expected": "71250.0",
+      "actual": "71250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 87",
+      "location": "solusi_03.xlsx:Data!I87",
+      "expected": "346500.0",
+      "actual": "346500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 88",
+      "location": "solusi_03.xlsx:Data!I88",
+      "expected": "371250.0",
+      "actual": "371250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 89",
+      "location": "solusi_03.xlsx:Data!I89",
+      "expected": "80750.0",
+      "actual": "80750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 90",
+      "location": "solusi_03.xlsx:Data!I90",
+      "expected": "470250.0",
+      "actual": "470250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 91",
+      "location": "solusi_03.xlsx:Data!I91",
+      "expected": "168750.0",
+      "actual": "168750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 92",
+      "location": "solusi_03.xlsx:Data!I92",
+      "expected": "299250.0",
+      "actual": "299250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 93",
+      "location": "solusi_03.xlsx:Data!I93",
+      "expected": "229500.0",
+      "actual": "229500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 94",
+      "location": "solusi_03.xlsx:Data!I94",
+      "expected": "330000.0",
+      "actual": "330000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 95",
+      "location": "solusi_03.xlsx:Data!I95",
+      "expected": "112500.0",
+      "actual": "112500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 96",
+      "location": "solusi_03.xlsx:Data!I96",
+      "expected": "364500.0",
+      "actual": "364500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 97",
+      "location": "solusi_03.xlsx:Data!I97",
+      "expected": "646000.0",
+      "actual": "646000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 98",
+      "location": "solusi_03.xlsx:Data!I98",
+      "expected": "306000.0",
+      "actual": "306000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 99",
+      "location": "solusi_03.xlsx:Data!I99",
+      "expected": "272250.0",
+      "actual": "272250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 100",
+      "location": "solusi_03.xlsx:Data!I100",
+      "expected": "118750.0",
+      "actual": "118750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 101",
+      "location": "solusi_03.xlsx:Data!I101",
+      "expected": "78375.0",
+      "actual": "78375",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 102",
+      "location": "solusi_03.xlsx:Data!I102",
+      "expected": "148500.0",
+      "actual": "148500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 103",
+      "location": "solusi_03.xlsx:Data!I103",
+      "expected": "256500.0",
+      "actual": "256500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 104",
+      "location": "solusi_03.xlsx:Data!I104",
+      "expected": "67500.0",
+      "actual": "67500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 105",
+      "location": "solusi_03.xlsx:Data!I105",
+      "expected": "106875.0",
+      "actual": "106875",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 106",
+      "location": "solusi_03.xlsx:Data!I106",
+      "expected": "641250.0",
+      "actual": "641250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 107",
+      "location": "solusi_03.xlsx:Data!I107",
+      "expected": "513000.0",
+      "actual": "513000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 108",
+      "location": "solusi_03.xlsx:Data!I108",
+      "expected": "125000.0",
+      "actual": "125000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 109",
+      "location": "solusi_03.xlsx:Data!I109",
+      "expected": "384750.0",
+      "actual": "384750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 110",
+      "location": "solusi_03.xlsx:Data!I110",
+      "expected": "161500.0",
+      "actual": "161500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 111",
+      "location": "solusi_03.xlsx:Data!I111",
+      "expected": "935000.0",
+      "actual": "935000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 112",
+      "location": "solusi_03.xlsx:Data!I112",
+      "expected": "850000.0",
+      "actual": "850000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 113",
+      "location": "solusi_03.xlsx:Data!I113",
+      "expected": "99000.0",
+      "actual": "99000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 114",
+      "location": "solusi_03.xlsx:Data!I114",
+      "expected": "1190000.0",
+      "actual": "1190000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 115",
+      "location": "solusi_03.xlsx:Data!I115",
+      "expected": "565250.0",
+      "actual": "565250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 116",
+      "location": "solusi_03.xlsx:Data!I116",
+      "expected": "55000.0",
+      "actual": "55000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 117",
+      "location": "solusi_03.xlsx:Data!I117",
+      "expected": "125000.0",
+      "actual": "125000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 118",
+      "location": "solusi_03.xlsx:Data!I118",
+      "expected": "261250.0",
+      "actual": "261250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 119",
+      "location": "solusi_03.xlsx:Data!I119",
+      "expected": "484500.0",
+      "actual": "484500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 120",
+      "location": "solusi_03.xlsx:Data!I120",
+      "expected": "888250.0",
+      "actual": "888250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 121",
+      "location": "solusi_03.xlsx:Data!I121",
+      "expected": "969000.0",
+      "actual": "969000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 122",
+      "location": "solusi_03.xlsx:Data!I122",
+      "expected": "243000.0",
+      "actual": "243000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 123",
+      "location": "solusi_03.xlsx:Data!I123",
+      "expected": "357500.0",
+      "actual": "357500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 124",
+      "location": "solusi_03.xlsx:Data!I124",
+      "expected": "146250.0",
+      "actual": "146250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 125",
+      "location": "solusi_03.xlsx:Data!I125",
+      "expected": "80750.0",
+      "actual": "80750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 126",
+      "location": "solusi_03.xlsx:Data!I126",
+      "expected": "62500.0",
+      "actual": "62500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 127",
+      "location": "solusi_03.xlsx:Data!I127",
+      "expected": "182875.0",
+      "actual": "182875",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 128",
+      "location": "solusi_03.xlsx:Data!I128",
+      "expected": "297000.0",
+      "actual": "297000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 129",
+      "location": "solusi_03.xlsx:Data!I129",
+      "expected": "99000.0",
+      "actual": "99000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 130",
+      "location": "solusi_03.xlsx:Data!I130",
+      "expected": "45000.0",
+      "actual": "45000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 131",
+      "location": "solusi_03.xlsx:Data!I131",
+      "expected": "275000.0",
+      "actual": "275000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 132",
+      "location": "solusi_03.xlsx:Data!I132",
+      "expected": "346500.0",
+      "actual": "346500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 133",
+      "location": "solusi_03.xlsx:Data!I133",
+      "expected": "1130500.0",
+      "actual": "1130500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 134",
+      "location": "solusi_03.xlsx:Data!I134",
+      "expected": "23750.0",
+      "actual": "23750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 135",
+      "location": "solusi_03.xlsx:Data!I135",
+      "expected": "62500.0",
+      "actual": "62500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 136",
+      "location": "solusi_03.xlsx:Data!I136",
+      "expected": "680000.0",
+      "actual": "680000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 137",
+      "location": "solusi_03.xlsx:Data!I137",
+      "expected": "67500.0",
+      "actual": "67500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 138",
+      "location": "solusi_03.xlsx:Data!I138",
+      "expected": "166250.0",
+      "actual": "166250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 139",
+      "location": "solusi_03.xlsx:Data!I139",
+      "expected": "78750.0",
+      "actual": "78750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 140",
+      "location": "solusi_03.xlsx:Data!I140",
+      "expected": "340000.0",
+      "actual": "340000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 141",
+      "location": "solusi_03.xlsx:Data!I141",
+      "expected": "324000.0",
+      "actual": "324000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 142",
+      "location": "solusi_03.xlsx:Data!I142",
+      "expected": "11875.0",
+      "actual": "11875",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 143",
+      "location": "solusi_03.xlsx:Data!I143",
+      "expected": "646000.0",
+      "actual": "646000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 144",
+      "location": "solusi_03.xlsx:Data!I144",
+      "expected": "45000.0",
+      "actual": "45000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 145",
+      "location": "solusi_03.xlsx:Data!I145",
+      "expected": "198000.0",
+      "actual": "198000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 146",
+      "location": "solusi_03.xlsx:Data!I146",
+      "expected": "382500.0",
+      "actual": "382500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 147",
+      "location": "solusi_03.xlsx:Data!I147",
+      "expected": "162500.0",
+      "actual": "162500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 148",
+      "location": "solusi_03.xlsx:Data!I148",
+      "expected": "87500.0",
+      "actual": "87500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 149",
+      "location": "solusi_03.xlsx:Data!I149",
+      "expected": "425000.0",
+      "actual": "425000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 150",
+      "location": "solusi_03.xlsx:Data!I150",
+      "expected": "213750.0",
+      "actual": "213750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 151",
+      "location": "solusi_03.xlsx:Data!I151",
+      "expected": "680000.0",
+      "actual": "680000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 152",
+      "location": "solusi_03.xlsx:Data!I152",
+      "expected": "173250.0",
+      "actual": "173250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 153",
+      "location": "solusi_03.xlsx:Data!I153",
+      "expected": "37500.0",
+      "actual": "37500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 154",
+      "location": "solusi_03.xlsx:Data!I154",
+      "expected": "364500.0",
+      "actual": "364500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 155",
+      "location": "solusi_03.xlsx:Data!I155",
+      "expected": "71250.0",
+      "actual": "71250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 156",
+      "location": "solusi_03.xlsx:Data!I156",
+      "expected": "540000.0",
+      "actual": "540000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 157",
+      "location": "solusi_03.xlsx:Data!I157",
+      "expected": "315000.0",
+      "actual": "315000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 158",
+      "location": "solusi_03.xlsx:Data!I158",
+      "expected": "81000.0",
+      "actual": "81000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 159",
+      "location": "solusi_03.xlsx:Data!I159",
+      "expected": "371250.0",
+      "actual": "371250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 160",
+      "location": "solusi_03.xlsx:Data!I160",
+      "expected": "42750.0",
+      "actual": "42750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 161",
+      "location": "solusi_03.xlsx:Data!I161",
+      "expected": "135000.0",
+      "actual": "135000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 162",
+      "location": "solusi_03.xlsx:Data!I162",
+      "expected": "47500.0",
+      "actual": "47500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 163",
+      "location": "solusi_03.xlsx:Data!I163",
+      "expected": "171000.0",
+      "actual": "171000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 164",
+      "location": "solusi_03.xlsx:Data!I164",
+      "expected": "567000.0",
+      "actual": "567000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 165",
+      "location": "solusi_03.xlsx:Data!I165",
+      "expected": "1071000.0",
+      "actual": "1071000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 166",
+      "location": "solusi_03.xlsx:Data!I166",
+      "expected": "382500.0",
+      "actual": "382500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 167",
+      "location": "solusi_03.xlsx:Data!I167",
+      "expected": "357500.0",
+      "actual": "357500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 168",
+      "location": "solusi_03.xlsx:Data!I168",
+      "expected": "450000.0",
+      "actual": "450000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 169",
+      "location": "solusi_03.xlsx:Data!I169",
+      "expected": "598500.0",
+      "actual": "598500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 170",
+      "location": "solusi_03.xlsx:Data!I170",
+      "expected": "427500.0",
+      "actual": "427500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 171",
+      "location": "solusi_03.xlsx:Data!I171",
+      "expected": "1020000.0",
+      "actual": "1020000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 172",
+      "location": "solusi_03.xlsx:Data!I172",
+      "expected": "247500.0",
+      "actual": "247500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 173",
+      "location": "solusi_03.xlsx:Data!I173",
+      "expected": "121500.0",
+      "actual": "121500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 174",
+      "location": "solusi_03.xlsx:Data!I174",
+      "expected": "646000.0",
+      "actual": "646000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 175",
+      "location": "solusi_03.xlsx:Data!I175",
+      "expected": "137500.0",
+      "actual": "137500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 176",
+      "location": "solusi_03.xlsx:Data!I176",
+      "expected": "156750.0",
+      "actual": "156750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 177",
+      "location": "solusi_03.xlsx:Data!I177",
+      "expected": "85500.0",
+      "actual": "85500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 178",
+      "location": "solusi_03.xlsx:Data!I178",
+      "expected": "106875.0",
+      "actual": "106875",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 179",
+      "location": "solusi_03.xlsx:Data!I179",
+      "expected": "125000.0",
+      "actual": "125000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 180",
+      "location": "solusi_03.xlsx:Data!I180",
+      "expected": "403750.0",
+      "actual": "403750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Neto baris 181",
+      "location": "solusi_03.xlsx:Data!I181",
+      "expected": "1020000.0",
+      "actual": "1020000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Referensi campuran",
+      "location": "solusi_03.xlsx:Latihan!E32",
+      "expected": "405000",
+      "actual": "405000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Komponen konsisten",
+      "location": "solusi_03.xlsx:Latihan!C35",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}
