@@ -39,7 +39,7 @@ Konvensi warna sel di semua workbook: font biru = input/data mentah, font hitam 
 | 12 | [Statistika terapan](12_statistika-terapan/) | deskriptif, distribusi, CI, korelasi, regresi LINEST, uji t, peramalan, ukuran efek, keterbatasan | 8 jam | 03, 09 |
 | 13 | [What-if dan optimasi](13_what-if-dan-optimasi/) | Goal Seek, Data Table 1 dan 2 variabel, Scenario Manager, Solver (program linear) | 5 jam | 03, 04 |
 | 14 | [Otomasi lanjutan](14_otomasi-lanjutan/) | VBA (.bas), Office Scripts (.ts), Power Automate, keamanan makro; materi lanjutan | 5 jam | 05, 09 (opsional) |
-| 15 | Praktik kerja profesional *(menyusul)* | rekonsiliasi, audit formula, dokumentasi KPI, Input-Proses-Output, proteksi, keamanan data, handover | 6 jam | 01 sampai 09 |
+| 15 | [Praktik kerja profesional](15_praktik-kerja-profesional/) | rekonsiliasi, audit formula, dokumentasi KPI, Input-Proses-Output, proteksi, keamanan data, handover | 6 jam | 01 sampai 09 |
 
 Total sekitar 78 jam belajar efektif, dijadwalkan dalam 10 minggu di `ROADMAP.md`.
 

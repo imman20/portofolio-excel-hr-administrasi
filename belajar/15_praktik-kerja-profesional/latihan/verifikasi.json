@@ -1,0 +1,654 @@
+{
+  "module": "15_praktik-kerja-profesional",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_15.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Pembayaran",
+        "Master",
+        "Calculation",
+        "Check_Pembayaran",
+        "Checks",
+        "Report"
+      ],
+      "formulas": 907,
+      "errors": 0,
+      "size_kb": 31.1,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_15.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Pembayaran",
+        "Master",
+        "Calculation",
+        "Check_Pembayaran",
+        "Checks",
+        "Report"
+      ],
+      "formulas": 914,
+      "errors": 0,
+      "size_kb": 31.2,
+      "recalc": "success"
+    },
+    {
+      "file": "template_15.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Pembayaran",
+        "Master",
+        "Calculation",
+        "Check_Pembayaran",
+        "Checks",
+        "Report"
+      ],
+      "formulas": 914,
+      "errors": 0,
+      "size_kb": 31.5,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Ringkasan 4",
+      "location": "solusi_15.xlsx:Latihan!C4",
+      "expected": "16303000.0",
+      "actual": "16303000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "solusi_15.xlsx:Latihan!C5",
+      "expected": "14861250.0",
+      "actual": "14861250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "solusi_15.xlsx:Latihan!C6",
+      "expected": "1491750.0",
+      "actual": "1491750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "solusi_15.xlsx:Latihan!C7",
+      "expected": "1.0",
+      "actual": "1",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "solusi_15.xlsx:Latihan!C8",
+      "expected": "90000.0",
+      "actual": "90000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "solusi_15.xlsx:Latihan!C9",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "solusi_15.xlsx:Latihan!C10",
+      "expected": "6.0",
+      "actual": "6",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 2",
+      "location": "solusi_15.xlsx:Calculation!D2",
+      "expected": "-50000.0",
+      "actual": "-50000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 3",
+      "location": "solusi_15.xlsx:Calculation!D3",
+      "expected": "54750.0",
+      "actual": "54750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 4",
+      "location": "solusi_15.xlsx:Calculation!D4",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 5",
+      "location": "solusi_15.xlsx:Calculation!D5",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 6",
+      "location": "solusi_15.xlsx:Calculation!D6",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 7",
+      "location": "solusi_15.xlsx:Calculation!D7",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 8",
+      "location": "solusi_15.xlsx:Calculation!D8",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 9",
+      "location": "solusi_15.xlsx:Calculation!D9",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 10",
+      "location": "solusi_15.xlsx:Calculation!D10",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 11",
+      "location": "solusi_15.xlsx:Calculation!D11",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 12",
+      "location": "solusi_15.xlsx:Calculation!D12",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 13",
+      "location": "solusi_15.xlsx:Calculation!D13",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 14",
+      "location": "solusi_15.xlsx:Calculation!D14",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 15",
+      "location": "solusi_15.xlsx:Calculation!D15",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 16",
+      "location": "solusi_15.xlsx:Calculation!D16",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 17",
+      "location": "solusi_15.xlsx:Calculation!D17",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 18",
+      "location": "solusi_15.xlsx:Calculation!D18",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 19",
+      "location": "solusi_15.xlsx:Calculation!D19",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 20",
+      "location": "solusi_15.xlsx:Calculation!D20",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 21",
+      "location": "solusi_15.xlsx:Calculation!D21",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 22",
+      "location": "solusi_15.xlsx:Calculation!D22",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 23",
+      "location": "solusi_15.xlsx:Calculation!D23",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 24",
+      "location": "solusi_15.xlsx:Calculation!D24",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 25",
+      "location": "solusi_15.xlsx:Calculation!D25",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 26",
+      "location": "solusi_15.xlsx:Calculation!D26",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 27",
+      "location": "solusi_15.xlsx:Calculation!D27",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 28",
+      "location": "solusi_15.xlsx:Calculation!D28",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 29",
+      "location": "solusi_15.xlsx:Calculation!D29",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 30",
+      "location": "solusi_15.xlsx:Calculation!D30",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 31",
+      "location": "solusi_15.xlsx:Calculation!D31",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 32",
+      "location": "solusi_15.xlsx:Calculation!D32",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 33",
+      "location": "solusi_15.xlsx:Calculation!D33",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 34",
+      "location": "solusi_15.xlsx:Calculation!D34",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 35",
+      "location": "solusi_15.xlsx:Calculation!D35",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 36",
+      "location": "solusi_15.xlsx:Calculation!D36",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 37",
+      "location": "solusi_15.xlsx:Calculation!D37",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 38",
+      "location": "solusi_15.xlsx:Calculation!D38",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 39",
+      "location": "solusi_15.xlsx:Calculation!D39",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 40",
+      "location": "solusi_15.xlsx:Calculation!D40",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 41",
+      "location": "solusi_15.xlsx:Calculation!D41",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 42",
+      "location": "solusi_15.xlsx:Calculation!D42",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 43",
+      "location": "solusi_15.xlsx:Calculation!D43",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 44",
+      "location": "solusi_15.xlsx:Calculation!D44",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 45",
+      "location": "solusi_15.xlsx:Calculation!D45",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 46",
+      "location": "solusi_15.xlsx:Calculation!D46",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 47",
+      "location": "solusi_15.xlsx:Calculation!D47",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 48",
+      "location": "solusi_15.xlsx:Calculation!D48",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 49",
+      "location": "solusi_15.xlsx:Calculation!D49",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 50",
+      "location": "solusi_15.xlsx:Calculation!D50",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 51",
+      "location": "solusi_15.xlsx:Calculation!D51",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 52",
+      "location": "solusi_15.xlsx:Calculation!D52",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 53",
+      "location": "solusi_15.xlsx:Calculation!D53",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 54",
+      "location": "solusi_15.xlsx:Calculation!D54",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 55",
+      "location": "solusi_15.xlsx:Calculation!D55",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 56",
+      "location": "solusi_15.xlsx:Calculation!D56",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 57",
+      "location": "solusi_15.xlsx:Calculation!D57",
+      "expected": "680000.0",
+      "actual": "680000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 58",
+      "location": "solusi_15.xlsx:Calculation!D58",
+      "expected": "39000.0",
+      "actual": "39000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 59",
+      "location": "solusi_15.xlsx:Calculation!D59",
+      "expected": "380000.0",
+      "actual": "380000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 60",
+      "location": "solusi_15.xlsx:Calculation!D60",
+      "expected": "44000.0",
+      "actual": "44000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Saldo invoice 61",
+      "location": "solusi_15.xlsx:Calculation!D61",
+      "expected": "294000.0",
+      "actual": "294000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 4",
+      "location": "template_15.xlsx:Latihan!C4",
+      "expected": "16303000.0",
+      "actual": "16303000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "template_15.xlsx:Latihan!C5",
+      "expected": "14861250.0",
+      "actual": "14861250",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "template_15.xlsx:Latihan!C6",
+      "expected": "1491750.0",
+      "actual": "1491750",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "template_15.xlsx:Latihan!C7",
+      "expected": "1.0",
+      "actual": "1",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "template_15.xlsx:Latihan!C8",
+      "expected": "90000.0",
+      "actual": "90000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "template_15.xlsx:Latihan!C9",
+      "expected": "0.0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "template_15.xlsx:Latihan!C10",
+      "expected": "6.0",
+      "actual": "6",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}
