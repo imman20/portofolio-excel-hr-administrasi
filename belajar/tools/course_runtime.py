@@ -3,6 +3,7 @@ from __future__ import annotations
 import datetime as dt
 import importlib.util
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -17,7 +18,7 @@ from openpyxl.styles import Alignment
 import belajar_lib as L
 
 ALLOWED=set('SUM AVERAGE MIN MAX COUNT COUNTA COUNTBLANK ROUND IF IFS AND OR SUMIFS COUNTIFS AVERAGEIFS MAXIFS MINIFS SUMPRODUCT VLOOKUP INDEX MATCH IFERROR IFNA TRIM CLEAN SUBSTITUTE LEFT RIGHT MID LEN VALUE TEXT DATE DATEVALUE YEAR MONTH DAY EOMONTH EDATE TODAY NETWORKDAYS NETWORKDAYS.INTL DATEDIF RANK.EQ CORREL STDEV.S VAR.S CONFIDENCE.T T.TEST T.INV.2T NORM.S.INV LINEST FORECAST.LINEAR TREND SWITCH TEXTJOIN ABS SQRT PERCENTILE.INC QUARTILE.INC MEDIAN LARGE SMALL'.split())
-FUTURE=set('IFNA IFS MAXIFS MINIFS RANK.EQ CORREL STDEV.S VAR.S CONFIDENCE.T T.TEST T.INV.2T NORM.S.INV FORECAST.LINEAR SWITCH TEXTJOIN PERCENTILE.INC QUARTILE.INC NETWORKDAYS.INTL'.split())-{'CORREL'}
+FUTURE=set('IFNA IFS MAXIFS MINIFS RANK.EQ CORREL STDEV.S VAR.S CONFIDENCE.T T.TEST T.INV.2T NORM.S.INV FORECAST.LINEAR SWITCH TEXTJOIN PERCENTILE.INC QUARTILE.INC NETWORKDAYS.INTL'.split())-{'CORREL','NETWORKDAYS.INTL'}
 
 
 def finish(wb):
@@ -65,7 +66,7 @@ def check(label,cell,expected,sheet='Latihan',file=None):
 
 
 def run(command,timeout=600):
-    res=subprocess.run(command,capture_output=True,text=True,timeout=timeout)
+    res=subprocess.run(command,capture_output=True,text=True,timeout=timeout,env={**os.environ,"TZ":"Asia/Jakarta"})
     if res.returncode:raise RuntimeError(res.stderr[-1500:] or res.stdout[-1500:])
     return res.stdout
 
