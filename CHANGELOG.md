@@ -5,6 +5,7 @@ Semua perubahan penting pada repositori ini dicatat di sini. Format mengikuti Ke
 ## [1.4.0] - 2026-11-05
 
 ### Ditambahkan
+- Modul 13 What-if dan optimasi: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.
 - Modul 12 Statistika terapan: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.
 - Modul 11 Data Model dan Power Pivot: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.
 - Modul 10 Power Query: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.

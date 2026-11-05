@@ -37,7 +37,7 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 |---|---|
 | Jalur belajar: README, roadmap 10 minggu, pemetaan karier | Selesai |
 | Modul belajar 01 Dasar Excel | Selesai: README, dataset, workbook latihan dan solusi, kunci jawaban, verifikasi |
-| Modul belajar 02 sampai 15 | 11 dari 14 modul selesai; rincian di bawah |
+| Modul belajar 02 sampai 15 | 12 dari 14 modul selesai; rincian di bawah |
 | Modul belajar 02 | Selesai: [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) |
 | Modul belajar 03 | Selesai: [Formula dasar](belajar/03_formula-dasar/) |
 | Modul belajar 04 | Selesai: [Logika dan agregasi bersyarat](belajar/04_logika-dan-agregasi-bersyarat/) |
@@ -49,7 +49,7 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 | Modul belajar 10 | Selesai: [Power Query](belajar/10_power-query/) |
 | Modul belajar 11 | Selesai: [Data Model dan Power Pivot](belajar/11_data-model-dan-power-pivot/) |
 | Modul belajar 12 | Selesai: [Statistika terapan](belajar/12_statistika-terapan/) |
-| Modul belajar 13 | What-if dan optimasi *(menyusul)* |
+| Modul belajar 13 | Selesai: [What-if dan optimasi](belajar/13_what-if-dan-optimasi/) |
 | Modul belajar 14 | Otomasi lanjutan *(menyusul)* |
 | Modul belajar 15 | Praktik kerja profesional *(menyusul)* |
 | Proyek HR dan administrasi 01 sampai 10 | Selesai: 10 workbook, tutorial, latihan, preview, verifikasi |
@@ -100,7 +100,7 @@ Lihat tabel lengkap di [`belajar/README.md`](belajar/README.md) dan pemetaan ke 
 | 10 | [Power Query](belajar/10_power-query/) | Impor, cleaning, Append, Merge, Unpivot, folder, Refresh |
 | 11 | [Data Model dan Power Pivot](belajar/11_data-model-dan-power-pivot/) | Fakta/dimensi, relasi, kalender, DAX dasar |
 | 12 | [Statistika terapan](belajar/12_statistika-terapan/) | Deskriptif, CI, korelasi, regresi, uji beda, peramalan, ukuran efek |
-| 13 | What-if dan optimasi | Goal Seek, Data Table, Scenario Manager, Solver |
+| 13 | [What-if dan optimasi](belajar/13_what-if-dan-optimasi/) | Goal Seek, Data Table, Scenario Manager, Solver |
 | 14 | Otomasi lanjutan | VBA, Office Scripts, Power Automate |
 | 15 | Praktik kerja profesional | Rekonsiliasi, audit formula, proteksi, serah terima |
 
