@@ -5,6 +5,7 @@ Semua perubahan penting pada repositori ini dicatat di sini. Format mengikuti Ke
 ## [1.4.0] - 2026-11-05
 
 ### Ditambahkan
+- Modul 10 Power Query: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.
 - Modul 09 Visualisasi dan dashboard: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.
 - Modul 08 PivotTable dan PivotChart: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.
 - Modul 07 Tanggal dan laporan berkala: dataset, latihan dan solusi berumus, panduan lengkap, kunci jawaban, preview nyata, serta verifikasi pandas dan LibreOffice.

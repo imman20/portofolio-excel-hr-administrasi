@@ -1,0 +1,1694 @@
+{
+  "module": "10_power-query",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_10.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Target_Wide",
+        "Hasil_Query_Diharapkan"
+      ],
+      "formulas": 624,
+      "errors": 0,
+      "size_kb": 25.4,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_10.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master",
+        "Target_Wide",
+        "Hasil_Query_Diharapkan"
+      ],
+      "formulas": 631,
+      "errors": 0,
+      "size_kb": 25.5,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Ringkasan 4",
+      "location": "solusi_10.xlsx:Latihan!C4",
+      "expected": "200",
+      "actual": "200",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "solusi_10.xlsx:Latihan!C5",
+      "expected": "70996000",
+      "actual": "70996000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "solusi_10.xlsx:Latihan!C6",
+      "expected": "37798000",
+      "actual": "37798000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "solusi_10.xlsx:Latihan!C7",
+      "expected": "33198000",
+      "actual": "33198000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "solusi_10.xlsx:Latihan!C8",
+      "expected": "6",
+      "actual": "6",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "solusi_10.xlsx:Latihan!C9",
+      "expected": "43500000",
+      "actual": "43500000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "solusi_10.xlsx:Latihan!C10",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 2",
+      "location": "solusi_10.xlsx:Data!F2",
+      "expected": "513000",
+      "actual": "513000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 3",
+      "location": "solusi_10.xlsx:Data!F3",
+      "expected": "136000",
+      "actual": "136000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 4",
+      "location": "solusi_10.xlsx:Data!F4",
+      "expected": "170000",
+      "actual": "170000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 5",
+      "location": "solusi_10.xlsx:Data!F5",
+      "expected": "87000",
+      "actual": "87000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 6",
+      "location": "solusi_10.xlsx:Data!F6",
+      "expected": "585000",
+      "actual": "585000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 7",
+      "location": "solusi_10.xlsx:Data!F7",
+      "expected": "238000",
+      "actual": "238000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 8",
+      "location": "solusi_10.xlsx:Data!F8",
+      "expected": "544000",
+      "actual": "544000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 9",
+      "location": "solusi_10.xlsx:Data!F9",
+      "expected": "426000",
+      "actual": "426000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 10",
+      "location": "solusi_10.xlsx:Data!F10",
+      "expected": "627000",
+      "actual": "627000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 11",
+      "location": "solusi_10.xlsx:Data!F11",
+      "expected": "1020000",
+      "actual": "1020000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 12",
+      "location": "solusi_10.xlsx:Data!F12",
+      "expected": "136000",
+      "actual": "136000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 13",
+      "location": "solusi_10.xlsx:Data!F13",
+      "expected": "342000",
+      "actual": "342000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 14",
+      "location": "solusi_10.xlsx:Data!F14",
+      "expected": "315000",
+      "actual": "315000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 15",
+      "location": "solusi_10.xlsx:Data!F15",
+      "expected": "136000",
+      "actual": "136000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 16",
+      "location": "solusi_10.xlsx:Data!F16",
+      "expected": "630000",
+      "actual": "630000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 17",
+      "location": "solusi_10.xlsx:Data!F17",
+      "expected": "812000",
+      "actual": "812000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 18",
+      "location": "solusi_10.xlsx:Data!F18",
+      "expected": "58000",
+      "actual": "58000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 19",
+      "location": "solusi_10.xlsx:Data!F19",
+      "expected": "798000",
+      "actual": "798000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 20",
+      "location": "solusi_10.xlsx:Data!F20",
+      "expected": "119000",
+      "actual": "119000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 21",
+      "location": "solusi_10.xlsx:Data!F21",
+      "expected": "855000",
+      "actual": "855000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 22",
+      "location": "solusi_10.xlsx:Data!F22",
+      "expected": "348000",
+      "actual": "348000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 23",
+      "location": "solusi_10.xlsx:Data!F23",
+      "expected": "435000",
+      "actual": "435000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 24",
+      "location": "solusi_10.xlsx:Data!F24",
+      "expected": "510000",
+      "actual": "510000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 25",
+      "location": "solusi_10.xlsx:Data!F25",
+      "expected": "255000",
+      "actual": "255000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 26",
+      "location": "solusi_10.xlsx:Data!F26",
+      "expected": "570000",
+      "actual": "570000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 27",
+      "location": "solusi_10.xlsx:Data!F27",
+      "expected": "145000",
+      "actual": "145000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 28",
+      "location": "solusi_10.xlsx:Data!F28",
+      "expected": "255000",
+      "actual": "255000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 29",
+      "location": "solusi_10.xlsx:Data!F29",
+      "expected": "142000",
+      "actual": "142000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 30",
+      "location": "solusi_10.xlsx:Data!F30",
+      "expected": "510000",
+      "actual": "510000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 31",
+      "location": "solusi_10.xlsx:Data!F31",
+      "expected": "46000",
+      "actual": "46000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 32",
+      "location": "solusi_10.xlsx:Data!F32",
+      "expected": "135000",
+      "actual": "135000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 33",
+      "location": "solusi_10.xlsx:Data!F33",
+      "expected": "675000",
+      "actual": "675000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 34",
+      "location": "solusi_10.xlsx:Data!F34",
+      "expected": "116000",
+      "actual": "116000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 35",
+      "location": "solusi_10.xlsx:Data!F35",
+      "expected": "798000",
+      "actual": "798000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 36",
+      "location": "solusi_10.xlsx:Data!F36",
+      "expected": "870000",
+      "actual": "870000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 37",
+      "location": "solusi_10.xlsx:Data!F37",
+      "expected": "255000",
+      "actual": "255000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 38",
+      "location": "solusi_10.xlsx:Data!F38",
+      "expected": "456000",
+      "actual": "456000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 39",
+      "location": "solusi_10.xlsx:Data!F39",
+      "expected": "497000",
+      "actual": "497000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 40",
+      "location": "solusi_10.xlsx:Data!F40",
+      "expected": "265000",
+      "actual": "265000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 41",
+      "location": "solusi_10.xlsx:Data!F41",
+      "expected": "238000",
+      "actual": "238000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 42",
+      "location": "solusi_10.xlsx:Data!F42",
+      "expected": "348000",
+      "actual": "348000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 43",
+      "location": "solusi_10.xlsx:Data!F43",
+      "expected": "371000",
+      "actual": "371000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 44",
+      "location": "solusi_10.xlsx:Data!F44",
+      "expected": "406000",
+      "actual": "406000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 45",
+      "location": "solusi_10.xlsx:Data!F45",
+      "expected": "318000",
+      "actual": "318000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 46",
+      "location": "solusi_10.xlsx:Data!F46",
+      "expected": "68000",
+      "actual": "68000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 47",
+      "location": "solusi_10.xlsx:Data!F47",
+      "expected": "638000",
+      "actual": "638000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 48",
+      "location": "solusi_10.xlsx:Data!F48",
+      "expected": "377000",
+      "actual": "377000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 49",
+      "location": "solusi_10.xlsx:Data!F49",
+      "expected": "255000",
+      "actual": "255000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 50",
+      "location": "solusi_10.xlsx:Data!F50",
+      "expected": "322000",
+      "actual": "322000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 51",
+      "location": "solusi_10.xlsx:Data!F51",
+      "expected": "513000",
+      "actual": "513000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 52",
+      "location": "solusi_10.xlsx:Data!F52",
+      "expected": "1065000",
+      "actual": "1065000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 53",
+      "location": "solusi_10.xlsx:Data!F53",
+      "expected": "952000",
+      "actual": "952000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 54",
+      "location": "solusi_10.xlsx:Data!F54",
+      "expected": "696000",
+      "actual": "696000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 55",
+      "location": "solusi_10.xlsx:Data!F55",
+      "expected": "710000",
+      "actual": "710000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 56",
+      "location": "solusi_10.xlsx:Data!F56",
+      "expected": "377000",
+      "actual": "377000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 57",
+      "location": "solusi_10.xlsx:Data!F57",
+      "expected": "476000",
+      "actual": "476000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 58",
+      "location": "solusi_10.xlsx:Data!F58",
+      "expected": "255000",
+      "actual": "255000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 59",
+      "location": "solusi_10.xlsx:Data!F59",
+      "expected": "371000",
+      "actual": "371000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 60",
+      "location": "solusi_10.xlsx:Data!F60",
+      "expected": "368000",
+      "actual": "368000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 61",
+      "location": "solusi_10.xlsx:Data!F61",
+      "expected": "232000",
+      "actual": "232000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 62",
+      "location": "solusi_10.xlsx:Data!F62",
+      "expected": "435000",
+      "actual": "435000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 63",
+      "location": "solusi_10.xlsx:Data!F63",
+      "expected": "203000",
+      "actual": "203000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 64",
+      "location": "solusi_10.xlsx:Data!F64",
+      "expected": "153000",
+      "actual": "153000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 65",
+      "location": "solusi_10.xlsx:Data!F65",
+      "expected": "530000",
+      "actual": "530000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 66",
+      "location": "solusi_10.xlsx:Data!F66",
+      "expected": "29000",
+      "actual": "29000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 67",
+      "location": "solusi_10.xlsx:Data!F67",
+      "expected": "663000",
+      "actual": "663000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 68",
+      "location": "solusi_10.xlsx:Data!F68",
+      "expected": "51000",
+      "actual": "51000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 69",
+      "location": "solusi_10.xlsx:Data!F69",
+      "expected": "92000",
+      "actual": "92000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 70",
+      "location": "solusi_10.xlsx:Data!F70",
+      "expected": "29000",
+      "actual": "29000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 71",
+      "location": "solusi_10.xlsx:Data!F71",
+      "expected": "994000",
+      "actual": "994000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 72",
+      "location": "solusi_10.xlsx:Data!F72",
+      "expected": "261000",
+      "actual": "261000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 73",
+      "location": "solusi_10.xlsx:Data!F73",
+      "expected": "315000",
+      "actual": "315000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 74",
+      "location": "solusi_10.xlsx:Data!F74",
+      "expected": "57000",
+      "actual": "57000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 75",
+      "location": "solusi_10.xlsx:Data!F75",
+      "expected": "315000",
+      "actual": "315000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 76",
+      "location": "solusi_10.xlsx:Data!F76",
+      "expected": "230000",
+      "actual": "230000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 77",
+      "location": "solusi_10.xlsx:Data!F77",
+      "expected": "46000",
+      "actual": "46000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 78",
+      "location": "solusi_10.xlsx:Data!F78",
+      "expected": "261000",
+      "actual": "261000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 79",
+      "location": "solusi_10.xlsx:Data!F79",
+      "expected": "377000",
+      "actual": "377000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 80",
+      "location": "solusi_10.xlsx:Data!F80",
+      "expected": "106000",
+      "actual": "106000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 81",
+      "location": "solusi_10.xlsx:Data!F81",
+      "expected": "285000",
+      "actual": "285000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 82",
+      "location": "solusi_10.xlsx:Data!F82",
+      "expected": "544000",
+      "actual": "544000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 83",
+      "location": "solusi_10.xlsx:Data!F83",
+      "expected": "51000",
+      "actual": "51000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 84",
+      "location": "solusi_10.xlsx:Data!F84",
+      "expected": "203000",
+      "actual": "203000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 85",
+      "location": "solusi_10.xlsx:Data!F85",
+      "expected": "435000",
+      "actual": "435000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 86",
+      "location": "solusi_10.xlsx:Data!F86",
+      "expected": "232000",
+      "actual": "232000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 87",
+      "location": "solusi_10.xlsx:Data!F87",
+      "expected": "923000",
+      "actual": "923000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 88",
+      "location": "solusi_10.xlsx:Data!F88",
+      "expected": "174000",
+      "actual": "174000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 89",
+      "location": "solusi_10.xlsx:Data!F89",
+      "expected": "552000",
+      "actual": "552000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 90",
+      "location": "solusi_10.xlsx:Data!F90",
+      "expected": "405000",
+      "actual": "405000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 91",
+      "location": "solusi_10.xlsx:Data!F91",
+      "expected": "212000",
+      "actual": "212000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 92",
+      "location": "solusi_10.xlsx:Data!F92",
+      "expected": "184000",
+      "actual": "184000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 93",
+      "location": "solusi_10.xlsx:Data!F93",
+      "expected": "612000",
+      "actual": "612000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 94",
+      "location": "solusi_10.xlsx:Data!F94",
+      "expected": "92000",
+      "actual": "92000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 95",
+      "location": "solusi_10.xlsx:Data!F95",
+      "expected": "203000",
+      "actual": "203000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 96",
+      "location": "solusi_10.xlsx:Data!F96",
+      "expected": "17000",
+      "actual": "17000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 97",
+      "location": "solusi_10.xlsx:Data!F97",
+      "expected": "142000",
+      "actual": "142000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 98",
+      "location": "solusi_10.xlsx:Data!F98",
+      "expected": "261000",
+      "actual": "261000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 99",
+      "location": "solusi_10.xlsx:Data!F99",
+      "expected": "1065000",
+      "actual": "1065000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 100",
+      "location": "solusi_10.xlsx:Data!F100",
+      "expected": "184000",
+      "actual": "184000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 101",
+      "location": "solusi_10.xlsx:Data!F101",
+      "expected": "689000",
+      "actual": "689000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 102",
+      "location": "solusi_10.xlsx:Data!F102",
+      "expected": "261000",
+      "actual": "261000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 103",
+      "location": "solusi_10.xlsx:Data!F103",
+      "expected": "187000",
+      "actual": "187000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 104",
+      "location": "solusi_10.xlsx:Data!F104",
+      "expected": "71000",
+      "actual": "71000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 105",
+      "location": "solusi_10.xlsx:Data!F105",
+      "expected": "159000",
+      "actual": "159000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 106",
+      "location": "solusi_10.xlsx:Data!F106",
+      "expected": "135000",
+      "actual": "135000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 107",
+      "location": "solusi_10.xlsx:Data!F107",
+      "expected": "357000",
+      "actual": "357000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 108",
+      "location": "solusi_10.xlsx:Data!F108",
+      "expected": "680000",
+      "actual": "680000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 109",
+      "location": "solusi_10.xlsx:Data!F109",
+      "expected": "852000",
+      "actual": "852000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 110",
+      "location": "solusi_10.xlsx:Data!F110",
+      "expected": "213000",
+      "actual": "213000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 111",
+      "location": "solusi_10.xlsx:Data!F111",
+      "expected": "58000",
+      "actual": "58000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 112",
+      "location": "solusi_10.xlsx:Data!F112",
+      "expected": "106000",
+      "actual": "106000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 113",
+      "location": "solusi_10.xlsx:Data!F113",
+      "expected": "92000",
+      "actual": "92000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 114",
+      "location": "solusi_10.xlsx:Data!F114",
+      "expected": "408000",
+      "actual": "408000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 115",
+      "location": "solusi_10.xlsx:Data!F115",
+      "expected": "145000",
+      "actual": "145000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 116",
+      "location": "solusi_10.xlsx:Data!F116",
+      "expected": "377000",
+      "actual": "377000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 117",
+      "location": "solusi_10.xlsx:Data!F117",
+      "expected": "290000",
+      "actual": "290000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 118",
+      "location": "solusi_10.xlsx:Data!F118",
+      "expected": "408000",
+      "actual": "408000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 119",
+      "location": "solusi_10.xlsx:Data!F119",
+      "expected": "284000",
+      "actual": "284000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 120",
+      "location": "solusi_10.xlsx:Data!F120",
+      "expected": "639000",
+      "actual": "639000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 121",
+      "location": "solusi_10.xlsx:Data!F121",
+      "expected": "318000",
+      "actual": "318000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 122",
+      "location": "solusi_10.xlsx:Data!F122",
+      "expected": "355000",
+      "actual": "355000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 123",
+      "location": "solusi_10.xlsx:Data!F123",
+      "expected": "561000",
+      "actual": "561000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 124",
+      "location": "solusi_10.xlsx:Data!F124",
+      "expected": "212000",
+      "actual": "212000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 125",
+      "location": "solusi_10.xlsx:Data!F125",
+      "expected": "424000",
+      "actual": "424000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 126",
+      "location": "solusi_10.xlsx:Data!F126",
+      "expected": "348000",
+      "actual": "348000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 127",
+      "location": "solusi_10.xlsx:Data!F127",
+      "expected": "377000",
+      "actual": "377000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 128",
+      "location": "solusi_10.xlsx:Data!F128",
+      "expected": "399000",
+      "actual": "399000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 129",
+      "location": "solusi_10.xlsx:Data!F129",
+      "expected": "795000",
+      "actual": "795000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 130",
+      "location": "solusi_10.xlsx:Data!F130",
+      "expected": "174000",
+      "actual": "174000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 131",
+      "location": "solusi_10.xlsx:Data!F131",
+      "expected": "203000",
+      "actual": "203000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 132",
+      "location": "solusi_10.xlsx:Data!F132",
+      "expected": "170000",
+      "actual": "170000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 133",
+      "location": "solusi_10.xlsx:Data!F133",
+      "expected": "174000",
+      "actual": "174000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 134",
+      "location": "solusi_10.xlsx:Data!F134",
+      "expected": "377000",
+      "actual": "377000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 135",
+      "location": "solusi_10.xlsx:Data!F135",
+      "expected": "171000",
+      "actual": "171000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 136",
+      "location": "solusi_10.xlsx:Data!F136",
+      "expected": "952000",
+      "actual": "952000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 137",
+      "location": "solusi_10.xlsx:Data!F137",
+      "expected": "612000",
+      "actual": "612000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 138",
+      "location": "solusi_10.xlsx:Data!F138",
+      "expected": "644000",
+      "actual": "644000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 139",
+      "location": "solusi_10.xlsx:Data!F139",
+      "expected": "29000",
+      "actual": "29000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 140",
+      "location": "solusi_10.xlsx:Data!F140",
+      "expected": "285000",
+      "actual": "285000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 141",
+      "location": "solusi_10.xlsx:Data!F141",
+      "expected": "360000",
+      "actual": "360000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 142",
+      "location": "solusi_10.xlsx:Data!F142",
+      "expected": "136000",
+      "actual": "136000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 143",
+      "location": "solusi_10.xlsx:Data!F143",
+      "expected": "232000",
+      "actual": "232000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 144",
+      "location": "solusi_10.xlsx:Data!F144",
+      "expected": "306000",
+      "actual": "306000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 145",
+      "location": "solusi_10.xlsx:Data!F145",
+      "expected": "690000",
+      "actual": "690000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 146",
+      "location": "solusi_10.xlsx:Data!F146",
+      "expected": "627000",
+      "actual": "627000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 147",
+      "location": "solusi_10.xlsx:Data!F147",
+      "expected": "87000",
+      "actual": "87000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 148",
+      "location": "solusi_10.xlsx:Data!F148",
+      "expected": "238000",
+      "actual": "238000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 149",
+      "location": "solusi_10.xlsx:Data!F149",
+      "expected": "318000",
+      "actual": "318000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 150",
+      "location": "solusi_10.xlsx:Data!F150",
+      "expected": "795000",
+      "actual": "795000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 151",
+      "location": "solusi_10.xlsx:Data!F151",
+      "expected": "689000",
+      "actual": "689000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 152",
+      "location": "solusi_10.xlsx:Data!F152",
+      "expected": "638000",
+      "actual": "638000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 153",
+      "location": "solusi_10.xlsx:Data!F153",
+      "expected": "116000",
+      "actual": "116000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 154",
+      "location": "solusi_10.xlsx:Data!F154",
+      "expected": "270000",
+      "actual": "270000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 155",
+      "location": "solusi_10.xlsx:Data!F155",
+      "expected": "513000",
+      "actual": "513000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 156",
+      "location": "solusi_10.xlsx:Data!F156",
+      "expected": "477000",
+      "actual": "477000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 157",
+      "location": "solusi_10.xlsx:Data!F157",
+      "expected": "106000",
+      "actual": "106000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 158",
+      "location": "solusi_10.xlsx:Data!F158",
+      "expected": "1020000",
+      "actual": "1020000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 159",
+      "location": "solusi_10.xlsx:Data!F159",
+      "expected": "348000",
+      "actual": "348000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 160",
+      "location": "solusi_10.xlsx:Data!F160",
+      "expected": "102000",
+      "actual": "102000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 161",
+      "location": "solusi_10.xlsx:Data!F161",
+      "expected": "348000",
+      "actual": "348000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 162",
+      "location": "solusi_10.xlsx:Data!F162",
+      "expected": "102000",
+      "actual": "102000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 163",
+      "location": "solusi_10.xlsx:Data!F163",
+      "expected": "424000",
+      "actual": "424000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 164",
+      "location": "solusi_10.xlsx:Data!F164",
+      "expected": "476000",
+      "actual": "476000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 165",
+      "location": "solusi_10.xlsx:Data!F165",
+      "expected": "58000",
+      "actual": "58000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 166",
+      "location": "solusi_10.xlsx:Data!F166",
+      "expected": "261000",
+      "actual": "261000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 167",
+      "location": "solusi_10.xlsx:Data!F167",
+      "expected": "414000",
+      "actual": "414000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 168",
+      "location": "solusi_10.xlsx:Data!F168",
+      "expected": "424000",
+      "actual": "424000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 169",
+      "location": "solusi_10.xlsx:Data!F169",
+      "expected": "212000",
+      "actual": "212000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 170",
+      "location": "solusi_10.xlsx:Data!F170",
+      "expected": "583000",
+      "actual": "583000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 171",
+      "location": "solusi_10.xlsx:Data!F171",
+      "expected": "136000",
+      "actual": "136000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 172",
+      "location": "solusi_10.xlsx:Data!F172",
+      "expected": "29000",
+      "actual": "29000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 173",
+      "location": "solusi_10.xlsx:Data!F173",
+      "expected": "261000",
+      "actual": "261000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 174",
+      "location": "solusi_10.xlsx:Data!F174",
+      "expected": "136000",
+      "actual": "136000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 175",
+      "location": "solusi_10.xlsx:Data!F175",
+      "expected": "53000",
+      "actual": "53000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 176",
+      "location": "solusi_10.xlsx:Data!F176",
+      "expected": "238000",
+      "actual": "238000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 177",
+      "location": "solusi_10.xlsx:Data!F177",
+      "expected": "684000",
+      "actual": "684000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 178",
+      "location": "solusi_10.xlsx:Data!F178",
+      "expected": "135000",
+      "actual": "135000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 179",
+      "location": "solusi_10.xlsx:Data!F179",
+      "expected": "748000",
+      "actual": "748000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 180",
+      "location": "solusi_10.xlsx:Data!F180",
+      "expected": "29000",
+      "actual": "29000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 181",
+      "location": "solusi_10.xlsx:Data!F181",
+      "expected": "51000",
+      "actual": "51000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 182",
+      "location": "solusi_10.xlsx:Data!F182",
+      "expected": "53000",
+      "actual": "53000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 183",
+      "location": "solusi_10.xlsx:Data!F183",
+      "expected": "406000",
+      "actual": "406000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 184",
+      "location": "solusi_10.xlsx:Data!F184",
+      "expected": "884000",
+      "actual": "884000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 185",
+      "location": "solusi_10.xlsx:Data!F185",
+      "expected": "51000",
+      "actual": "51000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 186",
+      "location": "solusi_10.xlsx:Data!F186",
+      "expected": "230000",
+      "actual": "230000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 187",
+      "location": "solusi_10.xlsx:Data!F187",
+      "expected": "58000",
+      "actual": "58000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 188",
+      "location": "solusi_10.xlsx:Data!F188",
+      "expected": "85000",
+      "actual": "85000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 189",
+      "location": "solusi_10.xlsx:Data!F189",
+      "expected": "368000",
+      "actual": "368000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 190",
+      "location": "solusi_10.xlsx:Data!F190",
+      "expected": "570000",
+      "actual": "570000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 191",
+      "location": "solusi_10.xlsx:Data!F191",
+      "expected": "203000",
+      "actual": "203000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 192",
+      "location": "solusi_10.xlsx:Data!F192",
+      "expected": "204000",
+      "actual": "204000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 193",
+      "location": "solusi_10.xlsx:Data!F193",
+      "expected": "116000",
+      "actual": "116000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 194",
+      "location": "solusi_10.xlsx:Data!F194",
+      "expected": "406000",
+      "actual": "406000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 195",
+      "location": "solusi_10.xlsx:Data!F195",
+      "expected": "290000",
+      "actual": "290000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 196",
+      "location": "solusi_10.xlsx:Data!F196",
+      "expected": "522000",
+      "actual": "522000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 197",
+      "location": "solusi_10.xlsx:Data!F197",
+      "expected": "781000",
+      "actual": "781000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 198",
+      "location": "solusi_10.xlsx:Data!F198",
+      "expected": "342000",
+      "actual": "342000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 199",
+      "location": "solusi_10.xlsx:Data!F199",
+      "expected": "348000",
+      "actual": "348000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 200",
+      "location": "solusi_10.xlsx:Data!F200",
+      "expected": "51000",
+      "actual": "51000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Nilai gabungan 201",
+      "location": "solusi_10.xlsx:Data!F201",
+      "expected": "58000",
+      "actual": "58000",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}
