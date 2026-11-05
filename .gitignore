@@ -1,0 +1,19 @@
+# Excel
+~$*.xls*
+*.xlsx#
+.~lock.*#
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Sementara
+*.tmp
+*.log
