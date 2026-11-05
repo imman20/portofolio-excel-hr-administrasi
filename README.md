@@ -37,7 +37,21 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 |---|---|
 | Jalur belajar: README, roadmap 10 minggu, pemetaan karier | Selesai |
 | Modul belajar 01 Dasar Excel | Selesai: README, dataset, workbook latihan dan solusi, kunci jawaban, verifikasi |
-| Modul belajar 02 sampai 15 | Menyusul. Cakupan tiap modul sudah tercantum di peta belajar di bawah |
+| Modul belajar 02 sampai 15 | 1 dari 14 modul selesai; rincian di bawah |
+| Modul belajar 02 | Selesai: [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) |
+| Modul belajar 03 | Formula dasar *(menyusul)* |
+| Modul belajar 04 | Logika dan agregasi bersyarat *(menyusul)* |
+| Modul belajar 05 | Lookup dan penggabungan referensi *(menyusul)* |
+| Modul belajar 06 | Cleaning dan validasi *(menyusul)* |
+| Modul belajar 07 | Tanggal dan laporan berkala *(menyusul)* |
+| Modul belajar 08 | PivotTable dan PivotChart *(menyusul)* |
+| Modul belajar 09 | Visualisasi dan dashboard *(menyusul)* |
+| Modul belajar 10 | Power Query *(menyusul)* |
+| Modul belajar 11 | Data Model dan Power Pivot *(menyusul)* |
+| Modul belajar 12 | Statistika terapan *(menyusul)* |
+| Modul belajar 13 | What-if dan optimasi *(menyusul)* |
+| Modul belajar 14 | Otomasi lanjutan *(menyusul)* |
+| Modul belajar 15 | Praktik kerja profesional *(menyusul)* |
 | Proyek HR dan administrasi 01 sampai 10 | Selesai: 10 workbook, tutorial, latihan, preview, verifikasi |
 | Proyek portofolio analisis 01 Sales & Profitability | Selesai: data, latihan dan solusi, dokumentasi, preview, verifikasi |
 | Proyek portofolio analisis 02 Survei Kepuasan Pelanggan | Selesai: audit data, latihan dan solusi, statistik, dokumentasi, preview, verifikasi |
@@ -75,7 +89,7 @@ Lihat tabel lengkap di [`belajar/README.md`](belajar/README.md) dan pemetaan ke 
 | No | Modul | Inti |
 |---|---|---|
 | 01 | Dasar Excel | Workbook, sel, range, format, Sort, Filter, Freeze Panes, nilai vs tampilan |
-| 02 | Struktur data yang benar | Tidy data, Excel Table, structured references, ID dengan nol di depan |
+| 02 | [Struktur data yang benar](belajar/02_struktur-data-yang-benar/) | Tidy data, Excel Table, structured references, ID dengan nol di depan |
 | 03 | Formula dasar | Referensi relatif/absolut, SUM, AVERAGE, COUNT, ROUND |
 | 04 | Logika dan agregasi bersyarat | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS |
 | 05 | Lookup | XLOOKUP, VLOOKUP, INDEX-MATCH, IFNA vs IFERROR |

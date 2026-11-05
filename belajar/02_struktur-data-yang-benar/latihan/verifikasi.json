@@ -1,0 +1,100 @@
+{
+  "module": "02_struktur-data-yang-benar",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_02.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Laporan_Lama",
+        "Data",
+        "ID_Rusak",
+        "Latihan"
+      ],
+      "formulas": 269,
+      "errors": 0,
+      "size_kb": 27.6,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_02.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Laporan_Lama",
+        "Data",
+        "ID_Rusak",
+        "Latihan"
+      ],
+      "formulas": 332,
+      "errors": 0,
+      "size_kb": 29.6,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "COUNT tanggal",
+      "location": "solusi_02.xlsx:Latihan!C5",
+      "expected": "240",
+      "actual": "240",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "COUNT cabang_id (teks) = 0",
+      "location": "solusi_02.xlsx:Latihan!C6",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Total penjualan (structured ref)",
+      "location": "solusi_02.xlsx:Latihan!C18",
+      "expected": "51749000",
+      "actual": "51749000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Penjualan Surabaya",
+      "location": "solusi_02.xlsx:Latihan!C20",
+      "expected": "23882500",
+      "actual": "23882500",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Surabaya Jan (SUMIFS tanggal)",
+      "location": "solusi_02.xlsx:Latihan!C26",
+      "expected": "3779000",
+      "actual": "3779000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Selisih total vs Laporan_Lama = 0",
+      "location": "solusi_02.xlsx:Latihan!I29",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Selisih long vs wide = 0",
+      "location": "solusi_02.xlsx:Latihan!D52",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "ID 001 ditemukan di Data",
+      "location": "solusi_02.xlsx:ID_Rusak!E4",
+      "expected": "106",
+      "actual": "106",
+      "difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}
