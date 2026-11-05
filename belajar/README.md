@@ -30,7 +30,7 @@ Konvensi warna sel di semua workbook: font biru = input/data mentah, font hitam 
 | 03 | [Formula dasar](03_formula-dasar/) | operator, referensi relatif/absolut/campuran, SUM..COUNTBLANK, ROUND/ROUNDUP/ROUNDDOWN | 4 jam | 01 |
 | 04 | [Logika dan agregasi bersyarat](04_logika-dan-agregasi-bersyarat/) | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS, wildcard, kriteria tanggal | 5 jam | 03 |
 | 05 | [Lookup dan penggabungan referensi](05_lookup-dan-penggabungan-referensi/) | XLOOKUP, VLOOKUP, INDEX-MATCH, kunci unik, IFNA vs IFERROR | 5 jam | 03, 04 |
-| 06 | Cleaning dan validasi *(menyusul)* | TRIM/CLEAN/SUBSTITUTE, teks, konversi angka, duplikat, outlier IQR, Data Validation, Conditional Formatting | 6 jam | 02, 05 |
+| 06 | [Cleaning dan validasi](06_cleaning-dan-validasi/) | TRIM/CLEAN/SUBSTITUTE, teks, konversi angka, duplikat, outlier IQR, Data Validation, Conditional Formatting | 6 jam | 02, 05 |
 | 07 | Tanggal dan laporan berkala *(menyusul)* | fungsi tanggal, NETWORKDAYS, kunci periode YYYY-MM, MoM/YoY, laporan bulanan SUMIFS | 5 jam | 04 |
 | 08 | PivotTable dan PivotChart *(menyusul)* | Rows/Columns/Values/Filters, Show Values As, Group tanggal, Slicer, Timeline, Refresh | 5 jam | 02, 04 |
 | 09 | Visualisasi dan dashboard *(menyusul)* | pemilihan KPI, chart line/bar/scatter/histogram, target, dashboard satu layar, anti-pola | 6 jam | 07, 08 |

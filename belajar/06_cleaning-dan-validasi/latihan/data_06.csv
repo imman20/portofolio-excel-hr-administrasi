@@ -1,0 +1,101 @@
+catatan_id,nama_raw,email_raw,nilai_raw,tanggal_raw,kode_raw
+0001,  Pegawai 001  ,  pegawai001@contoh.test	,N/A,2024-01-01,JKT-001
+0002,  Pegawai 002  ,  pegawai002@contoh.test	,199000,02/01/2024,JKT-002
+0003,  Pegawai 003  ,  pegawai003@contoh.test	,143000,2024-01-03,JKT-003
+0004,  Pegawai 004  ,  pegawai004@contoh.test	,104000,04/01/2024,JKT-004
+0005,  Pegawai 005  ,  pegawai005@contoh.test	,121000,2024-01-05,JKT-005
+0006,  Pegawai 006  ,  pegawai006@contoh.test	,1500000,06/01/2024,JKT-006
+0007,  Pegawai 007  ,  pegawai007@contoh.test	,180000,2024-01-07,JKT-007
+0008,  Pegawai 008  ,  pegawai008@contoh.test	, 146000 ,08/01/2024,JKT-008
+0009,  Pegawai 009  ,  pegawai009@contoh.test	,120000,2024-01-09,JKT-009
+0010,  Pegawai 010  ,  pegawai010@contoh.test	,197000,10/01/2024,JKT-010
+0011,  Pegawai 011  ,  pegawai011@contoh.test	,124000,2024-01-11,JKT-011
+0012,  Pegawai 012  ,  pegawai012@contoh.test	,114000,12/01/2024,JKT-012
+0013,  Pegawai 013  ,  pegawai013@contoh.test	,109000,2024-01-13,JKT-013
+0014,  Pegawai 014  ,  pegawai014@contoh.test	,132000,14/01/2024,JKT-014
+0015,  Pegawai 015  ,  pegawai015@contoh.test	, 126000 ,2024-01-15,JKT-015
+0016,  Pegawai 016  ,  pegawai016@contoh.test	,119000,16/01/2024,JKT-016
+0017,  Pegawai 017  ,  pegawai017@contoh.test	,171000,2024-01-17,JKT-017
+0018,  Pegawai 018  ,  pegawai018@contoh.test	,N/A,18/01/2024,JKT-018
+0019,  Pegawai 019  ,  pegawai019@contoh.test	,174000,2024-01-19,JKT-019
+0020,  Pegawai 020  ,  pegawai020@contoh.test	,-,20/01/2024,JKT-020
+0021,  Pegawai 021  ,  pegawai021@contoh.test	,197000,2024-01-21,JKT-021
+0022,  Pegawai 022  ,  pegawai022@contoh.test	, 164000 ,22/01/2024,JKT-022
+0023,  Pegawai 023  ,  pegawai023@contoh.test	,124000,2024-01-23,JKT-023
+0024,  Pegawai 024  ,  pegawai024@contoh.test	,,24/01/2024,JKT-024
+0025,  Pegawai 025  ,  pegawai025@contoh.test	,120000,2024-01-25,JKT-025
+0026,  Pegawai 026  ,  pegawai026@contoh.test	,198000,26/01/2024,JKT-026
+0027,  Pegawai 027  ,  pegawai027@contoh.test	,122000,2024-01-27,JKT-027
+0028,  Pegawai 028  ,  pegawai028@contoh.test	,115000,28/01/2024,JKT-028
+0029,  Pegawai 029  ,  pegawai029@contoh.test	, 126000 ,2024-01-29,JKT-029
+0030,  Pegawai 030  ,  pegawai030@contoh.test	,129000,30/01/2024,JKT-030
+0031,  Pegawai 031  ,  pegawai031@contoh.test	,165000,2024-01-31,JKT-031
+0032,  Pegawai 032  ,  pegawai032@contoh.test	,105000,01/02/2024,JKT-032
+0033,  Pegawai 033  ,  pegawai033@contoh.test	,176000,2024-02-02,JKT-033
+0034,  Pegawai 034  ,  pegawai034@contoh.test	,172000,03/02/2024,JKT-034
+0035,  Pegawai 035  ,  pegawai035@contoh.test	,N/A,2024-02-04,JKT-035
+0036,  Pegawai 036  ,  pegawai036@contoh.test	, 140000 ,05/02/2024,JKT-036
+0037,  Pegawai 037  ,  pegawai037@contoh.test	,109000,2024-02-06,JKT-037
+0038,  Pegawai 038  ,  pegawai038@contoh.test	,152000,07/02/2024,JKT-038
+0039,  Pegawai 039  ,  pegawai039@contoh.test	,-,2024-02-08,JKT-039
+0040,  Pegawai 040  ,  pegawai040@contoh.test	,169000,09/02/2024,JKT-040
+0041,  Pegawai 041  ,  pegawai041@contoh.test	,101000,2024-02-10,JKT-041
+0042,  Pegawai 042  ,  pegawai042@contoh.test	,104000,11/02/2024,JKT-042
+0043,  Pegawai 043  ,  pegawai043@contoh.test	, 138000 ,2024-02-12,JKT-043
+0044,  Pegawai 044  ,  pegawai044@contoh.test	,126000,13/02/2024,JKT-044
+0045,  Pegawai 045  ,  pegawai045@contoh.test	,111000,2024-02-14,JKT-045
+0046,  Pegawai 046  ,  pegawai046@contoh.test	,142000,15/02/2024,JKT-046
+0047,  Pegawai 047  ,  pegawai047@contoh.test	,,2024-02-16,JKT-047
+0048,  Pegawai 048  ,  pegawai048@contoh.test	,109000,17/02/2024,JKT-048
+0049,  Pegawai 049  ,  pegawai049@contoh.test	,170000,2024-02-18,JKT-049
+0050,  Pegawai 050  ,  pegawai050@contoh.test	, 108000 ,19/02/2024,JKT-050
+0051,  Pegawai 051  ,  pegawai051@contoh.test	,188000,2024-02-20,JKT-051
+0052,  Pegawai 052  ,  pegawai052@contoh.test	,N/A,21/02/2024,JKT-052
+0053,  Pegawai 053  ,  pegawai053@contoh.test	,116000,2024-02-22,JKT-053
+0054,  Pegawai 054  ,  pegawai054@contoh.test	,170000,23/02/2024,JKT-054
+0055,  Pegawai 055  ,  pegawai055@contoh.test	,104000,2024-02-24,JKT-055
+0056,  Pegawai 056  ,  pegawai056@contoh.test	,143000,25/02/2024,JKT-056
+0057,  Pegawai 057  ,  pegawai057@contoh.test	, 189000 ,2024-02-26,JKT-057
+0058,  Pegawai 058  ,  pegawai058@contoh.test	,-,27/02/2024,JKT-058
+0059,  Pegawai 059  ,  pegawai059@contoh.test	,106000,2024-02-28,JKT-059
+0060,  Pegawai 060  ,  pegawai060@contoh.test	,114000,29/02/2024,JKT-060
+0061,  Pegawai 061  ,  pegawai061@contoh.test	,200000,2024-03-01,JKT-061
+0062,  Pegawai 062  ,  pegawai062@contoh.test	,139000,02/03/2024,JKT-062
+0063,  Pegawai 063  ,  pegawai063@contoh.test	,115000,2024-03-03,JKT-063
+0064,  Pegawai 064  ,  pegawai064@contoh.test	, 199000 ,04/03/2024,JKT-064
+0065,  Pegawai 065  ,  pegawai065@contoh.test	,133000,2024-03-05,JKT-065
+0066,  Pegawai 066  ,  pegawai066@contoh.test	,119000,06/03/2024,JKT-066
+0067,  Pegawai 067  ,  pegawai067@contoh.test	,130000,2024-03-07,JKT-067
+0068,  Pegawai 068  ,  pegawai068@contoh.test	,132000,08/03/2024,JKT-068
+0069,  Pegawai 069  ,  pegawai069@contoh.test	,N/A,2024-03-09,JKT-069
+0070,  Pegawai 070  ,  pegawai070@contoh.test	,,10/03/2024,JKT-070
+0071,  Pegawai 071  ,  pegawai071@contoh.test	, 139000 ,2024-03-11,JKT-071
+0072,  Pegawai 072  ,  pegawai072@contoh.test	,189000,12/03/2024,JKT-072
+0073,  Pegawai 073  ,  pegawai073@contoh.test	,110000,2024-03-13,JKT-073
+0074,  Pegawai 074  ,  pegawai074@contoh.test	,189000,14/03/2024,JKT-074
+0075,  Pegawai 075  ,  pegawai075@contoh.test	,179000,2024-03-15,JKT-075
+0076,  Pegawai 076  ,  pegawai076@contoh.test	,125000,16/03/2024,JKT-076
+0077,  Pegawai 077  ,  pegawai077@contoh.test	,-,2024-03-17,JKT-077
+0078,  Pegawai 078  ,  pegawai078@contoh.test	, 191000 ,18/03/2024,JKT-078
+0079,  Pegawai 079  ,  pegawai079@contoh.test	,134000,2024-03-19,JKT-079
+0080,  Pegawai 080  ,  pegawai080@contoh.test	,127000,20/03/2024,JKT-080
+0081,  Pegawai 081  ,  pegawai081@contoh.test	,169000,2024-03-21,JKT-081
+0082,  Pegawai 082  ,  pegawai082@contoh.test	,154000,22/03/2024,JKT-082
+0083,  Pegawai 083  ,  pegawai083@contoh.test	,142000,2024-03-23,JKT-083
+0084,  Pegawai 084  ,  pegawai084@contoh.test	,169000,24/03/2024,JKT-084
+0085,  Pegawai 085  ,  pegawai085@contoh.test	, 178000 ,2024-03-25,JKT-085
+0086,  Pegawai 086  ,  pegawai086@contoh.test	,N/A,26/03/2024,JKT-086
+0087,  Pegawai 087  ,  pegawai087@contoh.test	,141000,2024-03-27,JKT-087
+0088,  Pegawai 088  ,  pegawai088@contoh.test	,115000,28/03/2024,JKT-088
+0089,  Pegawai 089  ,  pegawai089@contoh.test	,128000,2024-03-29,JKT-089
+0090,  Pegawai 090  ,  pegawai090@contoh.test	,187000,30/03/2024,JKT-090
+0091,  Pegawai 091  ,  pegawai091@contoh.test	,131000,2024-03-31,JKT-091
+0092,  Pegawai 092  ,  pegawai092@contoh.test	, 110000 ,01/04/2024,JKT-092
+0093,  Pegawai 093  ,  pegawai093@contoh.test	,,2024-04-02,JKT-093
+0094,  Pegawai 094  ,  pegawai094@contoh.test	,171000,03/04/2024,JKT-094
+0095,  Pegawai 095  ,  pegawai095@contoh.test	,134000,2024-04-04,JKT-095
+0096,  Pegawai 096  ,  pegawai096@contoh.test	,-,05/04/2024,JKT-096
+0097,  Pegawai 097  ,  pegawai097@contoh.test	,101000,2024-04-06,JKT-097
+0098,  Pegawai 098  ,  pegawai098@contoh.test	,102000,07/04/2024,JKT-098
+0001,  Pegawai 099  ,  pegawai099@contoh.test	, 178000 ,2024-04-08,JKT-099
+0002,  Pegawai 100  ,  pegawai100@contoh.test	,137000,09/04/2024,JKT-100
