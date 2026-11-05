@@ -1,0 +1,43 @@
+{
+  "repository": "imman20/portofolio-excel-hr-administrasi",
+  "source_branch": "bahan-lanjutan",
+  "source_commit": "7f1aa84be60944e96133e78945c3f0f189631774",
+  "base_main": "3538c023095c9fb7af861960bf58d7a2f654219a",
+  "files": [
+    {
+      "path": "_bahan-lanjutan/proyek/02_survei_kepuasan_pelanggan/data/processed/catatan_masalah_disengaja.json",
+      "git_blob_sha": "e8944f1b3da0d01422b12fccab0158454eb871ca",
+      "size": 391
+    },
+    {
+      "path": "_bahan-lanjutan/proyek/02_survei_kepuasan_pelanggan/data/processed/survei_bersih_referensi.csv",
+      "git_blob_sha": "1f21c6a912e4543c82ed5fcdc2a0a8f1fec14c1a",
+      "size": 70032
+    },
+    {
+      "path": "_bahan-lanjutan/proyek/02_survei_kepuasan_pelanggan/data/raw/survei_raw.csv",
+      "git_blob_sha": "2e7d1beff184aea8b16b9f1cf49e9aaac36da9a1",
+      "size": 38513
+    },
+    {
+      "path": "_bahan-lanjutan/proyek/02_survei_kepuasan_pelanggan/tools/build_workbook.py",
+      "git_blob_sha": "a8a4c5e0817919216445661159cd209696be0973",
+      "size": 64263
+    },
+    {
+      "path": "_bahan-lanjutan/proyek/02_survei_kepuasan_pelanggan/tools/generate_data.py",
+      "git_blob_sha": "f7a4bb0bba2d17304d1a2e74e9c91b44b96a8946",
+      "size": 10255
+    },
+    {
+      "path": "_bahan-lanjutan/proyek/02_survei_kepuasan_pelanggan/tools/xlsx_helpers.py",
+      "git_blob_sha": "ae7c0fa6230b59f481930a101e743f9a4837338a",
+      "size": 6085
+    }
+  ],
+  "changes": [
+    "CSV mentah dipertahankan identik dengan sumber.",
+    "133 tanggal pada referensi diperbaiki dengan parser format eksplisit.",
+    "Catatan masalah diperluas dengan cakupan dan hitungan CSV akhir."
+  ]
+}
