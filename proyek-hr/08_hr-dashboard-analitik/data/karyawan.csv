@@ -1,0 +1,251 @@
+NIK;Nama;JenisKelamin;TanggalLahir;Departemen;Jabatan;Level;StatusKepegawaian;TanggalMasuk;GajiPokok;Kota
+20120001;Krisna Ardiansyah;L;1985-08-05;IT;Senior Programmer;Senior Staff;Tetap;2012-09-14;8700000;Malang
+20120002;Galuh Hakim;P;1989-02-09;Produksi;Operator Produksi;Staff;Tetap;2012-01-07;5800000;Malang
+20120003;Fitri Hakim;P;1989-07-24;Finance;Staff Akuntansi;Staff;Tetap;2012-03-21;4800000;Surabaya
+20120004;Laras Suryani;P;1990-06-02;Produksi;Operator Produksi;Staff;Tetap;2012-06-23;5700000;Mojokerto
+20120005;Adi Handayani;L;1990-05-15;Marketing;Staff Marketing;Staff;Tetap;2012-04-12;4750000;Lamongan
+20120006;Ulfa Utomo;P;1987-05-22;Marketing;Senior Staff Marketing;Senior Staff;Tetap;2012-09-23;6650000;Mojokerto
+20120007;Bayu Mahardika;L;1982-12-13;IT;Supervisor IT;Supervisor;Tetap;2012-05-07;11100000;Pasuruan
+20120008;Ulfa Kurnia;P;1989-05-09;Operasional;Staff Operasional;Staff;Tetap;2012-11-08;4750000;Surabaya
+20120009;Prita Kurnia;P;1988-04-08;Operasional;Staff Operasional;Staff;Tetap;2012-10-01;5750000;Sidoarjo
+20120010;Satria Arifin;L;1983-07-15;IT;Supervisor IT;Supervisor;Tetap;2012-07-13;12100000;Lamongan
+20120011;Ilham Cahyono;L;1988-08-12;Finance;Staff Akuntansi;Staff;Tetap;2012-10-25;6300000;Surabaya
+20120012;Dina Basuki;P;1991-07-15;Produksi;Operator Produksi;Staff;Tetap;2012-01-17;5900000;Mojokerto
+20120013;Citra Zulkifli;P;1987-10-20;HR;Senior Staff HR;Senior Staff;Tetap;2012-02-16;9000000;Sidoarjo
+20120014;Kurniawan Pangestu;L;1989-06-03;IT;Staff IT Support;Staff;Tetap;2012-11-12;5200000;Sidoarjo
+20120015;Maya Siregar;P;1985-04-01;Marketing;Senior Staff Marketing;Senior Staff;Tetap;2012-04-19;9100000;Pasuruan
+20120016;Farhan Susanto;L;1990-04-28;HR;Staff HR;Staff;Tetap;2012-04-26;5700000;Malang
+20120017;Maya Nasution;P;1990-01-14;Produksi;Operator Produksi;Staff;Tetap;2012-02-11;5500000;Sidoarjo
+20120018;Eko Puspita;L;1988-11-06;Operasional;Staff Operasional;Staff;Tetap;2012-04-05;5150000;Lamongan
+20130001;Surya Kusuma;L;1992-06-26;Produksi;Operator Produksi;Staff;Tetap;2013-12-11;5450000;Mojokerto
+20130002;Rendi Simanjuntak;L;1990-02-17;Finance;Staff Akuntansi;Staff;Tetap;2013-10-25;6300000;Mojokerto
+20130003;Joko Nasution;L;1991-03-06;IT;Staff IT Support;Staff;Tetap;2013-02-02;6450000;Sidoarjo
+20130004;Gita Susanto;P;1985-08-18;HR;Senior Staff HR;Senior Staff;Tetap;2013-01-14;8200000;Malang
+20130005;Joko Kusuma;L;1991-12-27;Finance;Staff Akuntansi;Staff;Tetap;2013-09-13;4950000;Mojokerto
+20130006;Agus Rahmawati;L;1990-06-28;IT;Staff IT Support;Staff;Tetap;2013-12-16;5500000;Pasuruan
+20130007;Agus Nugroho;L;1988-06-28;Produksi;Senior Operator;Senior Staff;Tetap;2013-02-24;8400000;Jombang
+20130008;Tasya Simanjuntak;P;1992-12-05;Produksi;Operator Produksi;Staff;Tetap;2013-01-02;6150000;Gresik
+20130009;Tiara Simanjuntak;P;1987-05-13;IT;Senior Programmer;Senior Staff;Tetap;2013-10-18;8750000;Malang
+20130010;Satria Zulkifli;L;1986-06-20;IT;Senior Programmer;Senior Staff;Tetap;2013-04-28;9350000;Malang
+20130011;Jihan Utomo;P;1992-02-22;Finance;Staff Akuntansi;Staff;Tetap;2013-06-09;5850000;Pasuruan
+20130012;Yuni Handayani;P;1977-04-16;Marketing;Supervisor Marketing;Supervisor;Tetap;2013-03-09;10050000;Mojokerto
+20130013;Fikri Simanjuntak;L;1991-05-20;Produksi;Operator Produksi;Staff;Tetap;2013-05-20;6300000;Mojokerto
+20130014;Nadia Ramadhan;P;1987-05-19;IT;Senior Programmer;Senior Staff;Tetap;2013-02-21;7900000;Mojokerto
+20130015;Dimas Sudrajat;L;1992-09-18;Produksi;Operator Produksi;Staff;Tetap;2013-10-22;5450000;Lamongan
+20130016;Arif Saputra;L;1981-11-23;HR;Supervisor HR;Supervisor;Tetap;2013-12-16;12250000;Malang
+20130017;Taufik Halim;L;1986-11-23;IT;Senior Programmer;Senior Staff;Tetap;2013-09-15;6800000;Malang
+20130018;Wisnu Yuliana;L;1989-10-04;Marketing;Staff Marketing;Staff;Tetap;2013-10-09;5650000;Pasuruan
+20130019;Sinta Puspita;P;1979-09-15;IT;Supervisor IT;Supervisor;Tetap;2013-09-10;13950000;Gresik
+20130020;Teguh Arifin;L;1992-10-16;Finance;Staff Akuntansi;Staff;Tetap;2013-06-04;5650000;Pasuruan
+20130021;Satria Hidayat;L;1989-01-15;Produksi;Operator Produksi;Staff;Tetap;2013-10-13;5600000;Jombang
+20130022;Diah Kusuma;P;1991-05-14;Produksi;Operator Produksi;Staff;Tetap;2013-04-12;5450000;Pasuruan
+20130023;Johan Fauzi;L;1986-04-01;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2013-03-27;6700000;Malang
+20130024;Gilang Pratama;L;1984-10-08;HR;Senior Staff HR;Senior Staff;Tetap;2013-09-02;8900000;Jombang
+20140001;Anisa Kurnia;P;1991-04-07;IT;Staff IT Support;Staff;Tetap;2014-02-24;6450000;Jombang
+20140002;Ilham Febrianto;L;1991-07-14;Operasional;Staff Operasional;Staff;Tetap;2014-02-12;5800000;Gresik
+20140003;Bima Yuliana;L;1992-02-24;Produksi;Operator Produksi;Staff;Tetap;2014-08-19;6300000;Lamongan
+20140004;Fajar Maulana;L;1993-03-28;Operasional;Staff Operasional;Staff;Tetap;2014-01-11;6200000;Gresik
+20140005;Yusuf Suryani;L;1992-03-09;HR;Staff HR;Staff;Tetap;2014-06-26;4800000;Lamongan
+20140006;Satria Utomo;L;1989-11-13;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2014-12-01;9000000;Lamongan
+20140007;Bella Effendi;P;1992-08-04;IT;Staff IT Support;Staff;Tetap;2014-12-23;5850000;Jombang
+20140008;Jihan Halim;P;1987-01-04;Produksi;Senior Operator;Senior Staff;Tetap;2014-01-01;8500000;Surabaya
+20140009;Rendi Fauzi;L;1991-11-08;Finance;Staff Akuntansi;Staff;Tetap;2014-06-19;6200000;Malang
+20140010;Yuni Syahputra;P;1992-04-14;Marketing;Staff Marketing;Staff;Tetap;2014-08-02;6150000;Sidoarjo
+20140011;Anisa Anggraini;P;1989-03-20;Produksi;Senior Operator;Senior Staff;Tetap;2014-02-03;7950000;Sidoarjo
+20140012;Indah Susanto;P;1990-04-26;Produksi;Operator Produksi;Staff;Tetap;2014-04-04;5600000;Surabaya
+20140013;Teguh Utomo;L;1993-07-21;IT;Staff IT Support;Staff;Tetap;2014-04-15;5900000;Malang
+20140014;Nabila Yuliana;P;1990-06-25;Operasional;Staff Operasional;Staff;Tetap;2014-08-13;4950000;Pasuruan
+20150001;Citra Mahardika;P;1985-01-18;Finance;Manager Finance;Manager;Tetap;2015-09-09;24500000;Gresik
+20150002;Eko Yuliana;L;1988-12-19;HR;Senior Staff HR;Senior Staff;Tetap;2015-03-03;6700000;Mojokerto
+20150003;Vania Nugroho;P;1991-06-25;Operasional;Staff Operasional;Staff;Tetap;2015-02-04;5800000;Malang
+20150004;Yasmin Hutapea;P;1992-10-06;Operasional;Staff Operasional;Staff;Tetap;2015-07-02;5100000;Surabaya
+20150005;Joko Rahmawati;L;1989-06-27;Marketing;Senior Staff Marketing;Senior Staff;Tetap;2015-02-06;9450000;Pasuruan
+20150006;Dedi Pangestu;L;1992-02-04;Operasional;Staff Operasional;Staff;Tetap;2015-03-16;5150000;Jombang
+20150007;Ratih Pangestu;P;1976-08-14;Produksi;Manager Produksi;Manager;Tetap;2015-01-26;16950000;Pasuruan
+20150008;Indah Permata;P;1992-05-28;IT;Staff IT Support;Staff;Tetap;2015-09-12;5250000;Lamongan
+20150009;Satria Oktaviani;L;1994-02-16;IT;Staff IT Support;Staff;Tetap;2015-03-02;6350000;Jombang
+20150010;Wisnu Effendi;L;1984-05-25;Finance;Supervisor Keuangan;Supervisor;Tetap;2015-07-05;14050000;Sidoarjo
+20150011;Maya Hakim;P;1993-11-12;IT;Staff IT Support;Staff;Tetap;2015-01-02;6350000;Gresik
+20150012;Jihan Yuliana;P;1994-04-03;HR;Staff HR;Staff;Tetap;2015-12-22;6100000;Pasuruan
+20150013;Rani Halim;P;1991-10-16;HR;Staff HR;Staff;Tetap;2015-11-23;5750000;Jombang
+20150014;Surya Syahputra;L;1993-10-10;Operasional;Staff Operasional;Staff;Tetap;2015-01-20;5750000;Surabaya
+20150015;Oki Oktaviani;L;1987-07-11;Finance;Senior Staff Keuangan;Senior Staff;Tetap;2015-07-01;7950000;Jombang
+20150016;Citra Permata;P;1989-01-16;Produksi;Senior Operator;Senior Staff;Tetap;2015-03-07;8800000;Sidoarjo
+20150017;Eko Simanjuntak;L;1986-08-10;IT;Supervisor IT;Supervisor;Tetap;2015-01-16;12300000;Jombang
+20150018;Indah Rosyidi;P;1985-09-24;HR;Senior Staff HR;Senior Staff;Tetap;2015-10-06;8000000;Pasuruan
+20160001;Yasmin Oktaviani;P;1995-08-08;Operasional;Staff Operasional;Staff;Tetap;2016-10-20;5100000;Gresik
+20160002;Lukman Hidayat;L;1992-05-14;Marketing;Staff Marketing;Staff;Tetap;2016-11-07;5300000;Surabaya
+20160003;Agus Utomo;L;1988-03-26;Marketing;Senior Staff Marketing;Senior Staff;Tetap;2016-07-05;8050000;Gresik
+20160004;Nadia Basuki;P;1989-05-11;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2016-01-19;8500000;Gresik
+20160005;Naufal Febrianto;L;1992-05-02;Produksi;Operator Produksi;Staff;Tetap;2016-12-25;5750000;Malang
+20160006;Lukman Firmansyah;L;1995-04-22;Produksi;Operator Produksi;Staff;Tetap;2016-12-27;5000000;Sidoarjo
+20160007;Adi Prasetyo;L;1987-10-09;HR;Senior Staff HR;Senior Staff;Tetap;2016-10-09;7850000;Lamongan
+20160008;Diah Mulyani;P;1990-10-19;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2016-02-14;7850000;Gresik
+20160009;Eko Pangestu;L;1982-06-02;IT;Supervisor IT;Supervisor;Tetap;2016-02-18;14500000;Malang
+20160010;Diah Febrianto;P;1992-01-02;Operasional;Staff Operasional;Staff;Tetap;2016-04-09;5400000;Malang
+20160011;Bella Arifin;P;1994-11-17;Marketing;Staff Marketing;Staff;Tetap;2016-12-14;4850000;Mojokerto
+20160012;Erwin Fauzi;L;1989-05-19;Produksi;Senior Operator;Senior Staff;Tetap;2016-09-06;8100000;Mojokerto
+20160013;Yasmin Hakim;P;1989-03-13;Produksi;Senior Operator;Senior Staff;Tetap;2016-01-12;8400000;Lamongan
+20160014;Ulfa Susanto;P;1987-05-07;Produksi;Supervisor Produksi;Supervisor;Tetap;2016-04-13;11750000;Jombang
+20160015;Anisa Susanto;P;1987-05-08;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2016-03-15;8900000;Pasuruan
+20160016;Gilang Hakim;L;1986-12-15;IT;Supervisor IT;Supervisor;Tetap;2016-10-18;9550000;Surabaya
+20160017;Galuh Susanto;P;1995-08-08;HR;Staff HR;Staff;Tetap;2016-07-25;5750000;Surabaya
+20160018;Bagus Mulyani;L;1994-03-14;Finance;Staff Akuntansi;Staff;Tetap;2016-07-07;6350000;Pasuruan
+20160019;Agus Mahardika;L;1987-11-11;HR;Senior Staff HR;Senior Staff;Tetap;2016-02-27;7250000;Mojokerto
+20160020;Gita Hidayat;P;1991-11-02;IT;Senior Programmer;Senior Staff;Tetap;2016-06-14;6650000;Jombang
+20160021;Yasmin Halim;P;1993-12-08;Operasional;Staff Operasional;Staff;Tetap;2016-04-17;5250000;Jombang
+20170001;Vina Anggraini;P;1993-08-04;Produksi;Operator Produksi;Staff;Tetap;2017-12-04;6300000;Jombang
+20170002;Danang Hakim;L;1990-07-05;Produksi;Senior Operator;Senior Staff;Tetap;2017-06-02;9150000;Gresik
+20170003;Zahra Mulyani;P;1994-03-22;IT;Staff IT Support;Staff;Tetap;2017-09-08;5950000;Lamongan
+20170004;Budi Nugroho;L;1991-07-11;Produksi;Senior Operator;Senior Staff;Tetap;2017-02-23;7000000;Mojokerto
+20170005;Krisna Prasetyo;L;1993-02-18;Marketing;Staff Marketing;Staff;Tetap;2017-07-14;6300000;Mojokerto
+20170006;Ayu Hartono;P;1993-01-18;Marketing;Staff Marketing;Staff;Tetap;2017-11-20;6200000;Surabaya
+20170007;Yusuf Lestari;L;1996-11-11;Produksi;Operator Produksi;Staff;Tetap;2017-05-15;4850000;Malang
+20170008;Mahendra Basuki;L;1994-08-18;Finance;Staff Akuntansi;Staff;Tetap;2017-07-15;5900000;Malang
+20170009;Umar Cahyono;L;1989-08-10;IT;Senior Programmer;Senior Staff;Tetap;2017-06-02;6750000;Gresik
+20170010;Nabila Cahyono;P;1996-02-06;IT;Staff IT Support;Staff;Tetap;2017-12-04;6100000;Malang
+20170011;Ilham Pangestu;L;1996-10-22;Finance;Staff Akuntansi;Staff;Tetap;2017-05-20;5900000;Jombang
+20170012;Sari Mulyani;P;1990-10-18;Marketing;Senior Staff Marketing;Senior Staff;Tetap;2017-12-25;7400000;Pasuruan
+20170013;Dewi Tanuwijaya;P;1996-11-11;Marketing;Staff Marketing;Staff;Tetap;2017-02-27;5150000;Pasuruan
+20170014;Krisna Hutapea;L;1987-04-07;HR;Supervisor HR;Supervisor;Tetap;2017-03-28;10900000;Pasuruan
+20170015;Wulan Basuki;P;1992-04-11;HR;Senior Staff HR;Senior Staff;Tetap;2017-10-20;7450000;Malang
+20170016;Hendra Cahyono;L;1993-11-24;Operasional;Staff Operasional;Staff;Tetap;2017-10-10;6200000;Jombang
+20170017;Kirana Puspita;P;1986-07-03;Operasional;Supervisor Operasional;Supervisor;Tetap;2017-02-06;12250000;Malang
+20170018;Anisa Mulyani;P;1993-10-15;Operasional;Staff Operasional;Staff;Tetap;2017-02-18;4750000;Lamongan
+20170019;Tiara Yuliana;P;1988-01-12;Operasional;Supervisor Operasional;Supervisor;Tetap;2017-12-25;12250000;Sidoarjo
+20170020;Kartika Puspita;P;1990-11-16;Finance;Senior Staff Keuangan;Senior Staff;Tetap;2017-03-10;7650000;Lamongan
+20170021;Gilang Mahardika;L;1992-10-27;IT;Senior Programmer;Senior Staff;Tetap;2017-01-07;7350000;Jombang
+20170022;Naufal Hidayat;L;1991-06-20;HR;Senior Staff HR;Senior Staff;Tetap;2017-12-17;8150000;Gresik
+20180001;Ayu Maulana;P;1997-09-11;Produksi;Operator Produksi;Staff;Tetap;2018-10-25;5450000;Pasuruan
+20180002;Arif Ardiansyah;L;1988-06-23;Finance;Supervisor Keuangan;Supervisor;Tetap;2018-08-17;11050000;Sidoarjo
+20180003;Jihan Cahyono;P;1996-05-22;Produksi;Operator Produksi;Staff;Tetap;2018-07-27;6350000;Gresik
+20180004;Oktavia Wijaya;P;1997-02-19;Produksi;Operator Produksi;Staff;Tetap;2018-04-15;5650000;Mojokerto
+20180005;Wahyu Kusuma;L;1993-08-17;Produksi;Senior Operator;Senior Staff;Tetap;2018-10-02;8900000;Pasuruan
+20180006;Dimas Basuki;L;1994-11-27;Produksi;Operator Produksi;Staff;Tetap;2018-01-19;6250000;Malang
+20180007;Sinta Kurnia;P;1994-07-04;Produksi;Operator Produksi;Staff;Tetap;2018-09-17;5950000;Gresik
+20180008;Zaki Nugroho;L;1997-10-18;IT;Staff IT Support;Staff;Tetap;2018-03-25;5700000;Gresik
+20180009;Indah Hartono;P;1990-04-22;Finance;Supervisor Keuangan;Supervisor;Tetap;2018-11-09;10350000;Malang
+20180010;Eko Maulana;L;1988-04-02;Operasional;Supervisor Operasional;Supervisor;Tetap;2018-02-25;14350000;Pasuruan
+20180011;Utami Arifin;P;1995-03-02;Finance;Staff Akuntansi;Staff;Tetap;2018-01-28;5700000;Surabaya
+20180012;Miftah Puspita;L;1997-03-06;Marketing;Staff Marketing;Staff;Tetap;2018-08-07;5400000;Pasuruan
+20180013;Zaki Oktaviani;L;1996-03-05;Produksi;Operator Produksi;Staff;Tetap;2018-12-23;5950000;Sidoarjo
+20180014;Danang Iskandar;L;1996-04-06;Marketing;Staff Marketing;Staff;Tetap;2018-05-04;5500000;Pasuruan
+20180015;Budi Yuliana;L;1991-06-02;HR;Senior Staff HR;Senior Staff;Tetap;2018-05-04;6850000;Jombang
+20190001;Zahra Iskandar;P;1995-01-26;Produksi;Operator Produksi;Staff;Tetap;2019-08-10;5750000;Surabaya
+20190002;Krisna Mulyani;L;1986-03-20;Finance;Supervisor Keuangan;Supervisor;Tetap;2019-03-16;10050000;Pasuruan
+20190003;Zahra Pratama;P;1998-10-19;Operasional;Staff Operasional;Staff;Tetap;2019-07-06;6250000;Sidoarjo
+20190004;Umar Rosyidi;L;1998-06-13;Operasional;Staff Operasional;Staff;Tetap;2019-06-14;5250000;Lamongan
+20190005;Hafiz Hartono;L;1998-04-23;Marketing;Staff Marketing;Staff;Tetap;2019-02-20;5350000;Jombang
+20190006;Budi Effendi;L;1997-02-27;Finance;Staff Akuntansi;Staff;Tetap;2019-10-08;4750000;Jombang
+20190007;Fitri Iskandar;P;1995-08-22;Operasional;Staff Operasional;Staff;Tetap;2019-11-27;6450000;Malang
+20190008;Fikri Hidayat;L;1993-12-12;IT;Senior Programmer;Senior Staff;Tetap;2019-08-14;8150000;Malang
+20190009;Yuni Anggraini;P;1996-09-26;HR;Staff HR;Staff;Tetap;2019-10-27;6250000;Lamongan
+20190010;Yuni Yuliana;P;1995-11-19;HR;Staff HR;Staff;Tetap;2019-02-09;6100000;Malang
+20190011;Candra Tanuwijaya;L;1990-08-05;Produksi;Senior Operator;Senior Staff;Tetap;2019-12-28;7700000;Gresik
+20190012;Widya Saputra;P;1990-01-08;Operasional;Supervisor Operasional;Supervisor;Tetap;2019-02-23;13850000;Lamongan
+20190013;Prita Hidayat;P;1993-11-13;IT;Senior Programmer;Senior Staff;Tetap;2019-04-15;9450000;Lamongan
+20190014;Naufal Effendi;L;1989-03-08;Marketing;Supervisor Marketing;Supervisor;Tetap;2019-04-25;12100000;Pasuruan
+20190015;Vino Hidayat;L;1994-09-17;Produksi;Senior Operator;Senior Staff;Tetap;2019-08-25;8650000;Malang
+20190016;Wisnu Maulana;L;1993-07-08;HR;Senior Staff HR;Senior Staff;Tetap;2019-01-23;7850000;Surabaya
+20190017;Prita Pratama;P;1986-08-12;Marketing;Supervisor Marketing;Supervisor;Tetap;2019-07-05;9650000;Jombang
+20190018;Ulfa Hutapea;P;1997-09-22;Operasional;Staff Operasional;Staff;Tetap;2019-12-14;5100000;Malang
+20200001;Hendra Hartono;L;1992-08-05;Operasional;Supervisor Operasional;Supervisor;Tetap;2020-11-02;10100000;Lamongan
+20200002;Prita Syahputra;P;1992-01-11;HR;Senior Staff HR;Senior Staff;Tetap;2020-09-14;8800000;Lamongan
+20200003;Zahra Halim;P;1993-12-07;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2020-04-23;8800000;Pasuruan
+20200004;Elsa Halim;P;1996-05-15;Produksi;Senior Operator;Senior Staff;Tetap;2020-07-25;8700000;Surabaya
+20200005;Umar Puspita;L;1996-04-12;IT;Staff IT Support;Staff;Tetap;2020-10-15;5250000;Jombang
+20200006;Gita Tanuwijaya;P;1990-10-07;Produksi;Senior Operator;Senior Staff;Tetap;2020-03-17;8750000;Surabaya
+20200007;Intan Suryani;P;1996-02-11;Marketing;Staff Marketing;Staff;Tetap;2020-11-23;4950000;Pasuruan
+20200008;Lutfi Gunawan;L;1997-02-26;Operasional;Staff Operasional;Staff;Tetap;2020-07-22;4900000;Pasuruan
+20200009;Erwin Prasetyo;L;1985-09-28;IT;Supervisor IT;Supervisor;Tetap;2020-01-19;13700000;Mojokerto
+20200010;Clara Halim;P;1994-12-16;Produksi;Senior Operator;Senior Staff;Tetap;2020-04-12;7850000;Sidoarjo
+20200011;Vino Hartono;L;1995-03-05;IT;Senior Programmer;Senior Staff;Tetap;2020-02-21;7500000;Surabaya
+20200012;Bunga Hutapea;P;1993-03-03;Finance;Senior Staff Keuangan;Senior Staff;Tetap;2020-12-05;7400000;Mojokerto
+20200013;Oki Setiawan;L;1984-04-25;Marketing;Supervisor Marketing;Supervisor;Tetap;2020-06-03;13550000;Jombang
+20200014;Teguh Ardiansyah;L;1998-07-23;Finance;Staff Akuntansi;Staff;Tetap;2020-06-27;5650000;Mojokerto
+20200015;Umar Zulkifli;L;1997-12-15;Operasional;Staff Operasional;Staff;Tetap;2020-07-09;6150000;Lamongan
+20200016;Naufal Utomo;L;1993-02-01;IT;Senior Programmer;Senior Staff;Tetap;2020-08-16;6950000;Malang
+20200017;Kurniawan Febrianto;L;1991-05-14;Produksi;Supervisor Produksi;Supervisor;Tetap;2020-06-01;11850000;Malang
+20200018;Mega Pratama;P;1997-12-17;Operasional;Staff Operasional;Staff;Tetap;2020-08-09;5950000;Gresik
+20200019;Citra Hakim;P;1989-03-03;Operasional;Supervisor Operasional;Supervisor;Tetap;2020-02-22;13900000;Jombang
+20210001;Krisna Iskandar;L;1997-09-16;IT;Staff IT Support;Staff;Tetap;2021-04-23;5900000;Surabaya
+20210002;Vina Ramadhan;P;1998-12-11;Finance;Staff Akuntansi;Staff;Tetap;2021-10-04;5750000;Surabaya
+20210003;Gita Ardiansyah;P;1985-05-20;Produksi;Supervisor Produksi;Supervisor;Tetap;2021-02-09;10250000;Lamongan
+20210004;Ayu Sudrajat;P;1998-12-05;Produksi;Operator Produksi;Staff;Tetap;2021-11-28;4800000;Gresik
+20210005;Ilham Sudrajat;L;1992-05-08;Finance;Senior Staff Keuangan;Senior Staff;Tetap;2021-03-08;8950000;Gresik
+20210006;Rizky Hakim;L;1995-09-10;Produksi;Senior Operator;Senior Staff;Tetap;2021-07-23;6600000;Mojokerto
+20210007;Dewi Basuki;P;1980-06-27;Operasional;Manager Operasional;Manager;Tetap;2021-06-21;19050000;Gresik
+20210008;Panji Ardiansyah;L;1992-07-05;Produksi;Supervisor Produksi;Supervisor;Tetap;2021-01-24;11000000;Surabaya
+20210009;Putra Arifin;L;1986-10-12;Marketing;Manager Marketing;Manager;Tetap;2021-11-10;19450000;Sidoarjo
+20210010;Yusuf Prasetyo;L;1991-04-28;IT;Manager IT;Manager;Tetap;2021-02-05;16450000;Jombang
+20210011;Wisnu Utomo;L;1985-09-01;Marketing;Supervisor Marketing;Supervisor;Tetap;2021-02-25;11950000;Jombang
+20210012;Bella Hutapea;P;1991-06-01;Marketing;Supervisor Marketing;Supervisor;Tetap;2021-08-23;12100000;Malang
+20210013;Gilang Oktaviani;L;1993-01-18;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2021-05-23;7400000;Pasuruan
+20210014;Hanif Hartono;L;1994-05-24;Produksi;Senior Operator;Senior Staff;Tetap;2021-02-13;8300000;Sidoarjo
+20210015;Citra Rosyidi;P;1994-01-19;Finance;Supervisor Keuangan;Supervisor;Tetap;2021-11-28;14150000;Mojokerto
+20210016;Zaki Utomo;L;1992-02-05;IT;Supervisor IT;Supervisor;Tetap;2021-06-18;10700000;Mojokerto
+20210017;Eko Arifin;L;1993-11-15;Produksi;Senior Operator;Senior Staff;Tetap;2021-02-16;9350000;Surabaya
+20210018;Hana Suryani;P;1990-10-07;HR;Supervisor HR;Supervisor;Tetap;2021-06-28;9500000;Surabaya
+20210019;Ratih Ardiansyah;P;2000-02-12;Marketing;Staff Marketing;Staff;Tetap;2021-12-18;5650000;Gresik
+20210020;Bunga Firmansyah;P;1995-01-05;Produksi;Senior Operator;Senior Staff;Tetap;2021-08-27;8600000;Mojokerto
+20210021;Bella Gunawan;P;1997-01-20;Produksi;Operator Produksi;Staff;Tetap;2021-08-07;5800000;Mojokerto
+20210022;Adi Syahputra;L;1988-01-18;Operasional;Supervisor Operasional;Supervisor;Tetap;2021-01-13;13600000;Pasuruan
+20210023;Johan Kurnia;L;1992-03-24;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2021-03-13;8300000;Jombang
+20210024;Yuni Zulkifli;P;1994-08-28;Produksi;Senior Operator;Senior Staff;Tetap;2021-08-25;8700000;Pasuruan
+20210025;Zahra Santoso;P;1987-11-26;IT;Supervisor IT;Supervisor;Tetap;2021-02-14;11900000;Sidoarjo
+20210026;Laras Pratama;P;1993-12-18;Finance;Senior Staff Keuangan;Senior Staff;Tetap;2021-09-08;8750000;Pasuruan
+20210027;Elsa Utomo;P;1996-09-06;HR;Senior Staff HR;Senior Staff;Tetap;2021-02-09;7850000;Gresik
+20210028;Miftah Gunawan;L;1987-06-15;HR;Supervisor HR;Supervisor;Tetap;2021-11-12;11900000;Malang
+20210029;Zaki Hidayat;L;1987-01-06;IT;Supervisor IT;Supervisor;Tetap;2021-02-08;11600000;Pasuruan
+20220001;Vina Arifin;P;2001-08-12;Produksi;Operator Produksi;Staff;Kontrak;2022-01-17;6350000;Pasuruan
+20220002;Fitri Basuki;P;2000-06-25;Produksi;Operator Produksi;Staff;Kontrak;2022-03-24;5300000;Mojokerto
+20220003;Yusuf Darmawan;L;1999-12-24;IT;Staff IT Support;Staff;Kontrak;2022-07-20;6250000;Sidoarjo
+20220004;Fitri Kusuma;P;1997-06-24;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2022-11-05;6550000;Malang
+20220005;Rizky Zulkifli;L;2000-07-02;Produksi;Operator Produksi;Staff;Kontrak;2022-05-10;5900000;Sidoarjo
+20220006;Vania Sudrajat;P;1998-04-07;Operasional;Staff Operasional;Staff;Tetap;2022-11-03;5850000;Sidoarjo
+20220007;Anisa Mahardika;P;1998-09-06;Marketing;Staff Marketing;Staff;Kontrak;2022-01-26;6450000;Gresik
+20220008;Dimas Pangestu;L;1995-02-10;IT;Senior Programmer;Senior Staff;Tetap;2022-09-07;9050000;Lamongan
+20220009;Erwin Siregar;L;2001-08-08;Produksi;Operator Produksi;Staff;Tetap;2022-03-04;5750000;Surabaya
+20220010;Eko Anggraini;L;2000-12-11;Operasional;Staff Operasional;Staff;Tetap;2022-02-03;5750000;Surabaya
+20220011;Hafiz Puspita;L;2001-02-24;IT;Staff IT Support;Staff;Kontrak;2022-03-16;6300000;Surabaya
+20220012;Adi Mulyani;L;1999-06-28;Finance;Staff Akuntansi;Staff;Kontrak;2022-06-14;5750000;Surabaya
+20220013;Agus Tanuwijaya;L;1998-05-16;Produksi;Operator Produksi;Staff;Tetap;2022-08-25;6200000;Gresik
+20220014;Lutfi Hutapea;L;1999-03-23;Produksi;Operator Produksi;Staff;Tetap;2022-11-24;5200000;Mojokerto
+20220015;Yuni Prasetyo;P;1999-03-23;HR;Staff HR;Staff;Kontrak;2022-04-17;5050000;Malang
+20220016;Utami Permata;P;1994-08-23;IT;Senior Programmer;Senior Staff;Tetap;2022-06-20;8350000;Sidoarjo
+20220017;Dimas Effendi;L;1992-11-11;IT;Senior Programmer;Senior Staff;Tetap;2022-07-08;9500000;Surabaya
+20230001;Diah Nugroho;P;2000-03-22;Finance;Staff Akuntansi;Staff;Kontrak;2023-05-19;5700000;Sidoarjo
+20230002;Naufal Susanto;L;2000-05-07;Operasional;Staff Operasional;Staff;Tetap;2023-10-16;5450000;Gresik
+20230003;Ratih Nasution;P;2002-11-26;Produksi;Operator Produksi;Staff;Kontrak;2023-09-04;6400000;Sidoarjo
+20230004;Oki Sudrajat;L;2002-03-21;IT;Staff IT Support;Staff;Kontrak;2023-06-02;6200000;Malang
+20230005;Nadia Sudrajat;P;2000-07-23;Produksi;Operator Produksi;Staff;Tetap;2023-03-03;6250000;Malang
+20230006;Naufal Saputra;L;1999-03-20;Produksi;Operator Produksi;Staff;Kontrak;2023-02-07;6350000;Malang
+20230007;Naufal Oktaviani;L;1999-04-24;Finance;Staff Akuntansi;Staff;Tetap;2023-10-27;5100000;Pasuruan
+20230008;Wisnu Susanto;L;2001-01-08;Produksi;Operator Produksi;Staff;Tetap;2023-03-26;5750000;Gresik
+20230009;Ratna Iskandar;P;2002-11-07;Marketing;Staff Marketing;Staff;Kontrak;2023-04-07;5150000;Lamongan
+20230010;Putri Puspita;P;2001-02-13;Operasional;Staff Operasional;Staff;Tetap;2023-06-21;4800000;Surabaya
+20230011;Bima Darmawan;L;2000-06-10;Operasional;Staff Operasional;Staff;Tetap;2023-03-08;4950000;Gresik
+20230012;Teguh Simanjuntak;L;2000-04-23;Marketing;Staff Marketing;Staff;Tetap;2023-03-22;6400000;Malang
+20230013;Mahendra Rosyidi;L;1999-11-08;Finance;Staff Akuntansi;Staff;Kontrak;2023-03-25;5700000;Lamongan
+20230014;Prita Arifin;P;1994-06-04;Marketing;Senior Staff Marketing;Senior Staff;Tetap;2023-01-01;9250000;Gresik
+20230015;Fajar Wijaya;L;1999-04-01;Marketing;Staff Marketing;Staff;Tetap;2023-05-17;5050000;Jombang
+20230016;Irfan Lestari;L;2002-12-05;IT;Staff IT Support;Staff;Tetap;2023-03-26;5250000;Gresik
+20230017;Zaki Sudrajat;L;2002-10-12;Operasional;Staff Operasional;Staff;Tetap;2023-07-04;5400000;Mojokerto
+20230018;Hesti Ardiansyah;P;1996-03-03;Operasional;Senior Staff Operasional;Senior Staff;Tetap;2023-10-27;6950000;Malang
+20230019;Yoga Utomo;L;1996-12-19;IT;Senior Programmer;Senior Staff;Tetap;2023-02-10;8100000;Sidoarjo
+20230020;Rizky Arifin;L;1999-06-13;Produksi;Operator Produksi;Staff;Kontrak;2023-03-21;6400000;Gresik
+20230021;Rendi Pangestu;L;1995-03-12;Produksi;Senior Operator;Senior Staff;Tetap;2023-12-05;6800000;Surabaya
+20240001;Elsa Iskandar;P;2000-04-27;Operasional;Staff Operasional;Staff;Magang;2024-04-12;4750000;Sidoarjo
+20240002;Ilham Suryani;L;2000-05-04;Produksi;Operator Produksi;Staff;Kontrak;2024-05-15;5150000;Surabaya
+20240003;Yoga Yuliana;L;2000-03-03;Operasional;Staff Operasional;Staff;Kontrak;2024-09-23;6000000;Malang
+20240004;Surya Rahmawati;L;2003-12-12;Operasional;Staff Operasional;Staff;Magang;2024-11-13;4750000;Malang
+20240005;Lutfi Mahardika;L;1996-08-06;Marketing;Senior Staff Marketing;Senior Staff;Magang;2024-09-03;4750000;Pasuruan
+20240006;Vina Zulkifli;P;2001-07-03;Produksi;Operator Produksi;Staff;Kontrak;2024-12-20;6000000;Lamongan
+20240007;Farah Handayani;P;2002-02-27;Marketing;Staff Marketing;Staff;Kontrak;2024-09-05;5650000;Jombang
+20240008;Gita Maulana;P;2001-06-12;Finance;Staff Akuntansi;Staff;Kontrak;2024-12-15;6200000;Malang
+20240009;Rani Anggraini;P;2001-06-14;IT;Staff IT Support;Staff;Kontrak;2024-04-06;5800000;Jombang
+20240010;Widya Kusuma;P;2000-09-22;Operasional;Staff Operasional;Staff;Kontrak;2024-12-07;6200000;Jombang
+20240011;Yusuf Mulyani;L;2002-10-13;Operasional;Staff Operasional;Staff;Kontrak;2024-04-22;5050000;Pasuruan
+20240012;Fitri Siregar;P;2002-03-15;Operasional;Staff Operasional;Staff;Kontrak;2024-06-14;4950000;Mojokerto
+20240013;Lutfi Maulana;L;1999-04-28;Finance;Senior Staff Keuangan;Senior Staff;Kontrak;2024-04-23;6900000;Malang
+20240014;Maya Anggraini;P;2000-05-05;Produksi;Operator Produksi;Staff;Kontrak;2024-05-05;4800000;Mojokerto
