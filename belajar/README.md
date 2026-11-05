@@ -28,7 +28,7 @@ Konvensi warna sel di semua workbook: font biru = input/data mentah, font hitam 
 | 01 | [Dasar Excel](01_dasar-excel/) | cell/range, shortcut, format angka-tanggal-persen, Paste Special, Sort, Filter, Freeze Panes, nilai vs tampilan | 3 jam | - |
 | 02 | [Struktur data yang benar](02_struktur-data-yang-benar/) | tidy data, Excel Table (Ctrl+T), structured references, tipe data, ID berawalan nol, anti-pola | 3 jam | 01 |
 | 03 | [Formula dasar](03_formula-dasar/) | operator, referensi relatif/absolut/campuran, SUM..COUNTBLANK, ROUND/ROUNDUP/ROUNDDOWN | 4 jam | 01 |
-| 04 | Logika dan agregasi bersyarat *(menyusul)* | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS, wildcard, kriteria tanggal | 5 jam | 03 |
+| 04 | [Logika dan agregasi bersyarat](04_logika-dan-agregasi-bersyarat/) | IF, IFS, AND, OR, SUMIFS, COUNTIFS, AVERAGEIFS, wildcard, kriteria tanggal | 5 jam | 03 |
 | 05 | Lookup dan penggabungan referensi *(menyusul)* | XLOOKUP, VLOOKUP, INDEX-MATCH, kunci unik, IFNA vs IFERROR | 5 jam | 03, 04 |
 | 06 | Cleaning dan validasi *(menyusul)* | TRIM/CLEAN/SUBSTITUTE, teks, konversi angka, duplikat, outlier IQR, Data Validation, Conditional Formatting | 6 jam | 02, 05 |
 | 07 | Tanggal dan laporan berkala *(menyusul)* | fungsi tanggal, NETWORKDAYS, kunci periode YYYY-MM, MoM/YoY, laporan bulanan SUMIFS | 5 jam | 04 |

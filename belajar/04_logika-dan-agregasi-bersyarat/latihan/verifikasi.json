@@ -1,0 +1,1882 @@
+{
+  "module": "04_logika-dan-agregasi-bersyarat",
+  "date": "2026-11-05",
+  "files": [
+    {
+      "file": "latihan_04.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master"
+      ],
+      "formulas": 880,
+      "errors": 0,
+      "size_kb": 31.6,
+      "recalc": "success"
+    },
+    {
+      "file": "solusi_04.xlsx",
+      "sheets": [
+        "Instruksi",
+        "Data",
+        "Latihan",
+        "Master"
+      ],
+      "formulas": 893,
+      "errors": 0,
+      "size_kb": 32.0,
+      "recalc": "success"
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "Ringkasan 4",
+      "location": "solusi_04.xlsx:Latihan!C4",
+      "expected": "67",
+      "actual": "67",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 5",
+      "location": "solusi_04.xlsx:Latihan!C5",
+      "expected": "23520000",
+      "actual": "23520000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 6",
+      "location": "solusi_04.xlsx:Latihan!C6",
+      "expected": "36.47761194029851",
+      "actual": "36.4776119402985",
+      "difference": -0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 7",
+      "location": "solusi_04.xlsx:Latihan!C7",
+      "expected": "145",
+      "actual": "145",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 8",
+      "location": "solusi_04.xlsx:Latihan!C8",
+      "expected": "67",
+      "actual": "67",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 9",
+      "location": "solusi_04.xlsx:Latihan!C9",
+      "expected": "66",
+      "actual": "66",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 10",
+      "location": "solusi_04.xlsx:Latihan!C10",
+      "expected": "120",
+      "actual": "120",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 11",
+      "location": "solusi_04.xlsx:Latihan!C11",
+      "expected": "0",
+      "actual": "0",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 12",
+      "location": "solusi_04.xlsx:Latihan!C12",
+      "expected": "94520000",
+      "actual": "94520000",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 13",
+      "location": "solusi_04.xlsx:Latihan!C13",
+      "expected": "0.36464088397790057",
+      "actual": "0.364640883977901",
+      "difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "label": "Ringkasan 14",
+      "location": "solusi_04.xlsx:Latihan!C14",
+      "expected": "TIDAK ADA DATA",
+      "actual": "TIDAK ADA DATA",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 2",
+      "location": "solusi_04.xlsx:Data!I2",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 3",
+      "location": "solusi_04.xlsx:Data!I3",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 4",
+      "location": "solusi_04.xlsx:Data!I4",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 5",
+      "location": "solusi_04.xlsx:Data!I5",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 6",
+      "location": "solusi_04.xlsx:Data!I6",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 7",
+      "location": "solusi_04.xlsx:Data!I7",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 8",
+      "location": "solusi_04.xlsx:Data!I8",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 9",
+      "location": "solusi_04.xlsx:Data!I9",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 10",
+      "location": "solusi_04.xlsx:Data!I10",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 11",
+      "location": "solusi_04.xlsx:Data!I11",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 12",
+      "location": "solusi_04.xlsx:Data!I12",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 13",
+      "location": "solusi_04.xlsx:Data!I13",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 14",
+      "location": "solusi_04.xlsx:Data!I14",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 15",
+      "location": "solusi_04.xlsx:Data!I15",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 16",
+      "location": "solusi_04.xlsx:Data!I16",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 17",
+      "location": "solusi_04.xlsx:Data!I17",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 18",
+      "location": "solusi_04.xlsx:Data!I18",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 19",
+      "location": "solusi_04.xlsx:Data!I19",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 20",
+      "location": "solusi_04.xlsx:Data!I20",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 21",
+      "location": "solusi_04.xlsx:Data!I21",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 22",
+      "location": "solusi_04.xlsx:Data!I22",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 23",
+      "location": "solusi_04.xlsx:Data!I23",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 24",
+      "location": "solusi_04.xlsx:Data!I24",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 25",
+      "location": "solusi_04.xlsx:Data!I25",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 26",
+      "location": "solusi_04.xlsx:Data!I26",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 27",
+      "location": "solusi_04.xlsx:Data!I27",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 28",
+      "location": "solusi_04.xlsx:Data!I28",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 29",
+      "location": "solusi_04.xlsx:Data!I29",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 30",
+      "location": "solusi_04.xlsx:Data!I30",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 31",
+      "location": "solusi_04.xlsx:Data!I31",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 32",
+      "location": "solusi_04.xlsx:Data!I32",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 33",
+      "location": "solusi_04.xlsx:Data!I33",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 34",
+      "location": "solusi_04.xlsx:Data!I34",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 35",
+      "location": "solusi_04.xlsx:Data!I35",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 36",
+      "location": "solusi_04.xlsx:Data!I36",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 37",
+      "location": "solusi_04.xlsx:Data!I37",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 38",
+      "location": "solusi_04.xlsx:Data!I38",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 39",
+      "location": "solusi_04.xlsx:Data!I39",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 40",
+      "location": "solusi_04.xlsx:Data!I40",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 41",
+      "location": "solusi_04.xlsx:Data!I41",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 42",
+      "location": "solusi_04.xlsx:Data!I42",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 43",
+      "location": "solusi_04.xlsx:Data!I43",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 44",
+      "location": "solusi_04.xlsx:Data!I44",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 45",
+      "location": "solusi_04.xlsx:Data!I45",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 46",
+      "location": "solusi_04.xlsx:Data!I46",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 47",
+      "location": "solusi_04.xlsx:Data!I47",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 48",
+      "location": "solusi_04.xlsx:Data!I48",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 49",
+      "location": "solusi_04.xlsx:Data!I49",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 50",
+      "location": "solusi_04.xlsx:Data!I50",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 51",
+      "location": "solusi_04.xlsx:Data!I51",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 52",
+      "location": "solusi_04.xlsx:Data!I52",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 53",
+      "location": "solusi_04.xlsx:Data!I53",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 54",
+      "location": "solusi_04.xlsx:Data!I54",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 55",
+      "location": "solusi_04.xlsx:Data!I55",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 56",
+      "location": "solusi_04.xlsx:Data!I56",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 57",
+      "location": "solusi_04.xlsx:Data!I57",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 58",
+      "location": "solusi_04.xlsx:Data!I58",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 59",
+      "location": "solusi_04.xlsx:Data!I59",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 60",
+      "location": "solusi_04.xlsx:Data!I60",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 61",
+      "location": "solusi_04.xlsx:Data!I61",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 62",
+      "location": "solusi_04.xlsx:Data!I62",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 63",
+      "location": "solusi_04.xlsx:Data!I63",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 64",
+      "location": "solusi_04.xlsx:Data!I64",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 65",
+      "location": "solusi_04.xlsx:Data!I65",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 66",
+      "location": "solusi_04.xlsx:Data!I66",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 67",
+      "location": "solusi_04.xlsx:Data!I67",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 68",
+      "location": "solusi_04.xlsx:Data!I68",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 69",
+      "location": "solusi_04.xlsx:Data!I69",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 70",
+      "location": "solusi_04.xlsx:Data!I70",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 71",
+      "location": "solusi_04.xlsx:Data!I71",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 72",
+      "location": "solusi_04.xlsx:Data!I72",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 73",
+      "location": "solusi_04.xlsx:Data!I73",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 74",
+      "location": "solusi_04.xlsx:Data!I74",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 75",
+      "location": "solusi_04.xlsx:Data!I75",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 76",
+      "location": "solusi_04.xlsx:Data!I76",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 77",
+      "location": "solusi_04.xlsx:Data!I77",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 78",
+      "location": "solusi_04.xlsx:Data!I78",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 79",
+      "location": "solusi_04.xlsx:Data!I79",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 80",
+      "location": "solusi_04.xlsx:Data!I80",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 81",
+      "location": "solusi_04.xlsx:Data!I81",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 82",
+      "location": "solusi_04.xlsx:Data!I82",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 83",
+      "location": "solusi_04.xlsx:Data!I83",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 84",
+      "location": "solusi_04.xlsx:Data!I84",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 85",
+      "location": "solusi_04.xlsx:Data!I85",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 86",
+      "location": "solusi_04.xlsx:Data!I86",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 87",
+      "location": "solusi_04.xlsx:Data!I87",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 88",
+      "location": "solusi_04.xlsx:Data!I88",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 89",
+      "location": "solusi_04.xlsx:Data!I89",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 90",
+      "location": "solusi_04.xlsx:Data!I90",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 91",
+      "location": "solusi_04.xlsx:Data!I91",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 92",
+      "location": "solusi_04.xlsx:Data!I92",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 93",
+      "location": "solusi_04.xlsx:Data!I93",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 94",
+      "location": "solusi_04.xlsx:Data!I94",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 95",
+      "location": "solusi_04.xlsx:Data!I95",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 96",
+      "location": "solusi_04.xlsx:Data!I96",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 97",
+      "location": "solusi_04.xlsx:Data!I97",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 98",
+      "location": "solusi_04.xlsx:Data!I98",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 99",
+      "location": "solusi_04.xlsx:Data!I99",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 100",
+      "location": "solusi_04.xlsx:Data!I100",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 101",
+      "location": "solusi_04.xlsx:Data!I101",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 102",
+      "location": "solusi_04.xlsx:Data!I102",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 103",
+      "location": "solusi_04.xlsx:Data!I103",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 104",
+      "location": "solusi_04.xlsx:Data!I104",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 105",
+      "location": "solusi_04.xlsx:Data!I105",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 106",
+      "location": "solusi_04.xlsx:Data!I106",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 107",
+      "location": "solusi_04.xlsx:Data!I107",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 108",
+      "location": "solusi_04.xlsx:Data!I108",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 109",
+      "location": "solusi_04.xlsx:Data!I109",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 110",
+      "location": "solusi_04.xlsx:Data!I110",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 111",
+      "location": "solusi_04.xlsx:Data!I111",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 112",
+      "location": "solusi_04.xlsx:Data!I112",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 113",
+      "location": "solusi_04.xlsx:Data!I113",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 114",
+      "location": "solusi_04.xlsx:Data!I114",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 115",
+      "location": "solusi_04.xlsx:Data!I115",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 116",
+      "location": "solusi_04.xlsx:Data!I116",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 117",
+      "location": "solusi_04.xlsx:Data!I117",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 118",
+      "location": "solusi_04.xlsx:Data!I118",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 119",
+      "location": "solusi_04.xlsx:Data!I119",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 120",
+      "location": "solusi_04.xlsx:Data!I120",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 121",
+      "location": "solusi_04.xlsx:Data!I121",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 122",
+      "location": "solusi_04.xlsx:Data!I122",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 123",
+      "location": "solusi_04.xlsx:Data!I123",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 124",
+      "location": "solusi_04.xlsx:Data!I124",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 125",
+      "location": "solusi_04.xlsx:Data!I125",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 126",
+      "location": "solusi_04.xlsx:Data!I126",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 127",
+      "location": "solusi_04.xlsx:Data!I127",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 128",
+      "location": "solusi_04.xlsx:Data!I128",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 129",
+      "location": "solusi_04.xlsx:Data!I129",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 130",
+      "location": "solusi_04.xlsx:Data!I130",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 131",
+      "location": "solusi_04.xlsx:Data!I131",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 132",
+      "location": "solusi_04.xlsx:Data!I132",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 133",
+      "location": "solusi_04.xlsx:Data!I133",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 134",
+      "location": "solusi_04.xlsx:Data!I134",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 135",
+      "location": "solusi_04.xlsx:Data!I135",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 136",
+      "location": "solusi_04.xlsx:Data!I136",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 137",
+      "location": "solusi_04.xlsx:Data!I137",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 138",
+      "location": "solusi_04.xlsx:Data!I138",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 139",
+      "location": "solusi_04.xlsx:Data!I139",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 140",
+      "location": "solusi_04.xlsx:Data!I140",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 141",
+      "location": "solusi_04.xlsx:Data!I141",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 142",
+      "location": "solusi_04.xlsx:Data!I142",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 143",
+      "location": "solusi_04.xlsx:Data!I143",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 144",
+      "location": "solusi_04.xlsx:Data!I144",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 145",
+      "location": "solusi_04.xlsx:Data!I145",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 146",
+      "location": "solusi_04.xlsx:Data!I146",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 147",
+      "location": "solusi_04.xlsx:Data!I147",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 148",
+      "location": "solusi_04.xlsx:Data!I148",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 149",
+      "location": "solusi_04.xlsx:Data!I149",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 150",
+      "location": "solusi_04.xlsx:Data!I150",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 151",
+      "location": "solusi_04.xlsx:Data!I151",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 152",
+      "location": "solusi_04.xlsx:Data!I152",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 153",
+      "location": "solusi_04.xlsx:Data!I153",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 154",
+      "location": "solusi_04.xlsx:Data!I154",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 155",
+      "location": "solusi_04.xlsx:Data!I155",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 156",
+      "location": "solusi_04.xlsx:Data!I156",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 157",
+      "location": "solusi_04.xlsx:Data!I157",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 158",
+      "location": "solusi_04.xlsx:Data!I158",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 159",
+      "location": "solusi_04.xlsx:Data!I159",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 160",
+      "location": "solusi_04.xlsx:Data!I160",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 161",
+      "location": "solusi_04.xlsx:Data!I161",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 162",
+      "location": "solusi_04.xlsx:Data!I162",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 163",
+      "location": "solusi_04.xlsx:Data!I163",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 164",
+      "location": "solusi_04.xlsx:Data!I164",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 165",
+      "location": "solusi_04.xlsx:Data!I165",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 166",
+      "location": "solusi_04.xlsx:Data!I166",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 167",
+      "location": "solusi_04.xlsx:Data!I167",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 168",
+      "location": "solusi_04.xlsx:Data!I168",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 169",
+      "location": "solusi_04.xlsx:Data!I169",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 170",
+      "location": "solusi_04.xlsx:Data!I170",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 171",
+      "location": "solusi_04.xlsx:Data!I171",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 172",
+      "location": "solusi_04.xlsx:Data!I172",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 173",
+      "location": "solusi_04.xlsx:Data!I173",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 174",
+      "location": "solusi_04.xlsx:Data!I174",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 175",
+      "location": "solusi_04.xlsx:Data!I175",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 176",
+      "location": "solusi_04.xlsx:Data!I176",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 177",
+      "location": "solusi_04.xlsx:Data!I177",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 178",
+      "location": "solusi_04.xlsx:Data!I178",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 179",
+      "location": "solusi_04.xlsx:Data!I179",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 180",
+      "location": "solusi_04.xlsx:Data!I180",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 181",
+      "location": "solusi_04.xlsx:Data!I181",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 182",
+      "location": "solusi_04.xlsx:Data!I182",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 183",
+      "location": "solusi_04.xlsx:Data!I183",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 184",
+      "location": "solusi_04.xlsx:Data!I184",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 185",
+      "location": "solusi_04.xlsx:Data!I185",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 186",
+      "location": "solusi_04.xlsx:Data!I186",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 187",
+      "location": "solusi_04.xlsx:Data!I187",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 188",
+      "location": "solusi_04.xlsx:Data!I188",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 189",
+      "location": "solusi_04.xlsx:Data!I189",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 190",
+      "location": "solusi_04.xlsx:Data!I190",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 191",
+      "location": "solusi_04.xlsx:Data!I191",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 192",
+      "location": "solusi_04.xlsx:Data!I192",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 193",
+      "location": "solusi_04.xlsx:Data!I193",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 194",
+      "location": "solusi_04.xlsx:Data!I194",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 195",
+      "location": "solusi_04.xlsx:Data!I195",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 196",
+      "location": "solusi_04.xlsx:Data!I196",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 197",
+      "location": "solusi_04.xlsx:Data!I197",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 198",
+      "location": "solusi_04.xlsx:Data!I198",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 199",
+      "location": "solusi_04.xlsx:Data!I199",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 200",
+      "location": "solusi_04.xlsx:Data!I200",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 201",
+      "location": "solusi_04.xlsx:Data!I201",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 202",
+      "location": "solusi_04.xlsx:Data!I202",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 203",
+      "location": "solusi_04.xlsx:Data!I203",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 204",
+      "location": "solusi_04.xlsx:Data!I204",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 205",
+      "location": "solusi_04.xlsx:Data!I205",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 206",
+      "location": "solusi_04.xlsx:Data!I206",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 207",
+      "location": "solusi_04.xlsx:Data!I207",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 208",
+      "location": "solusi_04.xlsx:Data!I208",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 209",
+      "location": "solusi_04.xlsx:Data!I209",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 210",
+      "location": "solusi_04.xlsx:Data!I210",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 211",
+      "location": "solusi_04.xlsx:Data!I211",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 212",
+      "location": "solusi_04.xlsx:Data!I212",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 213",
+      "location": "solusi_04.xlsx:Data!I213",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 214",
+      "location": "solusi_04.xlsx:Data!I214",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 215",
+      "location": "solusi_04.xlsx:Data!I215",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 216",
+      "location": "solusi_04.xlsx:Data!I216",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 217",
+      "location": "solusi_04.xlsx:Data!I217",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 218",
+      "location": "solusi_04.xlsx:Data!I218",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 219",
+      "location": "solusi_04.xlsx:Data!I219",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 220",
+      "location": "solusi_04.xlsx:Data!I220",
+      "expected": "TEPAT",
+      "actual": "TEPAT",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "Aturan baris 221",
+      "location": "solusi_04.xlsx:Data!I221",
+      "expected": "TINJAU",
+      "actual": "TINJAU",
+      "difference": 0,
+      "status": "PASS"
+    }
+  ]
+}
