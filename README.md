@@ -7,6 +7,10 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 ![Rumus](https://img.shields.io/badge/rumus-hidup%20dan%20terverifikasi-blue)
 ![Data](https://img.shields.io/badge/data-simulasi%20berlabel-orange)
 
+## English summary
+
+I organise this portfolio into 15 Excel learning modules, 3 analytical projects, and 10 HR and administration projects. I use clearly labelled simulated data rather than company or client records. The portfolio contains 47 workbooks with 327,539 live formulas and zero recorded formula errors after recalculation. I provide exercises, worked solutions, business dashboards, and reconciliation checks to make the work reviewable. I start with `belajar/README.md` and reproduce the repository audit with `python belajar/tools/verify_repository.py` after installing the documented dependencies and LibreOffice.
+
 > **Penting untuk pembaca dan recruiter.** Semua data di repositori ini adalah data sintetis yang saya bangkitkan dengan skrip Python (seed tetap, bisa dibangun ulang). Tidak ada data perusahaan, klien, atau pribadi nyata. Materi di folder `belajar/` adalah latihan, bukan pengalaman kerja. Proyek di `proyek/` dan `proyek-hr/` adalah proyek portofolio simulasi yang saya kerjakan untuk menunjukkan cara saya bekerja: dari data mentah, pembersihan, rumus, pemeriksaan, sampai dashboard dan rekomendasi.
 
 ## Daftar Isi
@@ -147,3 +151,7 @@ Tiap unit (modul atau proyek) memiliki `README.md`, folder data atau `latihan/`,
 ## Kontak
 
 Immantaka Juniarsa, S1 Statistika Universitas Airlangga. GitHub [@imman20](https://github.com/imman20), email [immantakajuniarsa30@gmail.com](mailto:immantakajuniarsa30@gmail.com).
+
+## Pemeriksaan otomatis
+
+Saya memasang dependensi dengan `python -m pip install -r requirements.txt`, lalu menjalankan `make all` untuk lint dan pemeriksaan integritas 47 workbook terhadap hash audit final, jumlah rumus, serta cache error. Pemeriksaan ini tidak menghitung ulang rumus. Untuk recalculation menyeluruh, saya memakai `make audit` dengan LibreOffice (`soffice`) pada PATH dan riwayat Git lengkap. Unit proyek final dan modul dasar dipertahankan identik.
