@@ -9,9 +9,19 @@ Satu repositori untuk tiga hal yang saya pisahkan dengan jelas: **materi belajar
 
 ## English summary
 
-I organise this portfolio into 15 Excel learning modules, 3 analytical projects, and 10 HR and administration projects. I use clearly labelled simulated data rather than company or client records. The portfolio contains 47 workbooks with 327,539 live formulas and zero recorded formula errors after recalculation. I provide exercises, worked solutions, business dashboards, and reconciliation checks to make the work reviewable. I start with `belajar/README.md` and reproduce the repository audit with `python belajar/tools/verify_repository.py` after installing the documented dependencies and LibreOffice.
+I organise this portfolio into 15 Excel learning modules, 3 analytical projects, and 10 HR and administration projects. I use clearly labelled simulated data rather than company or client records. Every workbook keeps live formulas and recalculates without formula errors. I provide exercises, worked solutions, business dashboards, and reconciliation checks to make the work reviewable. I start with `belajar/README.md` and reproduce the repository audit with `python belajar/tools/verify_repository.py` after installing the documented dependencies and LibreOffice.
 
 > **Penting untuk pembaca dan recruiter.** Semua data di repositori ini adalah data sintetis yang saya bangkitkan dengan skrip Python (seed tetap, bisa dibangun ulang). Tidak ada data perusahaan, klien, atau pribadi nyata. Materi di folder `belajar/` adalah latihan, bukan pengalaman kerja. Proyek di `proyek/` dan `proyek-hr/` adalah proyek portofolio simulasi yang saya kerjakan untuk menunjukkan cara saya bekerja: dari data mentah, pembersihan, rumus, pemeriksaan, sampai dashboard dan rekomendasi.
+
+## Mulai dari sini: 3 proyek unggulan
+
+| Proyek | Yang ditunjukkan | Laporan |
+|---|---|---|
+| [Sales & Profitability Analysis](proyek/01_sales_profitability/) | Analisis penjualan dan margin per produk, wilayah, dan periode; dashboard KPI; Power Query | [lihat laporan](proyek/01_sales_profitability/assets/report.png) |
+| [Inventory & Operations](proyek/03_inventory_operations/) | Stok harian 60 SKU, klasifikasi ABC, turnover, risiko habis/overstock, dan usulan pemesanan dari 500 PO | [lihat laporan](proyek/03_inventory_operations/assets/report.png) |
+| [Survei Kepuasan Pelanggan](proyek/02_survei_kepuasan_pelanggan/) | Pengolahan kuesioner, ringkasan per dimensi, dan rekomendasi | [lihat laporan](proyek/02_survei_kepuasan_pelanggan/assets/report.png) |
+
+![Laporan Sales & Profitability](proyek/01_sales_profitability/assets/report.png)
 
 ## Daftar Isi
 
